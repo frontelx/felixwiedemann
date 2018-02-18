@@ -1,5 +1,6 @@
-$display: flex;
 
-test {
-  display: $display;
+@import "config/**/*.scss";
+
+body {
+  background-color: $color-white;
 }
