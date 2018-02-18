@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/agorilla/felixwiedemann/issues"
   },
-  "homepage": "http://www.felixwiedemann.com"
+  "homepage": "http://www.felixwiedemann.com",
+  "license": "UNLICENSED"
 }
