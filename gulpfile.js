@@ -10,5 +10,5 @@ taskList.forEach(function (taskFile) {
     require(taskPath + taskFile)(gulp, plugins);
 });
 
-gulp.task('css', [ 'sass']);
+gulp.task('css', [ 'sass', 'postcss:dev']);
 gulp.task('dev', [ 'css']);
