@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Website of Felix Wiedemann (Cinematographer)",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
   "scripts": {},
   "repository": {
     "type": "git",
