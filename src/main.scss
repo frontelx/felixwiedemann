@@ -1,5 +1,6 @@
 @import "config/**/*.scss";
 
 body {
-    background-color: $color-white;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
