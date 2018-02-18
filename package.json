@@ -4,8 +4,7 @@
   "description": "Website of Felix Wiedemann (Cinematographer)",
   "dependencies": {},
   "devDependencies": {},
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/agorilla/felixwiedemann.git"
