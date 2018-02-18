@@ -1,5 +1,5 @@
-const gulp     = require('gulp');
-const plugins  = require('gulp-load-plugins')();
+const gulp = require('gulp');
+const plugins = require('gulp-load-plugins')();
 const taskPath = './gulp/';
 
 // async readdir does not identify task names
