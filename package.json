@@ -12,7 +12,9 @@
     "gulp-sass": "^3.1.0",
     "gulp-sass-glob": "^1.0.8"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "gulp dev"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/agorilla/felixwiedemann.git"
