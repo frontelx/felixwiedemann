@@ -4,7 +4,9 @@
   "description": "Website of Felix Wiedemann (Cinematographer)",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^3.1.0"
   },
   "scripts": {},
   "repository": {
