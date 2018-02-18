@@ -6,9 +6,11 @@ const taskPath = './gulp/';
 const taskList = require('fs').readdirSync(taskPath);
 
 taskList.forEach(function (taskFile) {
-    // or .call(gulp,...) to run this.task('foobar')...
     require(taskPath + taskFile)(gulp, plugins);
 });
 
-gulp.task('css', [ 'sass', 'postcss:dev']);
-gulp.task('dev', [ 'css']);
+gulp.task('dev', ['css:dev']);
+gulp.task('prod', ['css:prod']);
+
+gulp.task('css:dev', ['sass', 'postcss:dev']);
+gulp.task('css:prod', ['sass', 'postcss:dev', 'postcss:prod']);

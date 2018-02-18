@@ -5,7 +5,7 @@ module.exports = function (gulp, $) {
     // use cssnano for minifying
     const cssnano = require('cssnano');
 
-    gulp.task('postcss:dev', function () {
+    gulp.task('postcss:dev', ['sass'], function () {
         const plugins = [
             autoprefixer({browsers: ['last 3 version', 'IE 11']}),
         ];
@@ -13,10 +13,9 @@ module.exports = function (gulp, $) {
         return gulp.src('./dist/css/*.css')
             .pipe(postcss(plugins))
             .pipe(gulp.dest('./dist/css'));
-
     });
 
-    gulp.task('postcss:prod', function () {
+    gulp.task('postcss:prod', ['postcss:dev'], function () {
         const plugins = [
             cssnano(),
         ];
@@ -24,7 +23,6 @@ module.exports = function (gulp, $) {
         return gulp.src('./dist/css/*.css')
             .pipe(postcss(plugins))
             .pipe(gulp.dest('./dist/css'));
-
     });
 
 };

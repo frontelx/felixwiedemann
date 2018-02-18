@@ -1,6 +1,6 @@
 module.exports = function (gulp, $) {
 
-    var sass = require('gulp-sass');
+    const sass = require('gulp-sass');
 
     gulp.task('sass', function () {
       return gulp.src('./src/**/*.scss')
