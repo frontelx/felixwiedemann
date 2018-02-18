@@ -1,0 +1,18 @@
+{
+  "name": "felixwiedemann",
+  "version": "1.0.0",
+  "description": "Website of Felix Wiedemann (Cinematographer)",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agorilla/felixwiedemann.git"
+  },
+  "author": "Simon Koch <agorilla@me.com>",
+  "bugs": {
+    "url": "https://github.com/agorilla/felixwiedemann/issues"
+  },
+  "homepage": "http://www.felixwiedemann.com"
+}
