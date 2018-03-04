@@ -9,8 +9,13 @@ taskList.forEach(function (taskFile) {
     require(taskPath + taskFile)(gulp, plugins);
 });
 
-gulp.task('dev', ['css:dev']);
-gulp.task('prod', ['css:prod']);
+// Build tasks
+gulp.task('dev', ['css:dev', 'copy']);
+gulp.task('prod', ['css:prod', 'copy']);
 
+// CSS tasks
 gulp.task('css:dev', ['sass', 'postcss:dev']);
 gulp.task('css:prod', ['sass', 'postcss:dev', 'postcss:prod']);
+
+// Helper tasks
+gulp.task('copy', ['copy:html', 'copy:images']);
