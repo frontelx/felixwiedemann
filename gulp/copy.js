@@ -10,4 +10,9 @@ module.exports = function (gulp, $) {
             .pipe(gulp.dest('./dist/images'));
     });
 
+    gulp.task('copy:fonts', function () {
+        return gulp.src('./src/fonts/**/*')
+            .pipe(gulp.dest('./dist/fonts'));
+    });
+
 };

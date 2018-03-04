@@ -18,4 +18,4 @@ gulp.task('css:dev', ['sass', 'postcss:dev']);
 gulp.task('css:prod', ['sass', 'postcss:dev', 'postcss:prod']);
 
 // Helper tasks
-gulp.task('copy', ['copy:html', 'copy:images']);
+gulp.task('copy', ['copy:html', 'copy:images', 'copy:fonts']);
