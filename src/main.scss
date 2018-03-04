@@ -1,6 +1,16 @@
 @import "config/**/*.scss";
 
+// themes
+@import "themes/**/*.scss";
+
+// patterns
+@import "patterns/**/*.scss";
+
+// modules
+@import "modules/**/*.scss";
+
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--color-bg);
+    color: var(--color-txt);
 }
+
