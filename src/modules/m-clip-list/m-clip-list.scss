@@ -19,18 +19,13 @@
         }
     }
 
-    .p-teaser-clip {
+    &__item {
 
         // only default bkp
         @media screen and (max-width: 749px) {
             margin-bottom: var(--gutter);
         }
 
-        // teaser image
-        .img-block {
-            height: 100%;
-            object-fit: cover;
-        }
     }
 
 }
