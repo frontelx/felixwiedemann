@@ -11,7 +11,8 @@
     "gulp-postcss": "^7.0.1",
     "gulp-sass": "^3.1.0",
     "gulp-sass-glob": "^1.0.8",
-    "postcss-pxtorem": "^4.0.1"
+    "postcss-pxtorem": "^4.0.1",
+    "gulp-watch": "^5.0.0"
   },
   "scripts": {
     "start": "gulp dev"
