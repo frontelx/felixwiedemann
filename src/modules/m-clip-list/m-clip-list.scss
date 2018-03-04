@@ -1,0 +1,36 @@
+.m-clip-list {
+    --gutter: 6px;
+
+    // from tablet bkp
+    @media screen and (min-width: 750px) {
+        margin-left: var(--gutter);
+        margin-right: var(--gutter);
+        display: grid;
+        grid-column-gap: var(--gutter);
+        grid-row-gap: var(--gutter);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 33.3333vh);
+        grid-auto-rows: 33.3333vh;
+
+        // from desktop bkp
+        @media screen and (min-width: 1024px) {
+            grid-template-rows:  repeat(2, 50vh);
+            grid-auto-rows: 50vh;
+        }
+    }
+
+    .p-teaser-clip {
+
+        // only default bkp
+        @media screen and (max-width: 749px) {
+            margin-bottom: var(--gutter);
+        }
+
+        // teaser image
+        .img-block {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+}
