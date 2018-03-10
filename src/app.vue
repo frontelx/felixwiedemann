@@ -1,6 +1,9 @@
 <template>
     <div id="app" class="app">
-        <p-teaser-clip :content="'Hello Felix'"></p-teaser-clip>
+        <p-teaser-clip
+            :title="'Hola Felix'"
+            :description="'Tengo hambre'">
+        </p-teaser-clip>
     </div>
 </template>
 
