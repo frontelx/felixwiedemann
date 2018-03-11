@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './app.vue';
-import TeaserClip from './patterns/p-teaser-clip/p-teaser-clip.vue';
+import TeaserClip from './patterns/p-teaser/p-teaser-clip.vue';
 
 Vue.component('p-teaser-clip', TeaserClip);
 
