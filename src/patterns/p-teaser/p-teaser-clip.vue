@@ -1,8 +1,8 @@
 <template>
     <div class="m-clip-list__item p-teaser-clip">
         <picture>
-            <source srcset="/images/clips/city-of-lights-default.jpg" media="(min-width: 750px)">
-            <img class="p-img-cover" src="/images/clips/city-of-lights-s.jpg" alt="">
+            <source :srcset="`/images/clips/${image}-default.jpg`" media="(min-width: 750px)">
+            <img class="p-img-cover" :src="`/images/clips/${image}-mobile.jpg`" alt="" :title="title">
         </picture>
         <div class="p-teaser-clip__txt">
             <h2 class="p-teaser-clip__title">{{ title }}</h2>
@@ -21,7 +21,11 @@
             description: {
                 type: String,
                 required: false,
-            }
+            },
+            image: {
+                type: String,
+                required: true,
+            },
         },
 
         data() {
