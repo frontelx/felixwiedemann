@@ -4,7 +4,8 @@
   "description": "Website of Felix Wiedemann (Cinematographer)",
   "dependencies": {
     "vue": "^2.5.13",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^8.0.0",

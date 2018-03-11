@@ -1,5 +1,5 @@
 <template>
-    <div class="m-clip-list__item p-teaser-clip">
+    <div class="p-teaser-clip" :class="addClass">
         <picture>
             <source :srcset="`/images/clips/${image}-default.jpg`" media="(min-width: 750px)">
             <img class="p-img-cover" :src="`/images/clips/${image}-mobile.jpg`" alt="" :title="title">
@@ -25,6 +25,10 @@
             image: {
                 type: String,
                 required: true,
+            },
+            addClass: {
+                type: String,
+                required: false,
             },
         },
 

@@ -5,6 +5,11 @@ module.exports = function (gulp, $) {
             .pipe(gulp.dest('./dist'));
     });
 
+    gulp.task('copy:content', function () {
+        return gulp.src('./src/content/**/*')
+            .pipe(gulp.dest('./dist/content'));
+    });
+
     gulp.task('copy:images', function () {
         return gulp.src('./src/images/**/*')
             .pipe(gulp.dest('./dist/images'));
