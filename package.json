@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "dev": "gulp dev && webpack --mode development --watch",
+    "dev": "webpack --mode development --watch",
     "prod": "gulp prod && webpack --mode production"
   },
   "repository": {
