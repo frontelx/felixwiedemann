@@ -1,0 +1,47 @@
+.m-intro {
+
+    // Image
+    &__img {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    // text wrapper
+    &__txt-wp {
+        position: absolute;
+        bottom: 17%;
+        left: 10%;
+    }
+
+    // text elements
+    &__headline,
+    &__nav {
+        text-transform: uppercase;
+        background-color: transparent;
+        color: var(--color-white);
+    }
+
+    &__headline {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    // small text in headline
+    &__interheadline {
+        font-size: 16px;
+        line-height: inherit;
+    }
+
+    // navigation items
+    &__nav-item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            // horizontal spacing between items
+            margin-right: 25px;
+        }
+    }
+
+}

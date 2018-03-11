@@ -1,7 +1,7 @@
 <template>
     <div class="p-teaser-clip" :class="addClass">
         <picture>
-            <source :srcset="`/images/clips/${image}-default.jpg`" media="(min-width: 750px)">
+            <source :srcset="`/images/clips/${image}.jpg`" media="(min-width: 750px)">
             <img class="p-img-cover" :src="`/images/clips/${image}-mobile.jpg`" alt="" :title="title">
         </picture>
         <div class="p-teaser-clip__txt">
