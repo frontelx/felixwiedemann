@@ -3,7 +3,7 @@
     <div id="app" class="app">
 
         <!-- add 'm-clip-list' module -->
-        <m-clip-list :jsonUrl="'/content/clips/films.jsonx'"></m-clip-list>
+        <m-clip-list :jsonUrl="'/content/clips/films.json'"></m-clip-list>
 
     </div>
 </template>
