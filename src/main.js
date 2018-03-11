@@ -8,9 +8,11 @@ import ClipList from './modules/m-clip/m-clip-list.vue';
 import TeaserClip from './patterns/p-teaser/p-teaser-clip.vue';
 
 // Polyfills
+import 'promise-polyfill/src/polyfill';
 import 'whatwg-fetch';
 
-/**** Modules ****/
+// Vue component initialization
+
 // Intro
 Vue.component('m-intro', Intro);
 
@@ -18,6 +20,7 @@ Vue.component('m-intro', Intro);
 Vue.component('m-clip-list', ClipList);
 Vue.component('p-teaser-clip', TeaserClip);
 
+// Vue initialization
 new Vue({
   el: '#app',
   render: h => h(App),

@@ -9,9 +9,7 @@ module.exports = function (gulp, $) {
     // Development processes
     gulp.task('postcss:dev', ['sass'], function () {
         const plugins = [
-            autoprefixer({
-                browsers: ['last 3 version', 'IE 11'],
-            }),
+            autoprefixer(),
             pxtorem(),
         ];
 
