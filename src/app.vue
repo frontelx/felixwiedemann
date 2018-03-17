@@ -2,10 +2,10 @@
     <!-- page content wrapper -->
     <div id="app" class="app">
         <!-- Intro module -->
-        <m-intro></m-intro>
+        <m-intro :imageData="'/content/intro/images.json'"></m-intro>
 
         <!-- add 'm-clip-list' module -->
-        <!--<m-clip-list :jsonUrl="'/content/clips/films.json'"></m-clip-list>-->
+        <!--<m-clip-list :clipsData="'/content/clips/films.json'"></m-clip-list>-->
 
     </div>
 </template>
@@ -14,7 +14,7 @@
     export default {
         data() {
             return {}
-        }
+        },
     }
 </script>
 

@@ -16,7 +16,7 @@
 <script>
     export default {
         props: {
-            jsonUrl: {
+            clipsData: {
                 type: String,
                 required: true,
             },
@@ -34,17 +34,10 @@
 
         methods: {
             getClips() {
-                fetch(this.jsonUrl)
-                    .then(function (response) {
-                        return response.json();
-                    })
-                    .then(function (json) {
-                        this.clips = json;
-                        console.log('clips', this.clips);
-                    }.bind(this))
-                    .catch(function(error) {
-                        console.log('No clips found', error);
-                    });
+                fetch(this.clipsData)
+                    .then(response => response.json())
+                    .then(data => this.clips = data)
+                    .catch(error => console.log('No clips found', error));
             }
         },
     }

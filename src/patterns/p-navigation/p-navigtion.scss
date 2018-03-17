@@ -1,0 +1,15 @@
+.p-navigation {
+    text-transform: uppercase;
+    background-color: transparent;
+    color: var(--color-white);
+
+    // navigation items
+    &__item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            // horizontal spacing between items
+            margin-right: 25px;
+        }
+    }
+}

@@ -16,14 +16,10 @@
     }
 
     // text elements
-    &__headline,
-    &__nav {
+    &__headline {
         text-transform: uppercase;
         background-color: transparent;
         color: var(--color-white);
-    }
-
-    &__headline {
         font-size: 30px;
         line-height: 36px;
         margin-bottom: 20px;
@@ -33,16 +29,6 @@
     &__interheadline {
         font-size: 16px;
         line-height: inherit;
-    }
-
-    // navigation items
-    &__nav-item {
-        display: inline-block;
-
-        &:not(:last-child) {
-            // horizontal spacing between items
-            margin-right: 25px;
-        }
     }
 
 }

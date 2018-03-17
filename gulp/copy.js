@@ -6,7 +6,7 @@ module.exports = function (gulp, $) {
     });
 
     gulp.task('copy:content', function () {
-        return gulp.src('./src/content/**/*')
+        return gulp.src('./content/**/*')
             .pipe(gulp.dest('./dist/content'));
     });
 
