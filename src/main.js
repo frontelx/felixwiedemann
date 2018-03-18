@@ -2,11 +2,20 @@
 import Vue from 'vue';
 import App from './app.vue';
 
-// Vue components
-import Intro from './modules/m-intro/m-intro.vue';
-import ClipList from './modules/m-clip/m-clip-list.vue';
+// Vue component import
+
+// Pattern
 import TeaserClip from './patterns/p-teaser/p-teaser-clip.vue';
 import Navigation from './patterns/p-navigation/p-navigation.vue';
+
+// Modules
+import Intro from './modules/m-intro/m-intro.vue';
+import ClipList from './modules/m-clip/m-clip-list.vue';
+import Header from './modules/m-header/m-header.vue';
+
+// Pages
+import Index from './pages/Index.vue';
+import Films from './pages/films.vue';
 
 // Polyfills
 import 'promise-polyfill/src/polyfill';
@@ -25,10 +34,34 @@ Vue.component('p-teaser-clip', TeaserClip);
 import NavigationData from '../content/navigation.json';
 Vue.component('p-navigation', Navigation);
 
+// Vue Router
+import VueRouter from 'vue-router';
+const routes = [
+    {
+        path: '/',
+        components: {
+            main: Index,
+        }
+    },
+    {
+        path: '/films',
+        components: {
+            header: Header,
+            main: Films,
+        }
+    },
+]
+
+const router = new VueRouter({
+  routes
+});
+
+Vue.use(VueRouter);
+
 // Vue initialization
 new Vue({
     el: '#app',
-
+    router,
     data: {
         navigation: NavigationData,
     },

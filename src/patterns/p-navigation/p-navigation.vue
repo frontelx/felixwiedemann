@@ -5,7 +5,7 @@
                 v-for="(navigationItem, index) in $root.navigation"
                 :key="navigationItem.id"
                 class="p-navigation__item">
-                <a :href="`#${navigationItem.url}`">{{ navigationItem.title }}</a>
+                <router-link :to="navigationItem.route">{{ navigationItem.title }}</router-link>
             </li>
         </ul>
     </nav>

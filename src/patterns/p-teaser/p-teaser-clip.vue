@@ -1,8 +1,8 @@
 <template>
     <div class="p-teaser-clip" :class="addClass">
         <picture>
-            <source :srcset="`/content/images/clips/${image}.jpg`" media="(min-width: 750px)">
-            <img class="p-img-cover" :src="`/content/images/clips/${image}-mobile.jpg`" alt="" :title="title">
+            <source :srcset="`/content/clips/${image}.jpg`" media="(min-width: 750px)">
+            <img class="p-img-cover" :src="`/content/clips/${image}-mobile.jpg`" alt="" :title="title">
         </picture>
         <div class="p-teaser-clip__txt">
             <h2 class="p-teaser-clip__title">{{ title }}</h2>

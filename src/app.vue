@@ -1,11 +1,17 @@
 <template>
     <!-- page content wrapper -->
-    <div id="app" class="app">
-        <!-- Intro module -->
-        <m-intro></m-intro>
-
-        <!-- add 'm-clip-list' module -->
-        <!--<m-clip-list :clipsData="'/content/clips/films.json'"></m-clip-list>-->
-
+    <div id="app" class="app" :class="theme">
+        <router-view name="header"></router-view>
+        <router-view name="main"></router-view>
     </div>
 </template>
+
+<script>
+    export default {
+        data() {
+            return {
+               theme: 't-dark',
+            }
+        }
+    }
+</script>
