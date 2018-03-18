@@ -21,7 +21,6 @@ Vue.component('m-intro', Intro);
 Vue.component('m-clip-list', ClipList);
 Vue.component('p-teaser-clip', TeaserClip);
 
-
 // Navigation
 import NavigationData from '../content/navigation.json';
 Vue.component('p-navigation', Navigation);
