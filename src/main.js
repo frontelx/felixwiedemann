@@ -2,61 +2,54 @@
 import Vue from 'vue';
 import App from './app.vue';
 
-// Vue component import
+// Vue components
 
-// Pattern
+// Patterns
 import TeaserClip from './patterns/p-teaser/p-teaser-clip.vue';
+Vue.component('p-teaser-clip', TeaserClip);
+
 import Navigation from './patterns/p-navigation/p-navigation.vue';
+Vue.component('p-navigation', Navigation);
 
 // Modules
 import Intro from './modules/m-intro/m-intro.vue';
+Vue.component('m-intro', Intro);
+
 import ClipList from './modules/m-clip/m-clip-list.vue';
+Vue.component('m-clip-list', ClipList);
+
+// Header
 import Header from './modules/m-header/m-header.vue';
 
-// Pages
-import Index from './pages/Index.vue';
-import Films from './pages/films.vue';
+// Navigation
+import NavigationData from '../content/navigation.json';
+
+// Services
+const Services = require('./generic/services');
 
 // Polyfills
 import 'promise-polyfill/src/polyfill';
 import 'whatwg-fetch';
 
-// Vue component initialization
-
-// Intro
-Vue.component('m-intro', Intro);
-
-// Clip
-Vue.component('m-clip-list', ClipList);
-Vue.component('p-teaser-clip', TeaserClip);
-
-// Navigation
-import NavigationData from '../content/navigation.json';
-Vue.component('p-navigation', Navigation);
-
 // Vue Router
 import VueRouter from 'vue-router';
-const routes = [
-    {
-        path: '/',
+const appRoutes = Services.getAppRoutes();
+
+const routes = appRoutes.map(function(route) {
+    const isIndex = route === '/';
+    const Component = require(`./pages${isIndex ? '/index' : route}.vue`);
+
+    return {
+        path: route,
         components: {
-            main: Index,
+            header: isIndex ? '' : Header,
+            main: Component.default,
         },
         meta: {
             title: 'Felix Wiedemann',
         },
-    },
-    {
-        path: '/films',
-        components: {
-            header: Header,
-            main: Films,
-        },
-        meta: {
-            title: 'Films',
-        },
-    },
-];
+    }
+});
 
 const router = new VueRouter({
     mode: 'history',

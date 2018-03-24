@@ -40,6 +40,9 @@ module.exports = {
 };
 
 if (process.env.NODE_ENV === 'production') {
+    const Services = require('./src/generic/services');
+    const appRoutes = Services.getAppRoutes();
+
     module.exports.plugins = (module.exports.plugins || []).concat([
         new webpack.DefinePlugin({
             'process.env': {
@@ -48,7 +51,7 @@ if (process.env.NODE_ENV === 'production') {
         }),
         new PrerenderSpaPlugin({
             staticDir: path.join(__dirname, 'dist'),
-            routes: ['/', '/films'],
+            routes: appRoutes,
         }),
     ]);
 }
