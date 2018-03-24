@@ -1,4 +1,6 @@
 const path = require('path');
+const webpack = require('webpack');
+const PrerenderSpaPlugin = require('prerender-spa-plugin');
 
 module.exports = {
     entry: [
@@ -36,3 +38,17 @@ module.exports = {
         },
     },
 };
+
+if (process.env.NODE_ENV === 'production') {
+    module.exports.plugins = (module.exports.plugins || []).concat([
+        new webpack.DefinePlugin({
+            'process.env': {
+                NODE_ENV: '"production"'
+            }
+        }),
+        new PrerenderSpaPlugin({
+            staticDir: path.join(__dirname, 'dist'),
+            routes: ['/', '/films'],
+        }),
+    ]);
+}

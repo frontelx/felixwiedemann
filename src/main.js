@@ -41,19 +41,31 @@ const routes = [
         path: '/',
         components: {
             main: Index,
-        }
+        },
+        meta: {
+            title: 'Felix Wiedemann',
+        },
     },
     {
         path: '/films',
         components: {
             header: Header,
             main: Films,
-        }
+        },
+        meta: {
+            title: 'Films',
+        },
     },
-]
+];
 
 const router = new VueRouter({
-  routes
+    mode: 'history',
+    routes,
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = to.meta.title;
+  next()
 });
 
 Vue.use(VueRouter);

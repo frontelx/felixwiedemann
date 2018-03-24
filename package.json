@@ -15,6 +15,7 @@
     "babel-preset-env": "^1.6.1",
     "css-loader": "^0.28.10",
     "cssnano": "^3.10.0",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-load-plugins": "^1.5.0",
     "gulp-postcss": "^7.0.1",
@@ -22,6 +23,7 @@
     "gulp-sass-glob": "^1.0.8",
     "gulp-watch": "^5.0.0",
     "postcss-pxtorem": "^4.0.1",
+    "prerender-spa-plugin": "^3.0.0",
     "vue-loader": "^14.1.1",
     "vue-template-compiler": "^2.5.13",
     "webpack": "^4.1.0",
@@ -33,8 +35,8 @@
   ],
   "scripts": {
     "start": "npm run dev",
-    "dev": "webpack --mode development --watch",
-    "prod": "gulp prod && webpack --mode production"
+    "dev": "NODE_ENV=development webpack --mode development",
+    "prod": "gulp prod && NODE_ENV=production webpack --mode production"
   },
   "repository": {
     "type": "git",
