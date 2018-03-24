@@ -21,10 +21,11 @@ Vue.component('m-clip-list', ClipList);
 // Header
 import Header from './modules/m-header/m-header.vue';
 
-// Navigation
+// Global data
+import TitleData from '../content/title.json';
 import NavigationData from '../content/navigation.json';
 
-// Services
+// Global services
 const Services = require('./generic/services');
 
 // Polyfills
@@ -35,7 +36,7 @@ import 'whatwg-fetch';
 import VueRouter from 'vue-router';
 const appRoutes = Services.getAppRoutes();
 
-const routes = appRoutes.map(function(route) {
+const routes = appRoutes.map(function(route, index) {
     const isIndex = route === '/';
     const Component = require(`./pages${isIndex ? '/index' : route}.vue`);
 
@@ -46,7 +47,7 @@ const routes = appRoutes.map(function(route) {
             main: Component.default,
         },
         meta: {
-            title: 'Felix Wiedemann',
+            title: `${TitleData[0].name} | ${TitleData[0].title}${ isIndex ? '' : ` : ${NavigationData[index - 1].title}`}`,
         },
     }
 });
@@ -68,6 +69,7 @@ new Vue({
     el: '#app',
     router,
     data: {
+        title: TitleData[0],
         navigation: NavigationData,
     },
 

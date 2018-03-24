@@ -7,7 +7,7 @@
         </picture>
 
         <div class="m-intro__txt-wp">
-            <h1 class="m-intro__headline">FELIX WIEDEMANN <span class="m-intro__interheadline">BSC</span> CINEMATOGRAPHER</h1>
+            <h1 class="m-intro__headline">{{ $root.title.name }} <span class="m-intro__interheadline">{{ $root.title.additional }}</span> {{ $root.title.title }}</h1>
 
             <p-navigation></p-navigation>
         </div>
