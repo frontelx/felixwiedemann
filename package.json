@@ -35,7 +35,7 @@
   ],
   "scripts": {
     "start": "npm run dev",
-    "dev": "NODE_ENV=development webpack --mode development",
+    "dev": "NODE_ENV=development webpack --mode development --watch",
     "prod": "gulp prod && NODE_ENV=production webpack --mode production"
   },
   "repository": {
