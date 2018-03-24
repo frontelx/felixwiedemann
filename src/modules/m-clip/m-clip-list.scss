@@ -3,8 +3,6 @@
 
     // from tablet bkp
     @media screen and (min-width: 750px) {
-        margin-left: var(--gutter);
-        margin-right: var(--gutter);
         display: grid;
         grid-column-gap: var(--gutter);
         grid-row-gap: var(--gutter);
