@@ -1,7 +1,7 @@
 module.exports = function (gulp, $) {
 
     gulp.task('copy:html', function () {
-        return gulp.src('./src/**/*.html')
+        return gulp.src('./src/index.html')
             .pipe(gulp.dest('./dist'));
     });
 
@@ -18,6 +18,11 @@ module.exports = function (gulp, $) {
     gulp.task('copy:fonts', function () {
         return gulp.src('./src/fonts/**/*')
             .pipe(gulp.dest('./dist/fonts'));
+    });
+
+    gulp.task('copy:favicon', function () {
+        return gulp.src('./src/favicon.ico')
+            .pipe(gulp.dest('./dist'));
     });
 
 };
