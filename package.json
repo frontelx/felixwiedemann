@@ -27,7 +27,8 @@
     "vue-loader": "^14.1.1",
     "vue-template-compiler": "^2.5.13",
     "webpack": "^4.1.0",
-    "webpack-cli": "^2.0.10"
+    "webpack-cli": "^2.0.10",
+    "webpack-stream": "^4.0.3"
   },
   "browserslist": [
     "last 3 version",
@@ -35,8 +36,8 @@
   ],
   "scripts": {
     "start": "npm run dev",
-    "dev": "NODE_ENV=development webpack --mode development --watch",
-    "prod": "gulp prod && NODE_ENV=production webpack --mode production"
+    "dev": "gulp watch webpack",
+    "prod": "gulp prod && NODE_ENV=production webpack"
   },
   "repository": {
     "type": "git",

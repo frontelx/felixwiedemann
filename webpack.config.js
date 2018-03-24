@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const PrerenderSpaPlugin = require('prerender-spa-plugin');
 
 module.exports = {
+    mode: 'development',
     entry: [
         'whatwg-fetch',
         './src/main.js',
@@ -42,6 +43,8 @@ module.exports = {
 if (process.env.NODE_ENV === 'production') {
     const Services = require('./src/generic/services');
     const appRoutes = Services.getAppRoutes();
+
+    module.exports.mode = 'production';
 
     module.exports.plugins = (module.exports.plugins || []).concat([
         new webpack.DefinePlugin({
