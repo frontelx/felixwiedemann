@@ -10,8 +10,8 @@ taskList.forEach(function (taskFile) {
 });
 
 // Build tasks
-gulp.task('dev', ['clean:dist', 'css:dev', 'copy']);
-gulp.task('prod', ['clean:dist','css:prod', 'copy']);
+gulp.task('dev', ['css:dev', 'copy']);
+gulp.task('prod', ['css:prod', 'copy']);
 
 // CSS tasks
 gulp.task('css:dev', ['sass', 'postcss:dev']);
