@@ -2,7 +2,7 @@ module.exports = function (gulp, $) {
 
     const watch = require('gulp-watch');
 
-    gulp.task('watch', function () {
+    gulp.task('watch', ['clean:dist'], function () {
         gulp.start(['dev']);
 
         gulp.watch('src/**/*.scss' , ['css:dev']);
