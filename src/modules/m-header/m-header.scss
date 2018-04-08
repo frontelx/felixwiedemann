@@ -13,13 +13,6 @@
     @media (min-width: $bkp-tablet) {
         display: grid;
         grid-column-gap: 10px;
-
-        // Sticky Header from tablet bkp
-        position: fixed;
-        top: 0;
-        z-index: 1;
-        left: 0;
-        width: 100%;
     }
 
     // ONLY tablet bkp
@@ -30,6 +23,14 @@
 
     // from desktop bkp
     @media (min-width: $bkp-desktop) {
+
+        // Sticky Header from desktop bkp
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        width: 100%;
+
         height: var(--sticky-header-height);
         grid-template-columns: repeat(3, 1fr);
         align-items: baseline;

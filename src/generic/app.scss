@@ -4,6 +4,8 @@
     color: var(--color-txt);
 
     &--sticky {
-        padding-top: var(--sticky-header-height);
+        @media (min-width: $bkp-desktop) {
+            padding-top: var(--sticky-header-height);
+        }
     }
 }
