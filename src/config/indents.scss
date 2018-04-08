@@ -1,0 +1,8 @@
+:root {
+    --text-indent: 20px;
+
+    // from tablet bkp
+    @media  (min-width: $bkp-tablet) {
+        --text-indent: 40px;
+    }
+}

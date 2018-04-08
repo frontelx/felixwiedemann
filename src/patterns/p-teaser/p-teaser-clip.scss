@@ -1,5 +1,4 @@
 .p-teaser-clip {
-    --text-indent: 20px;
     position: relative;
 
     &__txt {
@@ -8,11 +7,6 @@
         bottom: var(--text-indent);
         color: var(--color-white);
         margin-right: var(--text-indent);
-
-        // from tablet bkp
-        @media screen and (min-width: 750px) {
-            --text-indent: 40px;
-        }
     }
 
     &__title {

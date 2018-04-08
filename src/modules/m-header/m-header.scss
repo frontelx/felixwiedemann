@@ -1,0 +1,59 @@
+.m-header {
+    padding: calc(var(--text-indent)/2) var(--text-indent);
+
+    // from desktop bkp
+    @media  (min-width: $bkp-desktop) {
+        display: grid;
+        align-items: baseline;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__name,
+    &__title {
+        font-size: 30px;
+        line-height: 36px;
+        text-transform: uppercase;
+    }
+
+    &__name,
+    &__nav {
+        // from tablet bkp
+        @media  (min-width: $bkp-tablet) {
+            white-space: nowrap;
+        }
+    }
+
+    // additional
+    &__add {
+        font-size: 16px;
+        line-height: inherit;
+    }
+
+    &__title {
+        justify-self: center;
+    }
+
+    // navigation
+    &__nav {
+        text-align: right;
+
+        .p-navigation__list {
+            // only default bkp
+            @media  (max-width: $bkp-tablet - 1px) {
+                // hide navigation as list, display navigation as dropdown only for mobile bkp
+                display: none;
+            }
+        }
+
+        .p-navigation__select {
+
+            // from tablet bkp
+            @media  (min-width: $bkp-tablet) {
+                // hide navigation as dropdown, display navigation as dropdown only for mobile bkp
+                display: none;
+            }
+        }
+    }
+}
+
+

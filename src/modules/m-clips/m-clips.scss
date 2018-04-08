@@ -4,7 +4,7 @@
         --gutter: 6px;
 
         // from tablet bkp
-        @media screen and (min-width: 750px) {
+        @media (min-width: $bkp-tablet) {
             display: grid;
             grid-column-gap: var(--gutter);
             grid-row-gap: var(--gutter);
@@ -13,7 +13,7 @@
             grid-auto-rows: 33.3333vh;
 
             // from desktop bkp
-            @media screen and (min-width: 1024px) {
+            @media (min-width: $bkp-desktop) {
                 grid-template-rows:  repeat(2, 50vh);
                 grid-auto-rows: 50vh;
             }
@@ -22,7 +22,7 @@
         &-item {
 
             // only default bkp
-            @media screen and (max-width: 749px) {
+            @media (max-width: $bkp-tablet - 1px) {
                 margin-bottom: var(--gutter);
             }
 
