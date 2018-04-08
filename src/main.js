@@ -15,8 +15,8 @@ Vue.component('p-navigation', Navigation);
 import Intro from './modules/m-intro/m-intro.vue';
 Vue.component('m-intro', Intro);
 
-import ClipList from './modules/m-clip/m-clip-list.vue';
-Vue.component('m-clip-list', ClipList);
+import Clips from './modules/m-clips/m-clips.vue';
+Vue.component('m-clips', Clips);
 
 // Header
 import Header from './modules/m-header/m-header.vue';

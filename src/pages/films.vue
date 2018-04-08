@@ -1,6 +1,6 @@
 <template>
     <main class="main">
-        <m-clip-list :clipsData="'/content/clips/films.json'"></m-clip-list>
+        <m-clips :clipsData="'/content/clips/films.json'"></m-clips>
     </main>
 </template>
 
