@@ -60,6 +60,9 @@ const routes = appRoutes.map(function (route, index) {
                 components: {
                     player: Player,
                 },
+                meta: {
+                    title: title,
+                },
             }
         ] : [],
 
@@ -68,8 +71,6 @@ const routes = appRoutes.map(function (route, index) {
         },
     }
 });
-
-console.log(routes);
 
 const router = new VueRouter({
     mode: 'history',

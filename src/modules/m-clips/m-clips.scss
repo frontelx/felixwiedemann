@@ -14,8 +14,10 @@
 
             // from desktop bkp
             @media (min-width: $bkp-desktop) {
-                grid-template-rows:  repeat(2, 50vh);
-                grid-auto-rows: 50vh;
+                --desktop-row-height: calc(50vh - calc(var(--sticky-header-height) / 2));
+
+                grid-template-rows:  repeat(2, var(--desktop-row-height));
+                grid-auto-rows: var(--desktop-row-height);
             }
         }
 

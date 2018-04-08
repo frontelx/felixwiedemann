@@ -1,6 +1,6 @@
 <template>
     <!-- page content wrapper -->
-    <div id="app" class="app" :class="theme">
+    <div id="app" class="app" :class="`${$route.path === '/' ? '' : 'app--sticky '}${theme}`">
         <router-view name="header"></router-view>
         <router-view name="main"></router-view>
     </div>
@@ -10,7 +10,7 @@
     export default {
         data() {
             return {
-               theme: 't-dark',
+                theme: 't-dark',
             }
         }
     }
