@@ -1,11 +1,37 @@
 .m-header {
-    padding: calc(var(--text-indent)/2) var(--text-indent);
+    padding: var(--text-indent);
+    // default header bg
+    background-color:  var(--color-white);
+
+    // from tablet bkp
+    @media (min-width: $bkp-tablet) {
+        padding-top: calc(var(--text-indent)/2);
+        padding-bottom: calc(var(--text-indent)/2);
+    }
+
+    // from tablet bkp
+    @media (min-width: $bkp-tablet) {
+        display: grid;
+        grid-column-gap: 10px;
+
+        // Sticky Header from tablet bkp
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        left: 0;
+        width: 100%;
+    }
+
+    // ONLY tablet bkp
+    @media (min-width: $bkp-tablet) and (max-width: $bkp-desktop - 1px) {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
 
     // from desktop bkp
-    @media  (min-width: $bkp-desktop) {
-        display: grid;
-        align-items: baseline;
+    @media (min-width: $bkp-desktop) {
         grid-template-columns: repeat(3, 1fr);
+        align-items: baseline;
     }
 
     &__name,
@@ -18,7 +44,7 @@
     &__name,
     &__nav {
         // from tablet bkp
-        @media  (min-width: $bkp-tablet) {
+        @media (min-width: $bkp-tablet) {
             white-space: nowrap;
         }
     }
@@ -30,25 +56,47 @@
     }
 
     &__title {
-        justify-self: center;
+
+        // only default bkp
+        @media (max-width: $bkp-tablet - 1px) {
+            margin-bottom: 15px;
+        }
+
+        // from desktop bkp
+        @media (min-width: $bkp-desktop) {
+            justify-self: center;
+        }
     }
 
     // navigation
     &__nav {
-        text-align: right;
+
+        // ONLY tablet bkp
+        @media (min-width: $bkp-tablet) and (max-width: $bkp-desktop - 1px) {
+            // keep element at right side
+            grid-row: 1/span 2;
+            grid-column: 2/-1;
+        }
+
+        // from desktop bkp
+        @media (min-width: $bkp-tablet) {
+            text-align: right;
+        }
 
         .p-navigation__list {
+
             // only default bkp
-            @media  (max-width: $bkp-tablet - 1px) {
+            @media (max-width: $bkp-tablet - 1px) {
                 // hide navigation as list, display navigation as dropdown only for mobile bkp
                 display: none;
             }
         }
 
         .p-navigation__select {
+            width: 100%;
 
             // from tablet bkp
-            @media  (min-width: $bkp-tablet) {
+            @media (min-width: $bkp-tablet) {
                 // hide navigation as dropdown, display navigation as dropdown only for mobile bkp
                 display: none;
             }
