@@ -1,16 +1,19 @@
 <template>
     <div class="m-clips">
-        <div class="m-clips__list">
+        <div class="m-clips__list" v-if="!$route.params.clip">
             <p-teaser-clip
                 v-for="(clip, index) in clips"
                 :key="clip.id"
                 :title="clip.title"
+                :additional="clip.additional"
                 :description="clip.subtitle"
                 :image="clip.image"
                 :addClass="'m-clips__list-item'"
             >
             </p-teaser-clip>
         </div>
+
+        <router-view name="player"></router-view>
     </div>
 </template>
 

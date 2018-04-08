@@ -1,18 +1,22 @@
 [
   {
     "title": "Film & TV",
-    "route": "/films"
+    "route": "/films",
+    "player": true
   },
   {
     "title": "Commercials",
-    "route": "/commercials"
+    "route": "/commercials",
+    "player": true
   },
   {
     "title": "CV",
-    "route": "/cv"
+    "route": "/cv",
+    "player": false
   },
   {
     "title": "Contact",
-    "route": "/contact"
+    "route": "/contact",
+    "player": false
   }
 ]

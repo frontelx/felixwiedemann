@@ -21,6 +21,9 @@ Vue.component('m-clips', Clips);
 // Header
 import Header from './modules/m-header/m-header.vue';
 
+// Player
+import Player from './modules/m-player/m-player.vue';
+
 // Global data
 import TitleData from '../content/title.json';
 import NavigationData from '../content/navigation.json';
@@ -34,23 +37,39 @@ import 'whatwg-fetch';
 
 // Vue Router
 import VueRouter from 'vue-router';
+
 const appRoutes = Services.getAppRoutes();
 
-const routes = appRoutes.map(function(route, index) {
+const routes = appRoutes.map(function (route, index) {
     const isIndex = route === '/';
+    const hasPlayer = isIndex ? false : NavigationData[index - 1].player;
     const Component = require(`./pages${isIndex ? '/index' : route}.vue`);
+    const title = `${TitleData[0].name} | ${TitleData[0].title}${ isIndex ? '' : ` : ${NavigationData[index - 1].title}`}`;
 
     return {
         path: route,
+
         components: {
             header: isIndex ? '' : Header,
             main: Component.default,
         },
+
+        children: hasPlayer ? [
+            {
+                path: ':clip',
+                components: {
+                    player: Player,
+                },
+            }
+        ] : [],
+
         meta: {
-            title: `${TitleData[0].name} | ${TitleData[0].title}${ isIndex ? '' : ` : ${NavigationData[index - 1].title}`}`,
+            title: title,
         },
     }
 });
+
+console.log(routes);
 
 const router = new VueRouter({
     mode: 'history',
@@ -58,8 +77,8 @@ const router = new VueRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title;
-  next()
+    document.title = to.meta.title;
+    next()
 });
 
 Vue.use(VueRouter);
@@ -71,6 +90,9 @@ new Vue({
     data: {
         title: TitleData[0],
         navigation: NavigationData,
+    },
+    methods: {
+        seoUrl: Services.seoUrl
     },
 
     render: h => h(App),
