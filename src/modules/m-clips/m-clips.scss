@@ -25,6 +25,7 @@
 
             // only default bkp
             @media (max-width: $bkp-tablet - 1px) {
+                display: block;
                 margin-bottom: var(--gutter);
             }
 
