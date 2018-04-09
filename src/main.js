@@ -18,6 +18,9 @@ Vue.component('m-intro', Intro);
 import Clips from './modules/m-clips/m-clips.vue';
 Vue.component('m-clips', Clips);
 
+import TxtTeaser from './modules/m-txt-teaser/m-txt-teaser.vue';
+Vue.component('m-txt-teaser', TxtTeaser);
+
 // Header
 import Header from './modules/m-header/m-header.vue';
 

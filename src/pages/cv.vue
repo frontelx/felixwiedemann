@@ -1,6 +1,6 @@
 <template>
     <main class="main">
-        <h1>CV</h1>
+        <m-txt-teaser :contentData="'/content/cv.html'"></m-txt-teaser>
     </main>
 </template>
 
