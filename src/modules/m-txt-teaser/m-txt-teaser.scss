@@ -1,0 +1,38 @@
+.m-txt-teaser {
+    margin-left: var(--text-indent);
+    margin-right: var(--text-indent);
+
+
+    // from desktop bkp
+    @media (min-width: $bkp-desktop) {
+        display: flex;
+    }
+
+    &__item {
+        // from desktop bkp
+        @media (min-width: $bkp-desktop) {
+            width: 45%;
+        }
+    }
+
+    &__item--left {
+        // from desktop bkp
+        @media (min-width: $bkp-desktop) {
+            margin-right: auto;
+        }
+    }
+
+    &__item--right {
+        // from desktop bkp
+        @media (min-width: $bkp-desktop) {
+            margin-left: auto;
+        }
+    }
+}
+
+
+.main {
+    > .m-txt-teaser {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,14 @@
+.p-txt-rte {
+    p:not(:last-child) {
+        margin-bottom: 24px;
+    }
+
+    &.p-txt-copy {
+        h1 {
+            font-size: inherit;
+            line-height: inherit;
+            margin-bottom: 34px;
+        }
+    }
+}
+
