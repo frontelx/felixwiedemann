@@ -8,6 +8,7 @@
     export default {
        created: function () {
            this.$parent.theme = 't-dark';
+           this.$parent.bgImg = 'SLIDE-Away-07B-srgb.jpg';
        }
     }
 </script>

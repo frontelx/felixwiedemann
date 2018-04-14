@@ -8,6 +8,8 @@
     export default {
        created: function () {
            this.$parent.theme = 't-light';
+           this.$parent.bgImg = '';
+
        }
     }
 </script>
