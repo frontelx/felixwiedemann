@@ -11,5 +11,9 @@
             // horizontal spacing between items
             margin-right: 25px;
         }
+
+        a:hover {
+            color: var( --color-hover-txt-white );
+        }
     }
 }

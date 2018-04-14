@@ -2,7 +2,6 @@
     min-height: 100vh;
     background-color: var(--color-bg);
     color: var(--color-txt);
-    padding-bottom: 40px;
 
     &--sticky {
         @media (min-width: $bkp-desktop) {
@@ -16,7 +15,5 @@
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
-
-        // from tablet bkp
     }
 }

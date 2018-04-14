@@ -1,6 +1,6 @@
 <template>
 
-    <div class="m-txt-teaser" v-html="content"></div>
+    <div class="m-txt-teaser space-bt-pd-50" v-html="content"></div>
 </template>
 
 <script>

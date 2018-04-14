@@ -21,6 +21,15 @@
             }
         }
 
+        // hover styling
+        a.m-clips__list-item {
+            &:hover {
+                .p-teaser-clip__txt {
+                    color: var( --color-hover-txt-white );
+                }
+            }
+        }
+
         &-item {
 
             // only default bkp
@@ -28,7 +37,6 @@
                 display: block;
                 margin-bottom: var(--gutter);
             }
-
         }
     }
 
