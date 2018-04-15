@@ -4,10 +4,7 @@
             <p-teaser-clip
                 v-for="(clip, index) in clips"
                 :key="clip.id"
-                :title="clip.title"
-                :additional="clip.additional"
-                :description="clip.subtitle"
-                :image="clip.image"
+                :clip="clip"
                 :addClass="'m-clips__list-item'"
             >
             </p-teaser-clip>
