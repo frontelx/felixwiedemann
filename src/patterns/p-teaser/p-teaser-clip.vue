@@ -1,6 +1,6 @@
 <template>
     <router-link
-        :to="`${$route.path}/${$root.seoUrl(clip.title)}`"
+        :to="`${$route.path}/${clip.route}`"
         class="p-teaser-clip"
         :class="addClass">
         <picture>

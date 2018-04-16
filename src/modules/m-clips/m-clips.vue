@@ -38,7 +38,10 @@
             getClips() {
                 fetch(this.clipsData)
                     .then(response => response.json())
-                    .then(data => this.clips = data)
+                    .then(data => this.clips = data.map((clip) => {
+                        clip.route = this.$root.seoUrl(clip.title);
+                        return clip;
+                    }))
                     .catch(error => console.log('No clips found', error));
             }
         },
