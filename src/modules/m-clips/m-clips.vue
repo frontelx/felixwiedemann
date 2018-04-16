@@ -42,7 +42,12 @@
                         clip.route = this.$root.seoUrl(clip.title);
                         return clip;
                     }))
+                    .then(this.emitClipsFetched)
                     .catch(error => console.log('No clips found', error));
+            },
+
+            emitClipsFetched() {
+                this.$emit('clipsFetched', this.clips);
             }
         },
     }

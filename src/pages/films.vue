@@ -6,9 +6,9 @@
 
 <script>
     export default {
-       created: function () {
+       created() {
            this.$root.theme = 't-light';
            this.$root.bgImg = '';
-       }
+       },
     }
 </script>

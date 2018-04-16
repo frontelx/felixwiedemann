@@ -1,5 +1,5 @@
 <template>
-    <div class="m-player">
+    <div class="m-player" v-if="Object.keys(clip).length">
 
         <div class="m-player__video">
             <iframe :src="`https://player.vimeo.com/video/${clip.video}?autoplay=1`" frameborder="0"
@@ -35,13 +35,22 @@
     export default {
         data() {
             return {
-                clip: {
-                    video: '218371926',
-                },
+                clip: {},
+            }
+        },
+        methods: {
+            getClip(clips) {
+                this.clip = clips.find(clip => clip.route === this.$route.params.clip);
             }
         },
         created: function () {
             this.$root.theme = 't-dark';
-        }
+
+            if (this.$parent.clips.length) {
+                this.getClip(this.$parent.clips);
+            } else {
+                this.$parent.$on('clipsFetched', this.getClip);
+            }
+        },
     }
 </script>
