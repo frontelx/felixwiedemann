@@ -2,21 +2,29 @@
   {
     "title": "Film & TV",
     "route": "/films",
+    "theme": "t-light",
+    "bgImg": "",
     "player": true
   },
   {
     "title": "Commercials",
     "route": "/commercials",
+    "theme": "t-light",
+    "bgImg": "",
     "player": true
   },
   {
     "title": "CV",
     "route": "/cv",
+    "theme": "t-dark",
+    "bgImg": "content/bg/SLIDE-Away-07B-srgb.jpg",
     "player": false
   },
   {
     "title": "Contact",
     "route": "/contact",
+    "theme": "t-dark",
+    "bgImg": "",
     "player": false
   }
 ]

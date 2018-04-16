@@ -99,6 +99,7 @@ new Vue({
     },
     methods: {
         seoUrl: Services.seoUrl,
+        getPageConfigByRoute: Services.getPageConfigByRoute,
     },
 
     render: h => h(App),

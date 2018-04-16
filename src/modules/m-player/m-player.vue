@@ -38,11 +38,13 @@
                 clip: {},
             }
         },
+
         methods: {
             getClip(clips) {
                 this.clip = clips.find(clip => clip.route === this.$route.params.clip);
             }
         },
+
         created: function () {
             this.$root.theme = 't-dark';
 

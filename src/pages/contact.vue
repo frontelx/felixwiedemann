@@ -7,8 +7,10 @@
 <script>
     export default {
        created: function () {
-           this.$root.theme = 't-dark';
-           this.$root.bgImg = '';
+            const pageConfig = this.$root.getPageConfigByRoute('/contact', this.$root.navigation);
+
+            this.$root.theme = pageConfig.theme;
+            this.$root.bgImg = pageConfig.bgImg;
        }
     }
 </script>

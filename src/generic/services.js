@@ -12,6 +12,12 @@ module.exports = {
         return appRoutes;
     },
 
+    // Returns the configration of the current page
+    // Configuration is edited in /content/navigation.json
+    getPageConfigByRoute(route, navigation) {
+        return navigation.find(page => page.route === route);
+    },
+
     // Convert string to SEO friendly url
     // All lower case letters and replaces white space with "-"
     seoUrl(string) {
