@@ -3,6 +3,7 @@
     margin: 50px auto 0;
     padding-left: var(--text-indent);
     padding-right: var(--text-indent);
+    padding-bottom: 50px;
 
 
     // from tablet bkp
@@ -31,7 +32,7 @@
     // text
     &__txt {
         margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
 
         // from tablet bkp
         @media (min-width: $bkp-tablet) {

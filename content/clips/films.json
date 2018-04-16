@@ -6,7 +6,11 @@
 		"video": "218371926",
     "actors": "",
 		"special": "<br> Toronto International Film Festival <br> London Film Festival <br> In Cinemas 7 April 2017 (UK)",
-		"image": "films/COTL-16B-1120-srgb"
+		"image": "films/images/COTL-16B-1120-srgb",
+    "framegrabs": [
+      "films/framegrabs/COTL-16B-1120-srgb",
+      "films/framegrabs/Away-15D-1120-srgb"
+    ]
   },
   {
     "title": "AWAY",
@@ -15,7 +19,11 @@
     "video": "223698152",
     "actors": "",
     "special": "<br> Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016",
-    "image": "films/Away-15D-1120-srgb"
+    "image": "films/images/Away-15D-1120-srgb",
+    "framegrabs": [
+      "films/framegrabs/COTL-16B-1120-srgb",
+      "films/framegrabs/Away-15D-1120-srgb"
+    ]
   },
   {
     "title": "CITY OF TINY LIGHTS 2",
@@ -24,7 +32,7 @@
     "video": "",
     "actors": "",
     "special": "<br> Toronto International Film Festival <br> London Film Festival <br> In Cinemas 7 April 2017 (UK)",
-    "image": "films/COTL-16B-1120-srgb"
+    "image": "films/images/COTL-16B-1120-srgb"
   },
   {
     "title": "AWAY 2",
@@ -33,7 +41,11 @@
     "video": "",
     "actors": "",
     "special": "<br> Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016",
-    "image": "films/Away-15D-1120-srgb"
+    "image": "films/images/Away-15D-1120-srgb",
+    "framegrabs": [
+      "films/framegrabs/COTL-16B-1120-srgb",
+      "films/framegrabs/Away-15D-1120-srgb"
+    ]
   },
   {
     "title": "CITY OF TINY LIGHTS 3",
@@ -42,7 +54,11 @@
     "video": "",
     "actors": "",
     "special": "<br> Toronto International Film Festival <br> London Film Festival <br> In Cinemas 7 April 2017 (UK)",
-    "image": "films/COTL-16B-1120-srgb"
+    "image": "films/images/COTL-16B-1120-srgb",
+    "framegrabs": [
+      "films/framegrabs/COTL-16B-1120-srgb",
+      "films/framegrabs/Away-15D-1120-srgb"
+    ]
   },
   {
     "title": "AWAY 3",
@@ -51,7 +67,11 @@
     "video": "",
     "actors": "",
     "special": "<br> Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016",
-    "image": "films/Away-15D-1120-srgb"
+    "image": "films/images/Away-15D-1120-srgb",
+    "framegrabs": [
+      "films/framegrabs/COTL-16B-1120-srgb",
+      "films/framegrabs/Away-15D-1120-srgb"
+    ]
   }
 
 

@@ -94,9 +94,11 @@ new Vue({
     data: {
         title: TitleData[0],
         navigation: NavigationData,
+        theme: 't-dark',
+        bgImg: '',
     },
     methods: {
-        seoUrl: Services.seoUrl
+        seoUrl: Services.seoUrl,
     },
 
     render: h => h(App),

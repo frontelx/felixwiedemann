@@ -3,20 +3,9 @@
     <div
         id="app"
         class="app"
-        :class="`${$route.path === '/' ? '' : 'app--sticky '}${bgImg ? 'app--bgImg ' : ''}${theme}`"
-        :style="bgImg ? `background-image: url('/content/bg/${bgImg}')` : ''">
+        :class="`${$route.path === '/' ? '' : 'app--sticky '}${$root.bgImg ? 'app--bgImg ' : ''}${$root.theme}`"
+        :style="$root.bgImg ? `background-image: url('/content/bg/${$root.bgImg}')` : ''">
         <router-view name="header"></router-view>
         <router-view name="main"></router-view>
     </div>
 </template>
-
-<script>
-    export default {
-        data() {
-            return {
-                theme: 't-dark',
-                bgImg: '',
-            }
-        }
-    }
-</script>

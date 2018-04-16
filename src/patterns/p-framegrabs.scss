@@ -1,0 +1,7 @@
+.p-framegrabs {
+    --gutter: 6px;
+
+    &__item:not(:last-child) {
+        margin-bottom: var(--gutter);
+    }
+}

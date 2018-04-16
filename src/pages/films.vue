@@ -7,8 +7,8 @@
 <script>
     export default {
        created: function () {
-           this.$parent.theme = 't-light';
-           this.$parent.bgImg = '';
+           this.$root.theme = 't-light';
+           this.$root.bgImg = '';
        }
     }
 </script>

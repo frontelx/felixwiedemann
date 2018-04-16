@@ -12,16 +12,22 @@
             <p class="m-player__descrp">Lorem ipsum dolor sit amet ipsum dolor sit amet.</p>
         </div>
 
-    </div>
+        <ul class="p-framegrabs">
+            <li class="p-framegrabs__item">
+                <picture>
+                    <source :srcset="`/content/clips/films/framegrabs/COTL-16B-1120-srgb.jpg`" media="(min-width: 750px)">
+                    <img class="p-img-block" :src="`/content/clips/films/framegrabs/COTL-16B-1120-srgb-mobile.jpg`" alt="" :title="''">
+                </picture>
+            </li>
+            <li class="p-framegrabs__item">
+                <picture>
+                    <source :srcset="`/content/clips/films/framegrabs/Away-15D-1120-srgb.jpg`" media="(min-width: 750px)">
+                    <img class="p-img-block" :src="`/content/clips/films/framegrabs/Away-15D-1120-srgb-mobile.jpg`" alt="" :title="''">
+                </picture>
+            </li>
+        </ul>
 
-    <!--<ul class="framegrabs">
-        <li class="framegrabs__item">
-            <picture>
-                <source :srcset="`/content/clips/${clip.image}.jpg`" media="(min-width: 750px)">
-                <img class="p-img-block" :src="`/content/clips/${clip.image}-mobile.jpg`" alt="" :title="clip.title">
-            </picture>
-        </li>
-    </ul>-->
+    </div>
 </template>
 
 
@@ -34,9 +40,8 @@
                 },
             }
         },
-
-        created() {
-
+        created: function () {
+            this.$root.theme = 't-dark';
         }
     }
 </script>
