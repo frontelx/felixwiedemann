@@ -5,7 +5,7 @@
         :class="addClass">
         <picture>
             <source :srcset="`/content/clips/${clip.image}.jpg`" media="(min-width: 750px)">
-            <img class="p-img-cover" :src="`/content/clips/${clip.image}-mobile.jpg`" alt="" :title="clip.title">
+            <img class="p-img-cover" :src="`/content/clips/${clip.image}-mobile.jpg`" alt="">
         </picture>
         <div class="p-teaser-clip__txt">
             <h2 class="p-teaser-clip__title">{{ clip.title }} {{ clip.additional }}</h2>
