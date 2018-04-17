@@ -15,5 +15,22 @@
         a:hover {
             color: var( --color-hover-txt-white );
         }
+
+        &--active {
+            a {
+                color: var( --color-hover-txt-white );
+            }
+        }
+    }
+
+    &__select {
+        width: 100%;
+        color: var(--color-black);
+
+        // from tablet bkp
+        @media (min-width: $bkp-tablet) {
+            // hide navigation as dropdown, display navigation as dropdown only for mobile bkp
+            display: none;
+        }
     }
 }

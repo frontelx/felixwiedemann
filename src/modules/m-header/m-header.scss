@@ -93,16 +93,6 @@
                 display: none;
             }
         }
-
-        .p-navigation__select {
-            width: 100%;
-
-            // from tablet bkp
-            @media (min-width: $bkp-tablet) {
-                // hide navigation as dropdown, display navigation as dropdown only for mobile bkp
-                display: none;
-            }
-        }
     }
 
     // background-image applied
