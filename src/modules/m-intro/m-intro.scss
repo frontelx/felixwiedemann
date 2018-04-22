@@ -1,4 +1,5 @@
 .m-intro {
+    position: relative;
 
     // Image
     &__img {
@@ -6,6 +7,14 @@
         width: 100vw;
         height: 100vh;
         object-fit: cover;
+
+        &--next,
+        &--preload {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+        }
     }
 
     // text wrapper

@@ -1,11 +1,14 @@
 [
   {
-    "image": "SLIDE-TGB-06-srgb"
+    "image": "/content/intro/images/1.jpg"
   },
   {
-    "image": "SLIDE-Legacy06-srgb"
+    "image": "/content/intro/images/2.jpg"
   },
   {
-    "image": "SLIDE-CBSDrama02-srgb"
+    "image": "/content/intro/images/3.jpg"
+  },
+  {
+    "image": "/content/intro/images/4.jpg"
   }
 ]
