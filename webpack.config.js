@@ -1,3 +1,4 @@
+const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
 const PrerenderSpaPlugin = require('prerender-spa-plugin');
@@ -43,6 +44,19 @@ module.exports = {
 if (process.env.NODE_ENV === 'production') {
     const Services = require('./src/generic/services');
     const appRoutes = Services.getAppRoutes();
+    const navigationData = require('./content/navigation.json');
+    let clipRoutes = [];
+
+    navigationData.forEach(item => {
+        const clipsData = `./content/clips${item.route}.json`;
+
+        if (item.player && fs.existsSync(clipsData)) {
+            const clips = require(clipsData);
+            const routes = clips.map(clip => `${item.route}/${Services.seoUrl(clip.title)}`);
+
+            clipRoutes = clipRoutes.concat(routes);
+        }
+    });
 
     module.exports.mode = 'production';
 
@@ -54,7 +68,7 @@ if (process.env.NODE_ENV === 'production') {
         }),
         new PrerenderSpaPlugin({
             staticDir: path.join(__dirname, 'dist'),
-            routes: appRoutes,
+            routes: appRoutes.concat(clipRoutes),
         }),
     ]);
 }

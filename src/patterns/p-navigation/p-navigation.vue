@@ -6,7 +6,7 @@
                 :key="navigationItem.id"
                 class="p-navigation__item"
                 :class="isActiveRoute(navigationItem.route) ? 'p-navigation__item--active' : ''">
-                <router-link :to="navigationItem.route">{{ navigationItem.title }}</router-link>
+                <router-link :to="`${navigationItem.route}/`">{{ navigationItem.title }}</router-link>
             </li>
         </ul>
 

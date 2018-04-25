@@ -75,6 +75,11 @@ const routes = appRoutes.map(function (route, index) {
     }
 });
 
+routes.push({
+    path: '*',
+    redirect: '/',
+});
+
 const router = new VueRouter({
     mode: 'history',
     routes,
