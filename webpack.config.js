@@ -69,6 +69,13 @@ if (process.env.NODE_ENV === 'production') {
         new PrerenderSpaPlugin({
             staticDir: path.join(__dirname, 'dist'),
             routes: appRoutes.concat(clipRoutes),
+            minify: {
+                collapseBooleanAttributes: true,
+                collapseWhitespace: true,
+                decodeEntities: true,
+                keepClosingSlash: true,
+                sortAttributes: true,
+            },
         }),
     ]);
 }
