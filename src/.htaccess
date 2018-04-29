@@ -1,1 +1,10 @@
 ErrorDocument 404 /index.html
+
+<IfModule mod_filter.c>
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css text/javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/json
+</IfModule>
+</IfModule>
