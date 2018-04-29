@@ -17,14 +17,14 @@
     "title": "CV",
     "route": "/cv",
     "theme": "t-dark",
-    "bgImg": "content/bg/SLIDE-Away-07B-srgb.jpg",
+    "bgImg": "/content/bg/COTL-16B-1120-srgb.jpg",
     "player": false
   },
   {
     "title": "Contact",
     "route": "/contact",
     "theme": "t-dark",
-    "bgImg": "",
+    "bgImg": "/content/bg/COTL-16B-1120-srgb.jpg",
     "player": false
   }
 ]

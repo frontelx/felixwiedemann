@@ -1,0 +1,11 @@
+.p-txt-table {
+    &__head {
+        text-align: left;
+    }
+
+    &__row {
+        td:last-child {
+            margin-bottom: 2rem;
+        }
+    }
+}
