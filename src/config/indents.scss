@@ -2,7 +2,7 @@
     --text-indent: 20px;
 
     // from tablet bkp
-    @media  (min-width: $bkp-tablet) {
+    @media  (min-width: map-get($breakpoints, tablet)) {
         --text-indent: 40px;
     }
 }

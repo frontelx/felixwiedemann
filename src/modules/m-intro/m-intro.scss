@@ -1,5 +1,5 @@
 .m-intro {
-    position: relative;
+    position: fixed;
 
     // Image
     &__img {
@@ -20,7 +20,7 @@
     // text wrapper
     &__txt-wp {
         position: absolute;
-        bottom: 17%;
+        bottom: 18%;
         left: 10%;
     }
 

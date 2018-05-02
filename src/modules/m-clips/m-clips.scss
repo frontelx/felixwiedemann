@@ -4,7 +4,7 @@
         --gutter: 6px;
 
         // from tablet bkp
-        @media (min-width: $bkp-tablet) {
+        @media (min-width: map-get($breakpoints, tablet)) {
             display: grid;
             grid-column-gap: var(--gutter);
             grid-row-gap: var(--gutter);
@@ -13,7 +13,7 @@
             grid-auto-rows: 33.3333vh;
 
             // from desktop bkp
-            @media (min-width: $bkp-desktop) {
+            @media (min-width: map-get($breakpoints, desktop)) {
                 --desktop-row-height: calc(50vh - calc(var(--sticky-header-height) / 2));
 
                 grid-template-rows:  repeat(2, var(--desktop-row-height));
@@ -44,7 +44,7 @@
         &-item {
 
             // only default bkp
-            @media (max-width: $bkp-tablet - 1px) {
+            @media (max-width: map-get($breakpoints, tablet) - 1px) {
                 display: block;
                 margin-bottom: var(--gutter);
             }

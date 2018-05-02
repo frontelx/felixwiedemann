@@ -1,0 +1,7 @@
+{
+  "breakpoints": {
+    "mobile": "320px",
+    "tablet": "750px",
+    "desktop": "1100px"
+  }
+}

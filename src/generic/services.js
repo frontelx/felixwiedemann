@@ -18,6 +18,13 @@ module.exports = {
         return navigation.find(page => page.route === route);
     },
 
+    // Returns breakpoints object from config file
+    getBreakpoints() {
+        const breakpointsData = require('../config/breakpoints.json');
+
+        return breakpointsData.breakpoints;
+    },
+
     // Convert string to SEO friendly url
     // All lower case letters and replaces white space with "-"
     seoUrl(string) {

@@ -50,7 +50,7 @@ const routes = appRoutes.map(function (route, index) {
     const isIndex = route === '/';
     const hasPlayer = isIndex ? false : NavigationData[index - 1].player;
     const Component = require(`./pages${isIndex ? '/index' : route}.vue`);
-    const title = `${TitleData[0].name} | ${TitleData[0].title}${ isIndex ? '' : ` : ${NavigationData[index - 1].title}`}`;
+    const title = `${TitleData.name} | ${TitleData.title}${ isIndex ? '' : ` : ${NavigationData[index - 1].title}`}`;
 
     return {
         path: route,
@@ -100,10 +100,11 @@ new Vue({
     el: '#app',
     router,
     data: {
-        title: TitleData[0],
+        title: TitleData,
         navigation: NavigationData,
+        breakpoints: Services.getBreakpoints(),
         theme: 't-dark',
-        bgImg: '',
+        bgImg: ''
     },
     methods: {
         seoUrl: Services.seoUrl,

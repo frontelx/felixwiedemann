@@ -4,25 +4,25 @@
     background-color:  var(--color-bg);
 
     // from tablet bkp
-    @media (min-width: $bkp-tablet) {
+    @media (min-width: map-get($breakpoints, tablet)) {
         padding-top: calc(var(--text-indent)/2);
         padding-bottom: calc(var(--text-indent)/2);
     }
 
     // from tablet bkp
-    @media (min-width: $bkp-tablet) {
+    @media (min-width: map-get($breakpoints, tablet)) {
         display: grid;
         grid-column-gap: 10px;
     }
 
     // ONLY tablet bkp
-    @media (min-width: $bkp-tablet) and (max-width: $bkp-desktop - 1px) {
+    @media (min-width: map-get($breakpoints, tablet)) and (max-width: map-get($breakpoints, desktop) - 1px) {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
 
     // from desktop bkp
-    @media (min-width: $bkp-desktop) {
+    @media (min-width: map-get($breakpoints, desktop)) {
 
         // Sticky Header from desktop bkp
         position: fixed;
@@ -46,7 +46,7 @@
     &__name,
     &__nav {
         // from tablet bkp
-        @media (min-width: $bkp-tablet) {
+        @media (min-width: map-get($breakpoints, tablet)) {
             white-space: nowrap;
         }
     }
@@ -60,12 +60,12 @@
     &__title {
 
         // only default bkp
-        @media (max-width: $bkp-tablet - 1px) {
+        @media (max-width: map-get($breakpoints, tablet) - 1px) {
             margin-bottom: 15px;
         }
 
         // from desktop bkp
-        @media (min-width: $bkp-desktop) {
+        @media (min-width: map-get($breakpoints, desktop)) {
             justify-self: center;
         }
     }
@@ -74,21 +74,21 @@
     &__nav {
 
         // ONLY tablet bkp
-        @media (min-width: $bkp-tablet) and (max-width: $bkp-desktop - 1px) {
+        @media (min-width: map-get($breakpoints, tablet)) and (max-width: map-get($breakpoints, desktop) - 1px) {
             // keep element at right side
             grid-row: 1/span 2;
             grid-column: 2/-1;
         }
 
         // from tablet bkp
-        @media (min-width: $bkp-tablet) {
+        @media (min-width: map-get($breakpoints, tablet)) {
             text-align: right;
         }
 
         .p-navigation__list {
 
             // only default bkp
-            @media (max-width: $bkp-tablet - 1px) {
+            @media (max-width: map-get($breakpoints, tablet) - 1px) {
                 // hide navigation as list, display navigation as dropdown only for mobile bkp
                 display: none;
             }

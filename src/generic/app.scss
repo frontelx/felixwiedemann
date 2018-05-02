@@ -4,7 +4,7 @@
     color: var(--color-txt);
 
     &--sticky {
-        @media (min-width: $bkp-desktop) {
+        @media (min-width: map-get($breakpoints, desktop)) {
             padding-top: var(--sticky-header-height);
         }
     }

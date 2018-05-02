@@ -2,7 +2,8 @@
     <div class="m-intro">
 
         <picture>
-            <source :srcset="currentImage" media="(min-width: 750px)">
+            <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
+            <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
             <img
                 :src="currentImage"
                 class="m-intro__img"
@@ -10,7 +11,8 @@
         </picture>
 
         <picture v-if="this.images.length > 1">
-            <source :srcset="nextImage" media="(min-width: 750px)">
+            <source :srcset="nextImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
+            <source :srcset="nextImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
             <img
                 :src="nextImage"
                 :style="`
@@ -23,7 +25,8 @@
         </picture>
 
         <picture v-if="!this.hasPreloaded">
-            <source :srcset="preloadImage" media="(min-width: 750px)">
+            <source :srcset="preloadImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
+            <source :srcset="preloadImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
             <img
                 :src="preloadImage"
                 class="m-intro__img m-intro__img--preload"
@@ -41,19 +44,21 @@
 </template>
 
 <script>
-    import imagesData from '../../../content/intro/images.json';
+    import IntroData from '../../../content/intro/intro.json';
     import Services from '../../generic/services';
+
+    const imagesData = IntroData.images;
 
     export default {
 
         props: {
             transitionDelay: {
                 type: Number,
-                default: 3,
+                default: IntroData.transitionDelay,
             },
             transitionDuration: {
                 type: Number,
-                default: 3,
+                default: IntroData.transitionDuration,
             },
             transitionProperty: {
                 type: String,

@@ -4,27 +4,27 @@
 
 
     // from desktop bkp
-    @media (min-width: $bkp-desktop) {
+    @media (min-width: map-get($breakpoints, desktop)) {
         display: flex;
     }
 
     &__item {
         // from desktop bkp
-        @media (min-width: $bkp-desktop) {
+        @media (min-width: map-get($breakpoints, desktop)) {
             width: 45%;
         }
     }
 
     &__item--left {
         // from desktop bkp
-        @media (min-width: $bkp-desktop) {
+        @media (min-width: map-get($breakpoints, desktop)) {
             margin-right: auto;
         }
     }
 
     &__item--right {
         // from desktop bkp
-        @media (min-width: $bkp-desktop) {
+        @media (min-width: map-get($breakpoints, desktop)) {
             margin-left: auto;
         }
     }

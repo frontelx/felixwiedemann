@@ -7,7 +7,7 @@
 
 
     // from tablet bkp
-    @media (min-width: $bkp-tablet) {
+    @media (min-width: map-get($breakpoints, tablet)) {
         padding-left: 0;
         padding-right: 0;
         // 516px in 738px container
@@ -35,7 +35,7 @@
         margin-bottom: 50px;
 
         // from tablet bkp
-        @media (min-width: $bkp-tablet) {
+        @media (min-width: map-get($breakpoints, tablet)) {
             max-width: 50%;
         }
     }

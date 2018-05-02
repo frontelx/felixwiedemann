@@ -6,6 +6,11 @@
     // navigation items
     &__item {
         display: inline-block;
+        margin-bottom: 10px;
+
+        @media (min-width: map-get($breakpoints, tablet)) {
+            margin-bottom: 0;
+        }
 
         &:not(:last-child) {
             // horizontal spacing between items
@@ -28,7 +33,7 @@
         color: var(--color-black);
 
         // from tablet bkp
-        @media (min-width: $bkp-tablet) {
+        @media (min-width: map-get($breakpoints, tablet)) {
             // hide navigation as dropdown, display navigation as dropdown only for mobile bkp
             display: none;
         }
