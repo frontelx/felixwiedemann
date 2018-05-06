@@ -2,16 +2,23 @@ const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
 const PrerenderSpaPlugin = require('prerender-spa-plugin');
+const WebpackMd5Hash = require('webpack-md5-hash');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const jsonImporter = require('node-sass-json-importer');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
+const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
     mode: 'development',
     entry: [
         'whatwg-fetch',
         './src/main.js',
+        './src/main.scss',
     ],
     output: {
-        filename: 'main.js',
         path: path.resolve(__dirname, 'dist/js'),
+        filename: '[name].[chunkhash].js',
     },
     module: {
         rules: [
@@ -22,7 +29,8 @@ module.exports = {
                     loaders: {
                         js: 'babel-loader',
                     },
-                }
+                },
+                exclude: /node_modules/,
             },
             {
                 test: /\.js$/,
@@ -32,8 +40,51 @@ module.exports = {
                 },
                 exclude: /node_modules/,
             },
-        ]
+            {
+                test: /\.s?[ac]ss$/,
+                use: [{
+                    loader: MiniCssExtractPlugin.loader,
+                }, {
+                    loader: 'css-loader',
+                    options: {
+                        minimize: !devMode,
+                    }
+                }, {
+                    loader: 'sass-loader',
+                    options: {
+                        importer: jsonImporter,
+                    },
+                }],
+                exclude: /node_modules/,
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    {
+                        loader: 'postcss-loader'
+                    }
+                ],
+                exclude: /node_modules/,
+            },
+            {
+                test: /\.scss/,
+                enforce: 'pre',
+                loader: 'import-glob-loader',
+                exclude: /node_modules/,
+            },
+        ],
     },
+    plugins: [
+        new WebpackMd5Hash(),
+        new HtmlWebpackPlugin({
+            template: './src/index.html',
+            filename: '../index.html',
+        }),
+        new MiniCssExtractPlugin({
+            filename: '../css/[name].[hash].css',
+            chunkFilename: '../css/[id].[hash].css',
+        }),
+    ],
     resolve: {
         alias: {
             'vue$': 'vue/dist/vue.esm.js',
@@ -41,7 +92,7 @@ module.exports = {
     },
 };
 
-if (process.env.NODE_ENV === 'production') {
+if (!devMode) {
     const Services = require('./src/generic/services');
     const appRoutes = Services.getAppRoutes();
     const navigationData = require('./content/navigation.json');
@@ -63,7 +114,7 @@ if (process.env.NODE_ENV === 'production') {
     module.exports.plugins = (module.exports.plugins || []).concat([
         new webpack.DefinePlugin({
             'process.env': {
-                NODE_ENV: '"production"'
+                NODE_ENV: '"production"',
             }
         }),
         new PrerenderSpaPlugin({

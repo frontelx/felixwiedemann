@@ -1,10 +1,5 @@
 module.exports = function (gulp, $) {
 
-    gulp.task('copy:html', function () {
-        return gulp.src('./src/index.html')
-            .pipe(gulp.dest('./dist'));
-    });
-
     gulp.task('copy:content', function () {
         return gulp.src('./content/**/*')
             .pipe(gulp.dest('./dist/content'));
