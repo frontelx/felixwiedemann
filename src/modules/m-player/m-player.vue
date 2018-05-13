@@ -1,5 +1,5 @@
 <template>
-    <div class="m-player" v-if="Object.keys(clip).length">
+    <div class="m-player p-txt-copy" v-if="Object.keys(clip).length">
         <div class="m-player__back">
             <router-link :to="backUrl">« back</router-link>
         </div>
@@ -9,7 +9,7 @@
                     webkitallowfullscreen mozallowfullscreen allowfullscreen class="m-player__iframe"></iframe>
         </div>
 
-        <div class="m-player__txt p-txt-rte">
+        <div class="m-player__txt">
             <h2 class="m-player__title">{{ clip.title }} {{ clip.additional }}</h2>
             <p class="m-player__descrp" v-if="clip.subtitle">{{ clip.subtitle }}</p>
         </div>
