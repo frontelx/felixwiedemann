@@ -4,8 +4,8 @@
         class="p-teaser-clip"
         :class="addClass">
         <picture>
-            <source :srcset="`/content/clips/${clip.image}.jpg`" media="(min-width: 750px)">
-            <img class="p-img-cover" :src="`/content/clips/${clip.image}-mobile.jpg`" alt="">
+            <source :srcset="clip.image" :media="`(min-width: ${$root.breakpoints.tablet})`">
+            <img class="p-img-cover" :src="clip.image" alt="">
         </picture>
         <div class="p-teaser-clip__txt">
             <h2 class="p-teaser-clip__title">{{ clip.title }} {{ clip.additional }}</h2>
@@ -25,10 +25,6 @@
                 type: String,
                 required: false,
             },
-        },
-
-        data() {
-            return {}
         },
     }
 </script>

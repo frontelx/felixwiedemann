@@ -7,22 +7,15 @@
         </div>
 
         <div class="m-player__txt p-txt-rte">
-            <h2 class="m-player__title">CITY OF TINY LIGHTS / Feature Film - Trailer</h2>
-            <p class="m-player__descrp">Dir. Pete Travis / Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films</p>
-            <p class="m-player__descrp">Lorem ipsum dolor sit amet ipsum dolor sit amet.</p>
+            <h2 class="m-player__title">{{ clip.title }} {{ clip.additional }}</h2>
+            <p class="m-player__descrp" v-if="clip.subtitle">{{ clip.subtitle }}</p>
         </div>
 
-        <ul class="p-framegrabs">
-            <li class="p-framegrabs__item">
+        <ul class="p-framegrabs" v-if="clip.framegrabs">
+            <li class="p-framegrabs__item" v-for="(framegrab, index) in clip.framegrabs">
                 <picture>
-                    <source :srcset="`/content/clips/films/framegrabs/COTL-16B-1120-srgb.jpg`" media="(min-width: 750px)">
-                    <img class="p-img-block" :src="`/content/clips/films/framegrabs/COTL-16B-1120-srgb-mobile.jpg`" alt="" :title="''">
-                </picture>
-            </li>
-            <li class="p-framegrabs__item">
-                <picture>
-                    <source :srcset="`/content/clips/films/framegrabs/Away-15D-1120-srgb.jpg`" media="(min-width: 750px)">
-                    <img class="p-img-block" :src="`/content/clips/films/framegrabs/Away-15D-1120-srgb-mobile.jpg`" alt="" :title="''">
+                    <source :srcset="framegrab" :media="`(min-width: ${$root.breakpoints.tablet})`">
+                    <img class="p-img-block" :src="framegrab" :alt="`${clip.title} framegrab ${index + 1}`">
                 </picture>
             </li>
         </ul>
