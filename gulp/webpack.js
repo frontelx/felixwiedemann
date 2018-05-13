@@ -10,7 +10,7 @@ module.exports = function (gulp, $) {
                 },
                 require('webpack'),
             ))
-            .pipe(gulp.dest('dist/js'));
+            .pipe(gulp.dest('dist'));
     });
 
 };

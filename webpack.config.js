@@ -5,7 +5,7 @@ const PrerenderSpaPlugin = require('prerender-spa-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const jsonImporter = require('node-sass-json-importer');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const devMode = process.env.NODE_ENV !== 'production';
 
@@ -17,8 +17,9 @@ module.exports = {
         './src/main.scss',
     ],
     output: {
-        path: path.resolve(__dirname, 'dist/js'),
-        filename: '[name].[chunkhash].js',
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'js/[name].[chunkhash].js',
+        publicPath: '/',
     },
     module: {
         rules: [
@@ -78,11 +79,11 @@ module.exports = {
         new WebpackMd5Hash(),
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            filename: '../index.html',
+            filename: 'index.html',
         }),
         new MiniCssExtractPlugin({
-            filename: '../css/[name].[hash].css',
-            chunkFilename: '../css/[id].[hash].css',
+            filename: 'css/[name].[hash].css',
+            chunkFilename: 'css/[id].[hash].css',
         }),
     ],
     resolve: {
