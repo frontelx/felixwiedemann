@@ -31,13 +31,14 @@
         background-color: transparent;
         color: var(--color-white);
         font-size: 26px;
-        line-height: 1.2;
+        line-height: 34px;
         margin-bottom: 20px;
     }
 
     // small text in headline
-    &__interheadline {
-        font-size: 16px;
+    &__add {
+        font-size: 14px;
         line-height: inherit;
+        margin: 0 8px;
     }
 }
