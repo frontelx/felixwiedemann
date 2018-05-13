@@ -1,0 +1,29 @@
+.m-txt {
+    margin: 50px var(--text-indent) 0 var(--text-indent);
+
+    // from desktop bkp
+    @media (min-width: map-get($breakpoints, desktop)) {
+        display: flex;
+    }
+
+    &__item {
+        @media (min-width: map-get($breakpoints, desktop)) {
+            margin-right: 30px;
+        }
+
+        // Half size content
+        &--half {
+            // from desktop bkp
+            @media (min-width: map-get($breakpoints, desktop)) {
+                width: 45%;
+                margin-right: 0;
+            }
+
+            &-right {
+                @media (min-width: map-get($breakpoints, desktop)) {
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}

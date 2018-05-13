@@ -1,6 +1,6 @@
 <template>
     <main class="main">
-        <m-txt-block :contentData="'/content/contact.html'"></m-txt-block>
+        <m-txt :contentData="'/content/contact.html'"></m-txt>
     </main>
 </template>
 
