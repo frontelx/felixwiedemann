@@ -1,6 +1,6 @@
 <template>
     <main class="main">
-        <h1>Commercials</h1>
+        <m-clips :clipsData="'/content/commercials/commercials.json'"></m-clips>
     </main>
 </template>
 
