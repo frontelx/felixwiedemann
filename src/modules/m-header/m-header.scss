@@ -33,13 +33,13 @@
 
         height: var(--sticky-header-height);
         grid-template-columns: repeat(3, 1fr);
-        align-items: baseline;
+        align-items: center;
     }
 
     &__name,
     &__title {
-        font-size: 30px;
-        line-height: 36px;
+        font-size: 26px;
+        line-height: 32px;
         text-transform: uppercase;
     }
 
@@ -53,8 +53,9 @@
 
     // additional
     &__add {
-        font-size: 16px;
+        font-size: 14px;
         line-height: inherit;
+        margin-left: 8px;
     }
 
     &__title {
