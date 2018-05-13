@@ -1,5 +1,8 @@
 <template>
     <div class="m-player" v-if="Object.keys(clip).length">
+        <div class="m-player__back">
+            <router-link :to="backUrl">« back</router-link>
+        </div>
 
         <div class="m-player__video">
             <iframe :src="`https://player.vimeo.com/video/${clip.video}?autoplay=1`" frameborder="0"
@@ -29,6 +32,7 @@
         data() {
             return {
                 clip: {},
+                backUrl: `/${this.$route.path.split('/')[1]}/` // returns parent paage, e.g. '/films/'
             }
         },
 

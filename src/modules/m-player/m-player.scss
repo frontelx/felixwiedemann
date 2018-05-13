@@ -1,6 +1,6 @@
 .m-player {
 
-    margin: 50px auto 0;
+    margin: 0 auto;
     padding-left: var(--text-indent);
     padding-right: var(--text-indent);
     padding-bottom: 50px;
@@ -10,8 +10,7 @@
     @media (min-width: map-get($breakpoints, tablet)) {
         padding-left: 0;
         padding-right: 0;
-        // 516px in 738px container
-        max-width: 69.9186%;
+        max-width: 70%;
     }
 
     &__video {
@@ -48,5 +47,10 @@
     &__descrip {
         font-size: 12px;
         line-height: 16px;
+    }
+
+    &__back {
+        text-align: right;
+        margin-bottom: 30px;
     }
 }
