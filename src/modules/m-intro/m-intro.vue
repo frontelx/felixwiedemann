@@ -1,44 +1,43 @@
 <template>
     <div class="m-intro">
+        <router-link :to="$root.navigation[0].route">
+            <picture>
+                <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
+                <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
+                <img
+                    :src="currentImage"
+                    class="m-intro__img"
+                    alt="">
+            </picture>
 
-        <picture>
-            <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
-            <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
-            <img
-                :src="currentImage"
-                class="m-intro__img"
-                alt="">
-        </picture>
+            <picture v-if="this.images.length > 1">
+                <source :srcset="nextImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
+                <source :srcset="nextImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
+                <img
+                    :src="nextImage"
+                    :style="`
+                        transition-property: ${nextImageTransitionProperty};
+                        transition-duration: ${transitionDuration}s;
+                        opacity: ${nextImageOpacity}`"
+                    class="m-intro__img m-intro__img--next"
+                    alt=""
+                    @transitionend="triggerImageChange()">
+            </picture>
 
-        <picture v-if="this.images.length > 1">
-            <source :srcset="nextImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
-            <source :srcset="nextImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
-            <img
-                :src="nextImage"
-                :style="`
-                    transition-property: ${nextImageTransitionProperty};
-                    transition-duration: ${transitionDuration}s;
-                    opacity: ${nextImageOpacity}`"
-                class="m-intro__img m-intro__img--next"
-                alt=""
-                @transitionend="triggerImageChange()">
-        </picture>
+            <picture v-if="!this.hasPreloaded">
+                <source :srcset="preloadImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
+                <source :srcset="preloadImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
+                <img
+                    :src="preloadImage"
+                    class="m-intro__img m-intro__img--preload"
+                    alt="">
+            </picture>
 
-        <picture v-if="!this.hasPreloaded">
-            <source :srcset="preloadImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
-            <source :srcset="preloadImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
-            <img
-                :src="preloadImage"
-                class="m-intro__img m-intro__img--preload"
-                alt="">
-        </picture>
-
-        <div class="m-intro__txt-wp">
-            <h1 class="m-intro__headline">{{ $root.title.name }} <span class="m-intro__add">{{ $root.title.additional }}</span> {{ $root.title.title }}</h1>
-
-            <p-navigation></p-navigation>
-        </div>
-
+            <div class="m-intro__txt-wp">
+                <h1 class="m-intro__headline">{{ $root.title.name }} <span class="m-intro__add">{{ $root.title.additional }}</span></h1>
+                <p class="m-intro__title">{{ $root.title.title }}</p>
+            </div>
+        </router-link>
 
     </div>
 </template>
