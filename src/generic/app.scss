@@ -2,6 +2,7 @@
     min-height: 100vh;
     background-color: var(--color-bg);
     color: var(--color-txt);
+    -webkit-font-smoothing: antialiased; // make font look thinner
 
     &--sticky {
         @media (min-width: map-get($breakpoints, desktop)) {
