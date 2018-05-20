@@ -7,10 +7,10 @@
 
         <div class="m-player__txt">
             <h2 class="m-player__title">{{ clip.title }} {{ clip.additional }}</h2>
-            <p class="m-player__descrp" v-if="clip.director">{{ clip.director }}</p>
-            <p class="m-player__descrp" v-if="clip.producer" v-html="clip.producer"></p>
-            <p class="m-player__descrp" v-if="clip.actors" v-html="clip.actors"></p>
-            <p class="m-player__descrp" v-if="clip.special" v-html="clip.special"></p>
+            <p class="m-player__descrip" v-if="clip.director">{{ clip.director }}</p>
+            <p class="m-player__descrip" v-if="clip.producer" v-html="clip.producer"></p>
+            <p class="m-player__descrip" v-if="clip.actors" v-html="clip.actors"></p>
+            <p class="m-player__descrip m-player__descrip--awards" v-if="clip.special" v-html="clip.special"></p>
         </div>
 
         <ul class="p-framegrabs" v-if="clip.framegrabs">

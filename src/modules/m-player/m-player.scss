@@ -32,6 +32,7 @@
     &__txt {
         margin-top: 25px;
         margin-bottom: 50px;
+        letter-spacing: 0.08em;
 
         // from tablet bkp
         @media (min-width: map-get($breakpoints, tablet)) {
@@ -41,11 +42,18 @@
 
     &__title {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 20px;
+        font-weight: bold;
     }
 
     &__descrip {
         font-size: 12px;
-        line-height: 16px;
+        line-height: 20px;
+
+        &--awards {
+            margin-top: 20px;
+            font-style: italic;
+        }
     }
+
 }

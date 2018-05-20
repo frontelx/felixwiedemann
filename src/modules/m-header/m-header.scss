@@ -2,6 +2,7 @@
     padding: var(--text-indent);
     // default header bg
     background-color:  var(--color-bg);
+    letter-spacing: 0.08em;
 
     // from tablet bkp
     @media (min-width: map-get($breakpoints, tablet)) {
@@ -38,8 +39,8 @@
 
     &__name,
     &__title {
-        font-size: 26px;
-        line-height: 34px;
+        font-size: 24px;
+        line-height: 32px;
         text-transform: uppercase;
     }
 
@@ -53,12 +54,13 @@
 
     // additional
     &__add {
-        font-size: 14px;
+        font-size: 12px;
         line-height: inherit;
-        margin-left: 8px;
+        margin-left: 4px;
     }
 
     &__title {
+        letter-spacing: 0.05em;
 
         // only default bkp
         @media (max-width: map-get($breakpoints, tablet) - 1px) {

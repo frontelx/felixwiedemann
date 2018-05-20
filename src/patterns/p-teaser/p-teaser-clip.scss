@@ -1,5 +1,6 @@
 .p-teaser-clip {
     position: relative;
+    letter-spacing: 0.08em;
 
     &__txt {
         position: absolute;
@@ -11,7 +12,8 @@
 
     &__title {
         font-size: 14px;
-        line-height: 18px;
+        line-height: 16px;
+        font-weight: bold;
     }
 
     &__descrp {

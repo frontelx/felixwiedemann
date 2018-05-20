@@ -17,11 +17,15 @@
     }
 
     p {
-        line-height: 2;
-
         &:not(:last-child) {
-            margin-bottom: 1.5em;
+            margin-bottom: 22px;
         }
+    }
+
+    &__link {
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 0.075em;
     }
 }
 
