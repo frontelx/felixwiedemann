@@ -1,6 +1,6 @@
 <template>
     <div class="m-clips">
-        <div class="m-clips__list" v-if="!$route.params.clip">
+        <ul class="m-clips__list" v-if="!$route.params.clip">
             <p-teaser-clip
                 v-for="(clip, index) in clips"
                 :key="clip.id"
@@ -8,7 +8,7 @@
                 :addClass="'m-clips__list-item'"
             >
             </p-teaser-clip>
-        </div>
+        </ul>
 
         <router-view name="player"></router-view>
     </div>

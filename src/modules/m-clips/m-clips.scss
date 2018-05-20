@@ -1,7 +1,7 @@
 .m-clips {
 
     &__list {
-        --gutter: 6px;
+        --gutter: 3px;
 
         // from tablet bkp
         @media (min-width: map-get($breakpoints, tablet)) {
@@ -22,7 +22,7 @@
         }
 
         // hover styling
-        a.m-clips__list-item {
+        .m-clips__list-item {
             overflow: hidden;
 
             .p-img-cover {
