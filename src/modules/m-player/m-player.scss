@@ -1,6 +1,6 @@
 .m-player {
 
-    margin: 0 auto;
+    margin: 30px auto 0;
     padding-left: var(--text-indent);
     padding-right: var(--text-indent);
     padding-bottom: 50px;
@@ -47,10 +47,5 @@
     &__descrip {
         font-size: 12px;
         line-height: 16px;
-    }
-
-    &__back {
-        text-align: right;
-        margin-bottom: 30px;
     }
 }

@@ -1,24 +1,26 @@
 [
   {
     "title": "Commercial 1",
-    "additional": "",
-		"subtitle": "Dir. Pete Travis / Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
-		"video": "218371926",
+    "additional": "/ Feature Film - Trailer",
+		"director": "Dir. Pete Travis",
+    "video": "218371926",
+    "image": "/content/films/teaser/COTL-16B-1120-srgb.jpg",
+    "producer": "Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
     "actors": "",
-		"special": "<br> Toronto International Film Festival <br> London Film Festival <br> In Cinemas 7 April 2017 (UK)",
-		"image": "/content/commercials/teaser/COTL-16B-1120-srgb.jpg",
+    "special": "<br> Toronto International Film Festival <br> London Film Festival <br> In Cinemas 7 April 2017 (UK)",
     "framegrabs": [
-      "/content/commercials/framegrabs/COTL-16B-1120-srgb.jpg",
-      "/content/commercials/framegrabs/Away-15D-1120-srgb.jpg"
+      "/content/films/framegrabs/COTL-16B-1120-srgb.jpg",
+      "/content/films/framegrabs/Away-15D-1120-srgb.jpg"
     ]
   },
   {
     "title": "Commercial 2",
-    "additional": "",
-    "subtitle": "Dir. David Blair / Prod. Michael Knowles, Richard Turner, Terry Stone / Gateway Films",
+    "additional": "/ Feature Film - Montage",
+    "director": "Dir. David Blair",
     "video": "223698152",
+    "image": "/content/films/teaser/Away-15D-1120-srgb.jpg",
+    "producer": "Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
     "actors": "",
-    "special": "<br> Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016",
-    "image": "/content/commercials/teaser/Away-15D-1120-srgb.jpg"
+    "special": "<br> Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016"
   }
 ]

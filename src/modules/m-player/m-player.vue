@@ -1,17 +1,16 @@
 <template>
     <div class="m-player p-txt-copy" v-if="Object.keys(clip).length">
-        <div class="m-player__back">
-            <router-link :to="backUrl">« back</router-link>
-        </div>
-
         <div class="m-player__video">
-            <iframe :src="`https://player.vimeo.com/video/${clip.video}?autoplay=1`" frameborder="0"
+            <iframe :src="`https://player.vimeo.com/video/${clip.video}?autoplay=1&muted=1`" frameborder="0"
                     webkitallowfullscreen mozallowfullscreen allowfullscreen class="m-player__iframe"></iframe>
         </div>
 
         <div class="m-player__txt">
             <h2 class="m-player__title">{{ clip.title }} {{ clip.additional }}</h2>
-            <p class="m-player__descrp" v-if="clip.subtitle">{{ clip.subtitle }}</p>
+            <p class="m-player__descrp" v-if="clip.director">{{ clip.director }}</p>
+            <p class="m-player__descrp" v-if="clip.producer" v-html="clip.producer"></p>
+            <p class="m-player__descrp" v-if="clip.actors" v-html="clip.actors"></p>
+            <p class="m-player__descrp" v-if="clip.special" v-html="clip.special"></p>
         </div>
 
         <ul class="p-framegrabs" v-if="clip.framegrabs">
@@ -32,7 +31,6 @@
         data() {
             return {
                 clip: {},
-                backUrl: `/${this.$route.path.split('/')[1]}/` // returns parent paage, e.g. '/films/'
             }
         },
 

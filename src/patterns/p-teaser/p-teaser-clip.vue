@@ -8,7 +8,7 @@
             </picture>
             <div class="p-teaser-clip__txt">
                 <h2 class="p-teaser-clip__title">{{ clip.title }} {{ clip.additional }}</h2>
-                <p class="p-teaser-clip__descrp" v-if="clip.subtitle">{{ clip.subtitle }}</p>
+                <p class="p-teaser-clip__descrp" v-if="clip.director">{{ clip.director }}</p>
             </div>
         </router-link>
     </li>
