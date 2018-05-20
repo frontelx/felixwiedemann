@@ -1,6 +1,6 @@
 <template>
     <div class="m-intro">
-        <router-link :to="$root.navigation[0].route">
+        <router-link :to="`${$root.navigation[0].route}/`">
             <picture>
                 <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
                 <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
