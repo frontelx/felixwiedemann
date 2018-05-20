@@ -29,16 +29,6 @@
                 transform: scale(1);
                 transition: .3s ease-in-out;
             }
-
-            &:hover {
-                .p-teaser-clip__txt {
-                    color: var( --color-hover-txt-white );
-                }
-
-                .p-img-cover {
-                    transform: scale(1.05);
-                }
-            }
         }
 
         &-item {
