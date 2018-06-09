@@ -1,5 +1,7 @@
 <template>
     <main class="main">
+        <h1 class="visuallyhidden">{{ this.pageConfig.title }}</h1>
+
         <m-txt :contentData="'/content/contact.html'"></m-txt>
     </main>
 </template>

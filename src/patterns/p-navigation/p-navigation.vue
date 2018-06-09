@@ -10,15 +10,18 @@
             </li>
         </ul>
 
-        <select class="p-navigation__select" @change="changeRoute" v-if="hasDropdown">
-            <option
-                v-for="(navigationItem, index) in $root.navigation"
-                :key="navigationItem.id"
-                :value="navigationItem.route"
-                :selected="isActiveRoute(navigationItem.route) ? 'selected' : ''">
-                {{ navigationItem.title }}
-            </option>
-        </select>
+        <template v-if="hasDropdown">
+            <label for="navigation-dropdown" class="visuallyhidden">Navigation</label>
+            <select id="navigation-dropdown" class="p-navigation__select" @change="changeRoute">
+                <option
+                    v-for="(navigationItem, index) in $root.navigation"
+                    :key="navigationItem.id"
+                    :value="navigationItem.route"
+                    :selected="isActiveRoute(navigationItem.route) ? 'selected' : ''">
+                    {{ navigationItem.title }}
+                </option>
+            </select>
+        </template>
     </nav>
 </template>
 

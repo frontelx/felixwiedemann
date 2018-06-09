@@ -1,5 +1,7 @@
 <template>
     <main class="main">
+        <h1 class="visuallyhidden">{{ this.pageConfig.title }}</h1>
+
         <m-txt :contentData="'/content/cv.html'"></m-txt>
     </main>
 </template>
@@ -10,7 +12,7 @@
         // Component variables
         data() {
             return {
-                pageConfig: this.$root.getPageConfigByRoute('/contact', this.$root.navigation),
+                pageConfig: this.$root.getPageConfigByRoute('/cv', this.$root.navigation),
             }
         },
 

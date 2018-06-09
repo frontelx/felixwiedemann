@@ -1,5 +1,7 @@
 <template>
     <main class="main">
+        <h1 v-if="!$route.params.clip" class="visuallyhidden">{{ this.pageConfig.title }}</h1>
+
         <m-clips :clipsData="'/content/films/films.json'"></m-clips>
     </main>
 </template>
