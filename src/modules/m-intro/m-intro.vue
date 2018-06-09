@@ -32,11 +32,6 @@
                     class="m-intro__img m-intro__img--preload"
                     alt="">
             </picture>
-
-            <div class="m-intro__txt-wp">
-                <h1 class="m-intro__headline">{{ $root.title.name }} <span class="m-intro__add">{{ $root.title.additional }}</span></h1>
-                <p class="m-intro__title">{{ $root.title.title }}</p>
-            </div>
         </router-link>
 
     </div>

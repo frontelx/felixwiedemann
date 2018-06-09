@@ -2,6 +2,12 @@
 
 module.exports = {
 
+    // Returns true if route detects the index page
+    detectIndex(route) {
+        return route.path === '/';
+    },
+
+    // Returns all routes for the app
     getAppRoutes() {
         const navigationData = require('../../content/navigation.json');
         const appRoutes = navigationData.map(item => item.route);

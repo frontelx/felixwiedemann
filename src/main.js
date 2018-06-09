@@ -53,7 +53,7 @@ const routes = appRoutes.map(function (route, index) {
         path: route,
 
         components: {
-            header: isIndex ? '' : Header,
+            header: Header,
             main: Component.default,
         },
 
@@ -101,11 +101,21 @@ new Vue({
         navigation: NavigationData,
         breakpoints: Services.getBreakpoints(),
         theme: 't-dark',
-        bgImg: ''
+        bgImg: '',
+        isIndex: true,
+    },
+    watch: {
+        $route (to, from){
+            // Detect if on index page
+            this.isIndex = Services.detectIndex(this.$route);
+        }
     },
     methods: {
         seoUrl: Services.seoUrl,
         getPageConfigByRoute: Services.getPageConfigByRoute,
+    },
+    created() {
+        this.isIndex = Services.detectIndex(this.$route);
     },
 
     render: h => h(App),

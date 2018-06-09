@@ -16,35 +16,4 @@
             opacity: 0;
         }
     }
-
-    // text wrapper
-    &__txt-wp {
-        position: absolute;
-        bottom: 15%;
-        left: 5%;
-        margin-right: 5%;
-        color: var(--color-white);
-        letter-spacing: 0.08em;
-    }
-
-    // text elements
-    &__headline {
-        text-transform: uppercase;
-        font-size: 36px;
-        line-height: 40px;
-        margin-bottom: 8px;
-    }
-
-    // small text in headline
-    &__add {
-        font-size: 18px;
-        line-height: inherit;
-        margin: 0 4px;
-    }
-
-    &__title {
-        text-transform: uppercase;
-        font-size: 24px;
-        line-height: 28px;
-    }
 }
