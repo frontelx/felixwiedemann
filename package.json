@@ -29,6 +29,7 @@
     "postcss-pxtorem": "^4.0.1",
     "prerender-spa-plugin": "^3.0.0",
     "sass-loader": "^7.0.1",
+    "spa-http-server": "^0.9.0",
     "style-loader": "^0.21.0",
     "vue-loader": "^14.1.1",
     "vue-template-compiler": "^2.5.13",
@@ -43,7 +44,7 @@
   ],
   "scripts": {
     "start": "npm run dev",
-    "dev": "gulp watch webpack",
+    "dev": "gulp watch webpack & ./node_modules/.bin/http-server dist --push-state -s",
     "prod": "gulp clean:dist && gulp copy && NODE_ENV=production webpack",
     "upload": "gulp ssh:check && npm run prod && gulp ssh:deploy"
   },
