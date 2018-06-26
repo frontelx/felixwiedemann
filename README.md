@@ -24,5 +24,16 @@ Next follow the steps to setup the repository on your computer:
 
 - Open Terminal app
 - Change the current working directory to the location where you want the cloned directory to be made
-    - `cd path/to/your/project` and press enter
+    - `cd path/to/your/folder` and press enter
 - Copy/paste `git clone https://github.com/agorilla/felixwiedemann.git` and press enter
+- The repository will be copied into `path/to/your/folder/felixwiedemann`
+
+### Node,js
+
+This website uses Node.js to build static HTML pages out in combination with the Node based tools Vue.js, Webpack and Gulp.
+
+To install Node,js and its tools follow these steps in Terminal:
+
+- Switch to your project folder with `cd path/to/your/folder/felixwiedemann`
+- Install Node.js with `nvm install`
+- Install Node tools with `npm install`
