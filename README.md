@@ -33,6 +33,10 @@ Next follow the steps to setup the repository on your computer:
 - Copy/paste `git clone https://github.com/agorilla/felixwiedemann.git` and press enter
 - The repository will be copied into `path/to/your/folder/felixwiedemann`
 
+Afterward you need to connect your repository username and email with your GitHub account via Terminal:
+- Run `git config --global user.name "Your GitHub account username"`
+- Run `git config --global user.email your.github.account.email@xyz.com`
+
 ### Node,js
 
 This website uses Node.js to build static HTML pages out in combination with the Node based tools Vue.js, Webpack and Gulp.
