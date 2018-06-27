@@ -54,7 +54,11 @@ Follow these steps to run the website locally when you want to start editing con
 
 - Open Terminal app
 - Switch to your project folder with `cd path/to/your/folder/felixwiedemann`
-- Run `git pull --rebase`
+- Run `git pull --rebase` to update your local copy of the project
+    - If you have already modified some files this command is not possible and throws an error
+    - Run `git stash` instead to temporary save your modified files
+    - Run `git pull --rebase` afterwards
+    - Run `git stash pop` to re apply your modified files
 - Run `npm start`
 - Open a browser with the URL http://localhost:8080 
 - Keep Terminal open while editing content
