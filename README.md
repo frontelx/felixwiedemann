@@ -62,3 +62,43 @@ Follow these steps to run the website locally when you want to start editing con
 - Run `npm start`
 - Open a browser with the URL http://localhost:8080 
 - Keep Terminal open while editing content
+
+### Edit content
+
+Open the project's subfolder `content` in Finder where you can maintain the following files:
+
+- **bg**
+    - Background image files for the pages (can be assigned to the pages in `navigation.json`)
+- **commercials**
+    - *commercials.json*
+        - Data of commercial clips
+        - With this data the teaser list and the player is created
+        - Needs to be in [correct JSON syntax](https://www.elated.com/articles/json-basics/)
+            - tl;dr: Always use double quotation and last item must not have a colon at the end
+    - *framegrabs*
+        - Framegrab images for commercials
+    - *teasers*
+        - Teaser images for commercials
+- **contact.html**
+    - Content of the contact page
+- **cv.html**
+    - Content of the CV page
+- **films**
+    - Films are maintained the same as **commercials** except for the file name *films.json*
+- **intro**
+    - *images*
+        - Intro images (can be assigned in the `intro.json`)
+    - *intro.json* 
+        - Images that are shown in the intro slideshow
+        - Transiton configuration
+            - transitionDelay: amount of seconds between the fade transition
+            - transitionDuration: amount of seconds of the fade transition
+- **navigation.json**
+    - Items of the site navigation
+    - Note: adding new items is not possible without code changes
+- **title.json**
+    - Text of the name, title and title addition of the website
+    
+Once you have edited content you can preview it by reloading the browser window.
+
+:warning: If you finished your changes you need to save them via Git versioning.
