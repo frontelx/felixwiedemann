@@ -43,10 +43,10 @@ To install Node,js and its tools follow these steps in Terminal:
 - Install Node.js with `nvm install`
 - Install Node tools with `npm install`
 
-## :wrench: Maintenance
+## :pencil2: Maintenance
 
 The content of this website can be maintained seperately from the code.
-You can preview the changes on your local computer before uploading on the webserver (see [next chapter Upload](#upload)]).
+You can preview the changes on your local computer before uploading on the webserver.
 
 ### Pre steps
 
