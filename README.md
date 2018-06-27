@@ -1,5 +1,10 @@
 # Website of Felix Wiedemann
-Cinematographer
+:video_camera: Cinematographer
+
+## Table of Contents
+- [Installation](#installation)
+- [Maintenance](#maintenance)
+- [Upload](#upload)
 
 ## Installation
 
