@@ -42,3 +42,19 @@ To install Node,js and its tools follow these steps in Terminal:
 - Switch to your project folder with `cd path/to/your/folder/felixwiedemann`
 - Install Node.js with `nvm install`
 - Install Node tools with `npm install`
+
+## Maintenance
+
+The content of this website can be maintained seperately from the code.
+You can preview the changes on your local computer before uploading on the webserver (see [next chapter Upload](#upload)]).
+
+### Pre steps
+
+Follow these steps to run the website locally when you want to start editing content:
+
+- Open Terminal app
+- Switch to your project folder with `cd path/to/your/folder/felixwiedemann`
+- Run `git pull --rebase`
+- Run `npm start`
+- Open a browser with the URL http://localhost:8080 
+- Keep Terminal open while editing content
