@@ -6,7 +6,7 @@
 - [Maintenance](#maintenance)
 - [Upload](#upload)
 
-## Installation
+## :hourglass_flowing_sand: Installation
 
 ### Tools
 To maintain this website you need to install the following tools:
@@ -43,7 +43,7 @@ To install Node,js and its tools follow these steps in Terminal:
 - Install Node.js with `nvm install`
 - Install Node tools with `npm install`
 
-## Maintenance
+## :wrench: Maintenance
 
 The content of this website can be maintained seperately from the code.
 You can preview the changes on your local computer before uploading on the webserver (see [next chapter Upload](#upload)]).
@@ -106,5 +106,5 @@ Once you have edited content you can preview it by reloading the browser window.
 ### Saving content
 :construction: coming soon
 
-## Upload
+## :globe_with_meridians: Upload
 :construction: coming soon
