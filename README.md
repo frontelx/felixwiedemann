@@ -2,9 +2,9 @@
 :video_camera: Cinematographer
 
 ## Table of Contents
-- [Installation](#hourglass_flowing_sand-installation)
-- [Maintenance](#pencil2-maintenance)
-- [Upload](##globe_with_meridians-upload)
+- [:hourglass_flowing_sand: Installation](#hourglass_flowing_sand-installation)
+- [:pencil2: Maintenance](#pencil2-maintenance)
+- [:globe_with_meridians: Upload](#globe_with_meridians-upload)
 
 ## :hourglass_flowing_sand: Installation
 
