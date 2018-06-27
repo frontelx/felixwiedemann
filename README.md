@@ -101,4 +101,10 @@ Open the project's subfolder `content` in Finder where you can maintain the foll
     
 Once you have edited content you can preview it by reloading the browser window.
 
-:warning: If you finished your changes you need to save them via Git versioning.
+:warning: Once you finished your changes you need to save them via Git versioning.
+
+### Saving content
+:construction: coming soon
+
+## Upload
+:construction: coming soon
