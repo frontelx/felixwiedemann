@@ -1,29 +1,39 @@
 .m-txt {
     margin: 50px var(--text-indent) 0 var(--text-indent);
 
-    // from desktop bkp
-    @media (min-width: map-get($breakpoints, desktop)) {
-        display: flex;
-    }
-
     &__item {
-        @media (min-width: map-get($breakpoints, desktop)) {
+        @media (min-width: map-get($breakpoints, tablet)) {
             margin-right: 30px;
         }
 
         // Half size content
         &--half {
             // from desktop bkp
-            @media (min-width: map-get($breakpoints, desktop)) {
+            @media (min-width: map-get($breakpoints, tablet)) {
                 width: 45%;
                 margin-right: 0;
             }
 
             &-right {
-                @media (min-width: map-get($breakpoints, desktop)) {
+                @media (min-width: map-get($breakpoints, tablet)) {
                     margin-left: auto;
                 }
             }
+        }
+    }
+
+    @media (min-width: map-get($breakpoints, tablet)) {
+        &__table {
+            display: table;
+
+            .m-txt__item {
+                display: table-cell;
+                padding-right: 30px;
+            }
+        }
+
+        &__row {
+            display: table-row;
         }
     }
 }
