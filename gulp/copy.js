@@ -16,7 +16,7 @@ module.exports = function (gulp, $) {
     });
 
     gulp.task('copy:favicon', function () {
-        return gulp.src('./src/favicon.ico')
+        return gulp.src(['./src/favicon.ico', './src/favicon-32x32.png'])
             .pipe(gulp.dest('./dist'));
     });
 
