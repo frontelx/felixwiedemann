@@ -1,7 +1,7 @@
 <template>
     <div class="m-player p-txt-copy" v-if="Object.keys(clip).length">
         <div class="m-player__video">
-            <iframe :src="`https://player.vimeo.com/video/${clip.video}?autoplay=1&muted=1`" frameborder="0"
+            <iframe :src="`https://player.vimeo.com/video/${clip.video}?autoplay=1`" frameborder="0"
                     webkitallowfullscreen mozallowfullscreen allowfullscreen class="m-player__iframe"></iframe>
         </div>
 
