@@ -13,6 +13,7 @@
         <template v-if="hasDropdown">
             <label for="navigation-dropdown" class="visuallyhidden">Navigation</label>
             <select id="navigation-dropdown" class="p-navigation__select" @change="changeRoute">
+                <option aria-hidden>{{$root.title.navigation}}</option>
                 <option
                     v-for="(navigationItem, index) in $root.navigation"
                     :key="navigationItem.id"
