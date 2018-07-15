@@ -1,4 +1,4 @@
 .idea
 node_modules
 dist
-serverconfig.json
+upload.config.json

@@ -2,17 +2,17 @@ const fs = require('fs');
 const GulpSSH = require('gulp-ssh');
 
 const remotePath = './webseiten/felixwiedemann-2018';
-const serverConfigPath = 'serverconfig.json';
+const uploadConfigPath = 'upload.config.json';
 
-const serverConfig = fs.existsSync(serverConfigPath) ? require(`../${serverConfigPath}`) : false;
+const serverConfig = fs.existsSync(uploadConfigPath) ? require(`../${uploadConfigPath}`) : false;
 
 module.exports = function (gulp, $) {
 
     // Prevents running the task if no serverConfig file is available
     gulp.task('ssh:check', function () {
         if (!serverConfig) {
-            console.error(`ERROR: ${serverConfigPath} missing`);
-            console.error(`To upload the files to the server you need a ${serverConfigPath} file with the server credentials in the project root.`);
+            console.error(`ERROR: ${uploadConfigPath} missing`);
+            console.error(`To upload the files to the server you need a ${uploadConfigPath} file with the server credentials in the project root.`);
 
             process.exit(1);
         }
