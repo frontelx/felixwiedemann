@@ -13,12 +13,14 @@
         <template v-if="hasDropdown">
             <label for="navigation-dropdown" class="visuallyhidden">Navigation</label>
             <select id="navigation-dropdown" class="p-navigation__select" @change="changeRoute">
-                <option aria-hidden>{{$root.title.navigation}}</option>
+                <option
+                    value="/"
+                    aria-hidden>{{$root.title.navigation}}</option>
                 <option
                     v-for="(navigationItem, index) in $root.navigation"
                     :key="navigationItem.id"
-                    :value="navigationItem.route"
-                    :selected="isActiveRoute(navigationItem.route) ? 'selected' : ''">
+                    :value="`${navigationItem.route}/`"
+                    :selected="isActiveRoute(navigationItem.route) && !$root.isPlayer ? 'selected' : ''">
                     {{ navigationItem.title }}
                 </option>
             </select>

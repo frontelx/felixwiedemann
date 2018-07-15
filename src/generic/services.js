@@ -7,6 +7,11 @@ module.exports = {
         return route.path === '/';
     },
 
+    // Returns true if route detects the player view
+    detectPlayer(route) {
+        return route.params.clip ? true : false;
+    },
+
     // Returns all routes for the app
     getAppRoutes() {
         const navigationData = require('../../content/navigation.json');
@@ -22,6 +27,11 @@ module.exports = {
     // Configuration is edited in /content/navigation.json
     getPageConfigByRoute(route, navigation) {
         return navigation.find(page => page.route === route);
+    },
+
+    // Update vertical scroll position
+    getScrollPos() {
+        return window.scrollY;
     },
 
     // Returns breakpoints object from config file
@@ -40,6 +50,28 @@ module.exports = {
 
         // All other special chars will be encoded
         return encodeURI(url);
+    },
+
+    // Vue router scroll behavior
+    // https://router.vuejs.org/guide/advanced/scroll-behavior.html
+    scrollBehavior(to, from) {
+        const scrolling = { x: 0, y: 0 };
+
+        if (global.savedScrollPos > 0) {
+            const isScrollBack = from.path.startsWith(to.path);
+
+            if (global.scrollBack && isScrollBack) {
+               scrolling.y = global.savedScrollPos;
+
+                // Reset scroll position again for next route
+                global.savedScrollPos = 0;
+                global.scrollBack = false;
+            } else {
+                global.scrollBack = true;
+            }
+        }
+
+        return scrolling;
     },
 
     // Shuffle array items to get a randomized order

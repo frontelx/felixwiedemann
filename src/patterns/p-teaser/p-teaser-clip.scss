@@ -2,6 +2,10 @@
     position: relative;
     letter-spacing: 0.08em;
 
+    &__link {
+        display: block;
+    }
+
     &__txt {
         position: absolute;
         left: var(--text-indent);

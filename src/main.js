@@ -83,6 +83,7 @@ routes.push({
 const router = new VueRouter({
     mode: 'history',
     routes,
+    scrollBehavior: Services.scrollBehavior,
 });
 
 router.beforeEach((to, from, next) => {
@@ -103,19 +104,27 @@ new Vue({
         theme: 't-dark',
         bgImg: '',
         isIndex: true,
+        isPlayer: false,
     },
     watch: {
         $route (to, from){
             // Detect if on index page
             this.isIndex = Services.detectIndex(this.$route);
+            this.isPlayer = Services.detectPlayer(this.$route);
         }
     },
     methods: {
         seoUrl: Services.seoUrl,
         getPageConfigByRoute: Services.getPageConfigByRoute,
+
+        saveScrollPos() {
+            global.savedScrollPos = Services.getScrollPos();
+            global.scrollBack = false;
+        }
     },
     created() {
         this.isIndex = Services.detectIndex(this.$route);
+        this.isPlayer = Services.detectPlayer(this.$route);
     },
 
     render: h => h(App),
