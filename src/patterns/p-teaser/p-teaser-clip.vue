@@ -3,8 +3,8 @@
         :class="addClass">
         <router-link :to="`${$route.path}${clip.route}`">
             <picture>
-                <source :srcset="clip.image" :media="`(min-width: ${$root.breakpoints.tablet})`">
-                <img class="p-img-cover" :src="clip.image" alt="">
+                <source :srcset="clip.image" :media="`(min-width: ${$root.breakpoints.desktop})`">
+                <img class="p-img-cover" :src="clip.imagemobile ? clip.imagemobile : clip.image" alt="">
             </picture>
             <div class="p-teaser-clip__txt">
                 <h2 class="p-teaser-clip__title">{{ clip.title }} {{ clip.additional }}</h2>

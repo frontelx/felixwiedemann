@@ -3,18 +3,16 @@
         <router-link :to="`${$root.navigation[0].route}/`">
             <picture>
                 <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
-                <source :srcset="currentImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
                 <img
-                    :src="currentImage"
+                    :src="currentImageMobile"
                     class="m-intro__img"
                     alt="">
             </picture>
 
             <picture v-if="this.images.length > 1">
                 <source :srcset="nextImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
-                <source :srcset="nextImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
                 <img
-                    :src="nextImage"
+                    :src="nextImageMobile"
                     :style="`
                         transition-property: ${nextImageTransitionProperty};
                         transition-duration: ${transitionDuration}s;
@@ -26,9 +24,8 @@
 
             <picture v-if="!this.hasPreloaded">
                 <source :srcset="preloadImage" :media="`(min-width: ${$root.breakpoints.tablet})`">
-                <source :srcset="preloadImage" :media="`(min-width: ${$root.breakpoints.desktop})`">
                 <img
-                    :src="preloadImage"
+                    :src="preloadImageMobile"
                     class="m-intro__img m-intro__img--preload"
                     alt="">
             </picture>
@@ -96,14 +93,27 @@
             changeImage() {
                 // Set next image to current image after transition end
                 this.currentImage = this.images[this.imageCounter].image;
+                this.currentImageMobile =
+                    this.images[this.imageCounter].imagemobile ?
+                        this.images[this.imageCounter].imagemobile :
+                        this.images[this.imageCounter].image;
 
                 // Update image counter to next image or first image if no more available
                 this.imageCounter = this.imageCounter < this.images.length - 1 ? this.imageCounter + 1 : 0;
+
                 this.nextImage = this.images[this.imageCounter].image;
+                this.nextImageMobile =
+                    this.images[this.imageCounter].imagemobile ?
+                        this.images[this.imageCounter].imagemobile :
+                        this.images[this.imageCounter].image;
 
                 // Set next image to preload or remove preloading if no more images available
                 if (!this.hasPreloaded && this.imageCounter + 1 < this.images.length) {
                    this.preloadImage = this.images[this.imageCounter + 1].image;
+                   this.preloadImageMobile =
+                       this.images[this.imageCounter + 1].imagemobile ?
+                           this.images[this.imageCounter + 1].imagemobile :
+                           this.images[this.imageCounter + 1].image;
                 } else {
                     this.hasPreloaded = true;
                 }

@@ -17,7 +17,7 @@
             <div class="p-framegrabs__item" v-for="(framegrab, index) in clip.framegrabs">
                 <picture>
                     <source :srcset="framegrab" :media="`(min-width: ${$root.breakpoints.tablet})`">
-                    <img class="p-img-block" :src="framegrab" alt="">
+                    <img class="p-img-block" :src="clip.framegrabsmobile && clip.framegrabsmobile[index] ? clip.framegrabsmobile[index] : framegrab" alt="">
                 </picture>
             </div>
         </div>
