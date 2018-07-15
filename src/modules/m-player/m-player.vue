@@ -13,6 +13,17 @@
             <p class="m-player__descrip m-player__descrip--awards" v-if="clip.special" v-html="clip.special"></p>
         </div>
 
+        <div class="m-player__video2" v-if="clip.video2">
+            <div class="m-player__video">
+                <iframe :src="`https://player.vimeo.com/video/${clip.video2}`" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen class="m-player__iframe"></iframe>
+            </div>
+
+            <div class="m-player__txt" v-if="clip.video2title">
+                <p class="m-player__descrip">{{ clip.video2title }}</p>
+            </div>
+        </div>
+
         <div class="p-framegrabs" v-if="clip.framegrabs">
             <div class="p-framegrabs__item" v-for="(framegrab, index) in clip.framegrabs">
                 <picture>
