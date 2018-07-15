@@ -6,9 +6,8 @@
         </div>
 
         <div class="m-player__txt">
-            <h1 class="m-player__title">{{ clip.title }} {{ clip.additional }}</h1>
-            <p class="m-player__descrip" v-if="clip.director">{{ clip.director }}</p>
-            <p class="m-player__descrip" v-if="clip.producer" v-html="clip.producer"></p>
+            <h1 class="m-player__title"><strong>{{ clip.title }}</strong> {{ clip.additional }} {{ clip.type }}</h1>
+            <p class="m-player__descrip" v-if="clip.director || clip.producer">{{ clip.director }} {{ clip.producer }}</p>
             <p class="m-player__descrip" v-if="clip.actors" v-html="clip.actors"></p>
             <p class="m-player__descrip m-player__descrip--awards" v-if="clip.special" v-html="clip.special"></p>
         </div>
