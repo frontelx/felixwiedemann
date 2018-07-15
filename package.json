@@ -44,7 +44,7 @@
   ],
   "scripts": {
     "start": "npm run dev",
-    "dev": "gulp watch webpack & ./node_modules/.bin/http-server dist --push-state -s",
+    "dev": "gulp watch webpack & ./node_modules/.bin/http-server dist --push-state -s -c-1",
     "prod": "gulp clean:dist && gulp copy && NODE_ENV=production webpack",
     "upload": "gulp ssh:check && npm run prod && gulp ssh:deploy"
   },
