@@ -11,7 +11,7 @@
         </ul>
 
         <template v-if="hasDropdown">
-            <label for="navigation-dropdown" class="visuallyhidden">Navigation</label>
+            <label for="navigation-dropdown" class="visuallyhidden">{{$root.title.navigation}}</label>
             <select id="navigation-dropdown" class="p-navigation__select" @change="changeRoute">
                 <option
                     value="/"
