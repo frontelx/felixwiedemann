@@ -1,4 +1,4 @@
-# Website of Felix Wiedemann
+# Felix Wiedemann
 
 Cinematographer working internationally on feature films, high end TV drama and commercials. 
 
