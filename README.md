@@ -1,5 +1,5 @@
 # Website of Felix Wiedemann
-:video_camera: Cinematographer
+:Cinematographer
 
 Single page application with static HTML generation to speed up load time and search engine optimization
 
@@ -29,4 +29,4 @@ This is mainly done with `JSON` and some `HTML` files for more flexible content.
 
 ### Documentation 
 
-The maintenance documentation can be found in the [Wiki](wiki).
+The maintenance documentation can be found in the [Wiki](https://github.com/agorilla/felixwiedemann/wiki).
