@@ -48,6 +48,7 @@ const routes = appRoutes.map(function (route, index) {
     const hasPlayer = isIndex ? false : NavigationData[index - 1].player;
     const Component = require(`./pages${isIndex ? '/index' : route}.vue`);
     const title = `${TitleData.name} | ${TitleData.title}${ isIndex ? '' : ` : ${NavigationData[index - 1].title}`}`;
+    const description = isIndex ? TitleData.seoDescription : false;
 
     return {
         path: route,
@@ -71,6 +72,7 @@ const routes = appRoutes.map(function (route, index) {
 
         meta: {
             title: title,
+            description: description,
         },
     }
 });
@@ -86,8 +88,21 @@ const router = new VueRouter({
     scrollBehavior: Services.scrollBehavior,
 });
 
+// Add meta title and description by  route
 router.beforeEach((to, from, next) => {
     document.title = to.meta.title;
+
+    const description = document.querySelector('meta[name="description"]');
+
+    if (to.meta.description && !description) {
+        const meta = document.createElement('meta');
+        meta.name = 'description';
+        meta.content = to.meta.description;
+        document.head.appendChild(meta);
+    } else if (!to.meta.description && description) {
+        description.remove();
+    }
+
     next();
 });
 
