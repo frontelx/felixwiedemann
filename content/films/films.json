@@ -1,66 +1,328 @@
-[
+[  
+{
+    "title": "SHOWREEL MONTAGE 2018",
+    "additional": "",
+		"director": "3min 55sec",
+    "video": "240364020",
+    "image": "/content/films/teaser/SLIDE-TGB-04-srgb.jpg",
+    "producer": "",
+    "actors": "",
+    "special": "",
+    "framegrabs": [
+      
+    ]
+  },
+
+  {
+    "title": "AWAY",
+    "additional": "/ Feature Film",
+    "type": "- Montage",
+    "director": "Dir. David Blair",
+    "video": "223698152",
+    "image": "/content/films/teaser/SLIDE-Away-15D-srgb.jpg",
+    "producer": "/ Prod. Michael Knowles, Richard Turner, Terry Stone / Gateway Films",
+    "actors": "Starring Juno Temple, Timothy Spall & Hayley Squires",
+    "special": "Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016",
+ "framegrabs": [
+      "/content/films/framegrabs/SLIDE-Away-01-Echo2-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-08-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-09-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-14-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-06-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-05B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-12-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-15D-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-10-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-07B-srgb.jpg"
+     
+    ]
+  },
+
   {
     "title": "CITY OF TINY LIGHTS",
-    "additional": "/ Feature Film - Trailer",
-		"director": "Dir. Pete Travis",
+    "additional": "/ Feature Film",
+   "type": "- Trailer",
+   "director": "Dir. Pete Travis",
     "video": "218371926",
-    "image": "/content/films/teaser/COTL-16B-1120-srgb.jpg",
-    "producer": "Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
-    "actors": "",
-    "special": "Toronto International Film Festival <br> London Film Festival <br> In Cinemas 7 April 2017 (UK)",
+    "image": "/content/films/teaser/SLIDE-COTL-015-B-srgb.jpg",
+    "producer": "/ Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
+    "actors": "Starring Riz Ahmed & Billie Piper",
+    "special": "Toronto International Film Festival 2016 <br> London Film Festival 2016",
     "framegrabs": [
-      "/content/films/framegrabs/COTL-16B-1120-srgb.jpg",
-      "/content/films/framegrabs/Away-15D-1120-srgb.jpg"
+      "/content/films/framegrabs/SLIDE-COTL-002-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-014WS-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-004-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-005-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-009-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-012-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-006-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-025-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-032B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-037-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-052-WS-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-007-srgb.jpg"
     ]
   },
   {
-    "title": "AWAY",
-    "additional": "/ Feature Film - Montage",
-    "director": "Dir. David Blair",
-    "video": "223698152",
-    "image": "/content/films/teaser/Away-15D-1120-srgb.jpg",
-    "producer": "Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
-    "actors": "",
-    "special": "Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016"
-  },
-  {
-    "title": "CITY OF TINY LIGHTS 2",
-    "additional": "/ Feature Film - Trailer",
+    "title": "THE GO-BETWEEN",
+    "additional": "/ TV Film",
+"type": "- Montage",
     "director": "Dir. Pete Travis",
-    "video": "",
-    "image": "/content/films/teaser/COTL-16B-1120-srgb.jpg",
-    "producer": "Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
-    "actors": "",
-    "special": "Toronto International Film Festival <br> London Film Festival <br> In Cinemas 7 April 2017 (UK)"
+    "video": "218375319",
+    "image": "/content/films/teaser/SLIDE-TGB-05-srgb.jpg",
+    "producer": "/ Prod. Claire Bennett / BBC",
+    "actors": "Starring Vanessa Redgrave,  Jim Broadbent & Joanna Vanderham",
+    "special": "Winner BSC Award for Best Cinematography in a TV Drama 2016 <br> BAFTA Nomination Best Single Drama 2016 <br> Broadcast Award Nomination Best Single Drama  2016'",
+    "framegrabs": [
+    
+    ]
   },
-  {
-    "title": "AWAY 2",
-    "additional": "/ Feature Film - Montage",
-    "director": "Dir. David Blair",
-    "video": "",
-    "image": "/content/films/teaser/Away-15D-1120-srgb.jpg",
-    "producer": "Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
-    "actors": "",
-    "special": "Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016"
+{
+    "title": "PHILIP K. DICK'S ELECTRIC DREAMS - THE HOOD MAKER",
+    "additional": "/ TV",
+"type": "- Teaser",
+    "director": "Dir. Julian Jarrold",
+    "video": "243926388",
+    "image": "/content/films/teaser/SLIDE-THM-07-EchoThumb-03-srgb.jpg",
+    "producer": "/ Prod. Michael Dinner / Amazon Studios, Sony Pictures Television, Channel 4, Leftbank Pictures",
+    "actors": "Starring Holiday Grainger & Richard Madden",
+    "special": "",
+    "framegrabs": [
+      
+    ]
   },
-  {
-    "title": "CITY OF TINY LIGHTS 3",
-    "additional": "/ Feature Film - Trailer",
+{
+    "title": "MY MURDER",
+    "additional": "/ TV Film",
+"type": "- Montage",
+    "director": "Dir. Bruce Goodison",
+    "video": "218383436",
+"video2": "218374299",
+"video2title": "MY MURDER / Selected Scene",
+    "image": "/content/films/teaser/SLIDE-MyMurder-10-srgb.jpg",
+    "producer": "/ Prod. Colin Barr / BBC",
+    "actors": "Starring John Boyega & Malachi Kirby",
+    "special": "Winner Best Single Drama Broadcast Awards 2013 <br> Nomination Best Single Drama RTS Awards 2013",
+    "framegrabs": [
+      
+    ]
+  },
+{
+    "title": "LEGACY",
+    "additional": "/ TV Film",
+"type": "- Montage",
     "director": "Dir. Pete Travis",
-    "video": "",
-    "image": "/content/films/teaser/COTL-16B-1120-srgb.jpg",
-    "producer": "Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
-    "actors": "",
-    "special": "Toronto International Film Festival <br> London Film Festival <br> In Cinemas 7 April 2017 (UK)"
+    "video": "216393041",
+"video2": "216397312",
+"video2title": "LEGACY / Selected Scenes",
+    "image": "/content/films/teaser/SLIDE-Legacy07-srgb.jpg",
+    "producer": "/ Prod. Rob Bullock / Slim Film & TV, BBC",
+    "actors": "Starring Charlie Cox, Andrew Scott, Romola Garai, Olivia Grant & Simon Russell Beale",
+    "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2014",
+    "framegrabs": [
+      
+    ]
   },
-  {
-    "title": "AWAY 3",
-    "additional": "/ Feature Film - Montage",
-    "director": "Dir. David Blair",
-    "video": "",
-    "image": "/content/films/teaser/Away-15D-1120-srgb.jpg",
-    "producer": "Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
+
+{
+    "title": "MURDERED BY MY FATHER",
+    "additional": "/ TV Film",
+"type": "- Selected Scenes",
+    "director": "Dir. Bruce Goodison",
+    "video": "213518155",
+    "image": "/content/films/teaser/SLIDE-MBMF-09-srgb.jpg",
+    "producer": "/ Prod. Toby Welch / BBC",
+    "actors": "Starring Adeel Akthar & Kiran Sonia Sawar",
+    "special": "BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
+    "framegrabs": [
+      
+    ]
+  },
+
+{
+    "title": "THE WITNESS FOR THE PROSECUTION",
+    "additional": "/ TV Film (2 Parter)",
+"type": "Selected Scenes",
+    "director": "Dir. Julian Jarrold",
+    "video": "210129659",
+    "image": "/content/films/teaser/SLIDE-WFTP-01B-srgb.jpg",
+    "producer": "/ Prod. Colin Wratten / Mammoth Screen, BBC",
+    "actors": "Starring Toby Jones, Andrea Riseborough, Billy Howle & Kim Catrall",
+    "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2017<br><br>BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
+    "framegrabs": [
+      
+    ]
+  },
+
+{
+    "title": "STRATTON",
+    "additional": "/ Feature Film",
+"type": "- Trailer",
+    "director": "Dir. Simon West",
+    "video": "218385232",
+    "image": "/content/films/teaser/SLIDE-Stratton-01-srgb.jpg",
+    "producer": "/ Prod. Matthew Jenkins, Guy Collins / GFM Films",
+    "actors": "Starring Dominic Cooper, Gemma Chan, Connie Nielsen, Tom Felton, Tyler Hoechlin, Austin Stowell, Thomas Kretschmann & Derek Jacobi",
+    "special": "",
+    "framegrabs": [
+      
+    ]
+  },
+
+{
+    "title": "HAMPSTEAD",
+    "additional": "/ Feature Film",
+"type": "- Trailer",
+    "director": "Dir. Joel Hopkins",
+    "video": "218378136",
+    "image": "/content/films/teaser/SLIDE-Hampstead-22-srgb.jpg",
+    "producer": "/ Prod. Robert Bernstein, Douglas Rae / Ecosse Films",
+    "actors": "Starring Diane Keaton & Brendan Gleesoni",
+    "special": "",
+    "framegrabs": [
+      
+    ]
+  },
+
+
+
+
+
+{
+    "title": "LEAVE TO REMAIN",
+    "additional": "/ Feature Film",
+"type": "- Trailer",
+    "director": "Dir. Bruce Goodison",
+    "video": "218386062",
+    "image": "/content/films/teaser/SLIDE-L2R-05-srgb.jpg",
+    "producer": "/ Prod. Prod. Kate Cook, James Levison / Indefinite FilmsC",
+    "actors": "Starring Toby Jones",
+    "special": "<br> Winner Best Feature Film BUFF Filmfestival Sweden 2014 <br> Winner Best Debut Feature Zlin Film Festival 2014 <br> Official Selection London Film Festival",
+    "framegrabs": [
+      
+    ]
+  },
+
+
+{
+    "title": "MISFITS (SEASON 3)",
+    "additional": "/ TV Drama",
+"type": "- Montage",
+    "director": "Dir. Wayne Jip & Alex Garcia, Will Sinclair, Jonathan Van Tulleken",
+    "video": "217247076",
+    "video2":"217312620",
+"video2title": "MISFITS SEASON 3 / Selected Scenes",
+    "image": "/content/films/teaser/SLIDE-Misfits-07-srgb.jpg",
+    "producer": "/ Prod. Matt Strevens / Clerkenwell Films, E4",
+    "actors": "Starring Iwan Rheon, Joseph Gilgun, Antonia Thomas, Nathan Stewart-Jarrett & Lauren Socha",
+    "special": "BAFTA Nomination 2012 Best Drama Series",
+    "framegrabs": [
+      
+    ]
+  },
+
+{
+    "title": "SPOOF OR DIE",
+    "additional": "/ TV Drama",
+"type": "- Selected Scene",
+    "director": "Dir. Prasanna Puwanarajah",
+    "video": "217252733",
+    "image": "/content/films/teaser/SLIDE-SpoofOrDie-04-srgb.jpg",
+    "producer": "/ Prod. Jo Willet / Touchpaper, Channel 4",
+    "actors": "Starring Michael Smiley, Yasmin Page, Monica Dolan & Ryan McParland",
+    "special": "",
+    "framegrabs": [
+      
+    ]
+  },
+
+{
+    "title": "ISMAIL",
+    "additional": "/ Shortfilm",
+"type": "- Full Film",
+    "director": "Dir. Nora Alsharif",
+    "video": "2221896987",
+    "image": "/content/films/teaser/SLIDE-Ismail-01-srgb.jpg",
+    "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
     "actors": "",
-    "special": "Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016"
+    "special": "Winner Audience Award US Shorts Film Festival of Columbus 2014 <br>Winner Best Short Alexandria Film Festival 2014 <br>Winner Arab Camera Film Festival Rotterdam 2013 <br>Winner Best Supporting Actor Evolution Film Festival Spain",
+    "framegrabs": [
+      
+    ]
+  },
+{
+    "title": "MOSA",
+    "additional": "/ Shortfilm",
+"type": "- Montage",
+    "director": "Dir. Ana Moreno",
+    "video": "217309414",
+    "image": "/content/films/teaser/SLIDE-Mosa-01C-srgb.jpg",
+    "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
+    "actors": "Starring Isaura Barbe-Brown",
+    "special": "Winner Best British Short Iris Prize Festival 2010 <br> Winner Audience Award Cineffable Film Festival Paris 2011",
+    "framegrabs": [
+      
+    ]
+  },
+
+{
+    "title": "THE WHITE QUEEN",
+    "additional": "/ TV Drama",
+"type": "- Montage",
+    "director": "Dir. Colin Teague",
+    "video": "217311447",
+    "image": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb.jpg",
+    "producer": "/ Prod. Gina Cronk / Company Pictures, BBC",
+    "actors": "Starring Rebecca Ferguson, Aneurin Barnard, Shaun Dooley, Rupert Graves, Amanda Hale & Freya Mavor",
+    "special": "Shared Credit: Felix was DOP on the final two weeks of principal photography.<br> Montage only contains footage from scenes which Felix photographed.",
+    "framegrabs": [
+      
+    ]
+  },
+
+{
+    "title": "COLETTE",
+    "additional": "/ Shortfilm",
+"type": "- Montage",
+    "director": "Dir. Nicola Morris",
+    "video": "218373345",
+    "image": "/content/films/teaser/SLIDE-Colette01-srgb.jpg",
+    "producer": "/ Prod. Laura Rees",
+    "actors": "Starring Holliday Grainger & Luke Bailey",
+    "special": "Ungraded 35mm Rushes",
+    "framegrabs": [
+      
+    ]
+  },
+{
+    "title": "RESIDUE",
+    "additional": "/ TV Mini Series (Netflix) and Feature Film",
+"type": "- Montage",
+    "director": "Dir. Alex Garcia-Lopez",
+    "video": "217323453",
+    "image": "/content/films/teaser/SLIDE-Residue-04-Lab-srgb.jpg",
+    "producer": "/ Prod. Charlotte Walls / Netflix, Catalyst Global Media",
+    "actors": "Starring Natalia Tena, Iwan Rheon & Jamie Draven",
+    "special": "",
+    "framegrabs": [
+      
+    ]
+  },
+
+{
+    "title": "THE HALF LIGHT",
+    "additional": "/ Shortfilm ",
+"type": "- Montage",
+    "director": "Dir. Prasanna Puwanarajah",
+    "video": "217367145",
+    "image": "/content/films/teaser/SLIDE-HalfLight-02-zoom-srgb.jpg",
+    "producer": "/ Prod. Sophie Vickers",
+    "actors": "Starring David Haig, Henry Goodman & Harry Lloyd",
+    "special": "Winner Best Cinematography Award - Super Shorts International Film Festival 2012",
+    "framegrabs": [
+      
+    ]
   }
+
+
 ]
