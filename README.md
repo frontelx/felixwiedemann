@@ -1,5 +1,6 @@
 # Website of Felix Wiedemann
-Cinematographer
+
+Cinematographer working internationally on feature films, high end TV drama and commercials. 
 
 Single page application with static HTML generation to speed up load time and search engine optimization
 
