@@ -2,6 +2,8 @@
 
 Cinematographer working internationally on feature films, high end TV drama and commercials. 
 
+http://www.felixwiedemann.com/
+
 Single page application with static HTML generation to speed up load time and search engine optimization
 
 ## Frameworks, tools and technologies
