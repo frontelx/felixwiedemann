@@ -1,5 +1,5 @@
 # Website of Felix Wiedemann
-:Cinematographer
+Cinematographer
 
 Single page application with static HTML generation to speed up load time and search engine optimization
 
