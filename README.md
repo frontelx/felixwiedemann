@@ -1,114 +1,16 @@
 # Website of Felix Wiedemann
 :video_camera: Cinematographer
 
-## Table of Contents
-- [:hourglass_flowing_sand: Installation](#hourglass_flowing_sand-installation)
-- [:pencil2: Maintenance](#pencil2-maintenance)
-- [:globe_with_meridians: Upload](#globe_with_meridians-upload)
+Single page application with static HTML generation to speed up load time and search engine optimization
 
-## :hourglass_flowing_sand: Installation
+## Frameworks, tools and technologies
 
-### Tools
-To maintain this website you need to install the following tools:
-
-- Git (versioning software)
-   - https://git-scm.com/download/mac
-   - If download doesn't start automatically, click on manual download link
-- Oh My Zsh (command line framework for Terminal)
-    - Open Terminal app
-    - Copy/paste `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"` and press enter
-- NVM (Node Version Manager) 
-    - Open Terminal app
-    - Copy/paste `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash` and press enter
-    - Close Terminal app
-
-### Repository
-The code of this website is hosted on [GitHub](https://github.com/agorilla/felixwiedemann) so you need create yourself a free GitHub Account in the first place (see https://github.com/join).
-
-Next follow the steps to setup the repository on your computer:
-
-- Open Terminal app
-- Change the current working directory to the location where you want the cloned directory to be made
-    - `cd path/to/your/folder` and press enter
-- Copy/paste `git clone https://github.com/agorilla/felixwiedemann.git` and press enter
-- The repository will be copied into `path/to/your/folder/felixwiedemann`
-
-Afterward you need to connect your repository username and email with your GitHub account via Terminal:
-- Run `git config --global user.name "Your GitHub account username"`
-- Run `git config --global user.email your.github.account.email@xyz.com`
-
-### Node,js
-
-This website uses Node.js to build static HTML pages out in combination with the Node based tools Vue.js, Webpack and Gulp.
-
-To install Node,js and its tools follow these steps in Terminal:
-
-- Switch to your project folder with `cd path/to/your/folder/felixwiedemann`
-- Install Node.js with `nvm install`
-- Install Node tools with `npm install`
-
-## :pencil2: Maintenance
-
-The content of this website can be maintained seperately from the code.
-You can preview the changes on your local computer before uploading on the webserver.
-
-### Pre steps
-
-Follow these steps to run the website locally when you want to start editing content:
-
-- Open Terminal app
-- Switch to your project folder with `cd path/to/your/folder/felixwiedemann`
-- Run `git pull --rebase` to update your local copy of the project
-    - If you have already modified some files this command is not possible and throws an error
-    - Run `git stash` instead to temporary save your modified files
-    - Run `git pull --rebase` afterwards
-    - Run `git stash pop` to re apply your modified files
-- Run `npm start`
-- Open a browser with the URL http://localhost:8080 
-- Keep Terminal open while editing content
-
-### Edit content
-
-Open the project's subfolder `content` in Finder where you can maintain the following files:
-
-- **bg**
-    - Background image files for the pages (can be assigned to the pages in `navigation.json`)
-- **commercials**
-    - *commercials.json*
-        - Data of commercial clips
-        - With this data the teaser list and the player is created
-        - Needs to be in [correct JSON syntax](https://www.elated.com/articles/json-basics/)
-            - tl;dr: Always use double quotation and last item must not have a colon at the end
-    - *framegrabs*
-        - Framegrab images for commercials
-    - *teasers*
-        - Teaser images for commercials
-- **contact.html**
-    - Content of the contact page
-- **cv.html**
-    - Content of the CV page
-- **films**
-    - Films are maintained the same as **commercials** except for the file name *films.json*
-- **intro**
-    - *images*
-        - Intro images (can be assigned in the `intro.json`)
-    - *intro.json* 
-        - Images that are shown in the intro slideshow
-        - Transiton configuration
-            - transitionDelay: amount of seconds between the fade transition
-            - transitionDuration: amount of seconds of the fade transition
-- **navigation.json**
-    - Items of the site navigation
-    - Note: adding new items is not possible without code changes
-- **title.json**
-    - Text of the name, title and title addition of the website
-    
-Once you have edited content you can preview it by reloading the browser window.
-
-:warning: Once you finished your changes you need to save them via Git versioning.
-
-### Saving content
-:construction: coming soon
-
-## :globe_with_meridians: Upload
-:construction: coming soon
+- [Vue.js](https://vuejs.org/) to build reusable components
+- [Vue Router](https://router.vuejs.org/) to render different pages within the SPA
+- [Webpack](https://webpack.js.org/) as bundler for JS, CSS and HTML templates
+- [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin) to render static HTML for all router
+- [Gulp](https://gulpjs.com/) for secondary build tasks such as clean and copy assets
+- [Gulp SSH](https://github.com/teambition/gulp-ssh) to deploy the dist folder to the web server
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) to position the site structure
+- [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) for changing the site's theme between light and dark mode
+- [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) to load a smaller image for mobile and a high resolution image for large screens
