@@ -21,7 +21,7 @@ Single page application with static HTML generation to speed up load time and se
 
 ## Accessibility
 
-This website contains a [basic a11y optimization](basic accessibility optimization) with semantic HTML areas, headline structure, usage of decorative images and keyboard optimization. It was analyzed for basic a11y errors with [aXe](https://axe-core.org/) and [WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) browser extensions.
+This website contains a basic a11y optimization with semantic HTML areas, headline structure, usage of decorative images and keyboard optimization. It was analyzed for basic a11y errors with [aXe](https://axe-core.org/) and [WAVE](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) browser extensions.
 
 There is no color contrast or screen reader optimization so this website is not fully acecssible based on the WCAG 2.x guidelines so far. 
 
