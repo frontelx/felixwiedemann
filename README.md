@@ -17,7 +17,7 @@ Single page application with static HTML generation to speed up load time and se
 - [HTTP Server](https://github.com/indexzero/http-server) as local Node server to preview changes locally
 - [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) to position the site structure
 - [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables) for changing the site's theme between light and dark mode
-- [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) to load a smaller image for mobile and a high resolution image for large screens
+- [picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture) to load a smaller images for mobile and high resolution images for large screens
 
 ## Accessibility
 
