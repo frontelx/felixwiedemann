@@ -1,18 +1,27 @@
 {
   "images": [
     {
-      "image": "/content/intro/images/1.jpg"
+      "image": "/content/intro/images/SLIDE-MyMurder28-srgb.jpg"
     },
     {
-      "image": "/content/intro/images/2.jpg"
+      "image": "/content/intro/images/SLIDE-Legacy06Edit-srgb.jpg"
     },
     {
-      "image": "/content/intro/images/3.jpg"
+      "image": "/content/intro/images/SLIDE-TGB-06-srgb.jpg"
     },
     {
-      "image": "/content/intro/images/4.jpg"
+      "image": "/content/intro/images/SLIDE-TGB-05Edit-srgb.jpg"
+    },
+    {
+      "image": "/content/intro/images/SLIDE-TGB-21D-srgb.jpg"
+    },
+    {
+      "image": "/content/intro/images/SLIDE-COTL-15-B-srgb.jpg"
+    },
+    {
+      "image": "/content/intro/images/SLIDE-Away-015D-srgb.jpg"
     }
   ],
   "transitionDelay": 3,
-  "transitionDuration": 3
+  "transitionDuration": 2
 }
