@@ -1,4 +1,4 @@
-[  
+[
 {
     "title": "SHOWREEL MONTAGE 2018",
     "additional": "",
@@ -9,7 +9,7 @@
     "actors": "",
     "special": "",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -31,10 +31,10 @@
       "/content/films/framegrabs/SLIDE-Away-06-srgb.jpg",
       "/content/films/framegrabs/SLIDE-Away-05B-srgb.jpg",
       "/content/films/framegrabs/SLIDE-Away-12-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Away-15D-srgb.jpg",
       "/content/films/framegrabs/SLIDE-Away-10-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-15D-srgb.jpg",
       "/content/films/framegrabs/SLIDE-Away-07B-srgb.jpg"
-     
+
     ]
   },
 
@@ -51,16 +51,13 @@
     "framegrabs": [
       "/content/films/framegrabs/SLIDE-COTL-002-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-014WS-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-032B-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-004-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-005-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-009-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-012-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-006-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-025-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-032B-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-037-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-052-WS-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-007-srgb.jpg"
+      "/content/films/framegrabs/SLIDE-COTL-052-WS-srgb.jpg"
     ]
   },
   {
@@ -74,7 +71,18 @@
     "actors": "Starring Vanessa Redgrave,  Jim Broadbent & Joanna Vanderham",
     "special": "Winner BSC Award for Best Cinematography in a TV Drama 2016 <br> BAFTA Nomination Best Single Drama 2016 <br> Broadcast Award Nomination Best Single Drama  2016'",
     "framegrabs": [
-    
+      "/content/films/framegrabs/SLIDE-TGB-01-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-02-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-03-Poster-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-04-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-06-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-07-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-12-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-18-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-19-80-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-20-Edit-Echo-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-TGB-21D-srgb.jpg"
+
     ]
   },
 {
@@ -83,12 +91,16 @@
 "type": "- Teaser",
     "director": "Dir. Julian Jarrold",
     "video": "243926388",
-    "image": "/content/films/teaser/SLIDE-THM-07-EchoThumb-03-srgb.jpg",
+    "image": "/content/films/teaser/SLIDE-THM-03C-srgb.jpg",
     "producer": "/ Prod. Michael Dinner / Amazon Studios, Sony Pictures Television, Channel 4, Leftbank Pictures",
     "actors": "Starring Holiday Grainger & Richard Madden",
     "special": "",
     "framegrabs": [
-      
+      "/content/films/framegrabs/SLIDE-THM-03C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-07-EchoThumb-03-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-02B-Edit2-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-10-srgb.jpg"
+
     ]
   },
 {
@@ -99,12 +111,12 @@
     "video": "218383436",
 "video2": "218374299",
 "video2title": "MY MURDER / Selected Scene",
-    "image": "/content/films/teaser/SLIDE-MyMurder-10-srgb.jpg",
+    "image": "/content/films/teaser/SLIDE-MyMurder27-srgb.jpg",
     "producer": "/ Prod. Colin Barr / BBC",
     "actors": "Starring John Boyega & Malachi Kirby",
     "special": "Winner Best Single Drama Broadcast Awards 2013 <br> Nomination Best Single Drama RTS Awards 2013",
     "framegrabs": [
-      
+
     ]
   },
 {
@@ -115,12 +127,12 @@
     "video": "216393041",
 "video2": "216397312",
 "video2title": "LEGACY / Selected Scenes",
-    "image": "/content/films/teaser/SLIDE-Legacy07-srgb.jpg",
+    "image": "/content/films/teaser/SLIDE-Legacy06-srgb.jpg",
     "producer": "/ Prod. Rob Bullock / Slim Film & TV, BBC",
     "actors": "Starring Charlie Cox, Andrew Scott, Romola Garai, Olivia Grant & Simon Russell Beale",
     "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2014",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -130,12 +142,12 @@
 "type": "- Selected Scenes",
     "director": "Dir. Bruce Goodison",
     "video": "213518155",
-    "image": "/content/films/teaser/SLIDE-MBMF-09-srgb.jpg",
+    "image": "/content/films/teaser/SLIDE-MBMF-09B-srgb.jpg",
     "producer": "/ Prod. Toby Welch / BBC",
     "actors": "Starring Adeel Akthar & Kiran Sonia Sawar",
     "special": "BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -145,12 +157,12 @@
 "type": "Selected Scenes",
     "director": "Dir. Julian Jarrold",
     "video": "210129659",
-    "image": "/content/films/teaser/SLIDE-WFTP-01B-srgb.jpg",
+    "image": "/content/films/teaser/SLIDE-WFTP-13-srgb.jpg",
     "producer": "/ Prod. Colin Wratten / Mammoth Screen, BBC",
     "actors": "Starring Toby Jones, Andrea Riseborough, Billy Howle & Kim Catrall",
     "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2017<br><br>BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -160,12 +172,12 @@
 "type": "- Trailer",
     "director": "Dir. Simon West",
     "video": "218385232",
-    "image": "/content/films/teaser/SLIDE-Stratton-01-srgb.jpg",
+    "image": "/content/films/teaser/SLIDE-Stratton-04-Thumb-srgb.jpg",
     "producer": "/ Prod. Matthew Jenkins, Guy Collins / GFM Films",
     "actors": "Starring Dominic Cooper, Gemma Chan, Connie Nielsen, Tom Felton, Tyler Hoechlin, Austin Stowell, Thomas Kretschmann & Derek Jacobi",
     "special": "",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -175,12 +187,12 @@
 "type": "- Trailer",
     "director": "Dir. Joel Hopkins",
     "video": "218378136",
-    "image": "/content/films/teaser/SLIDE-Hampstead-22-srgb.jpg",
+    "image": "/content/films/teaser/SLIDE-Hampstead-01-srgb.jpg",
     "producer": "/ Prod. Robert Bernstein, Douglas Rae / Ecosse Films",
     "actors": "Starring Diane Keaton & Brendan Gleesoni",
     "special": "",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -194,12 +206,12 @@
 "type": "- Trailer",
     "director": "Dir. Bruce Goodison",
     "video": "218386062",
-    "image": "/content/films/teaser/SLIDE-L2R-05-srgb.jpg",
+    "image": "/content/films/teaser/SLIDE-L2R-43-srgb.jpg",
     "producer": "/ Prod. Prod. Kate Cook, James Levison / Indefinite FilmsC",
     "actors": "Starring Toby Jones",
     "special": "<br> Winner Best Feature Film BUFF Filmfestival Sweden 2014 <br> Winner Best Debut Feature Zlin Film Festival 2014 <br> Official Selection London Film Festival",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -217,7 +229,7 @@
     "actors": "Starring Iwan Rheon, Joseph Gilgun, Antonia Thomas, Nathan Stewart-Jarrett & Lauren Socha",
     "special": "BAFTA Nomination 2012 Best Drama Series",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -232,7 +244,7 @@
     "actors": "Starring Michael Smiley, Yasmin Page, Monica Dolan & Ryan McParland",
     "special": "",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -247,7 +259,7 @@
     "actors": "",
     "special": "Winner Audience Award US Shorts Film Festival of Columbus 2014 <br>Winner Best Short Alexandria Film Festival 2014 <br>Winner Arab Camera Film Festival Rotterdam 2013 <br>Winner Best Supporting Actor Evolution Film Festival Spain",
     "framegrabs": [
-      
+
     ]
   },
 {
@@ -261,7 +273,7 @@
     "actors": "Starring Isaura Barbe-Brown",
     "special": "Winner Best British Short Iris Prize Festival 2010 <br> Winner Audience Award Cineffable Film Festival Paris 2011",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -276,7 +288,7 @@
     "actors": "Starring Rebecca Ferguson, Aneurin Barnard, Shaun Dooley, Rupert Graves, Amanda Hale & Freya Mavor",
     "special": "Shared Credit: Felix was DOP on the final two weeks of principal photography.<br> Montage only contains footage from scenes which Felix photographed.",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -291,7 +303,7 @@
     "actors": "Starring Holliday Grainger & Luke Bailey",
     "special": "Ungraded 35mm Rushes",
     "framegrabs": [
-      
+
     ]
   },
 {
@@ -305,7 +317,7 @@
     "actors": "Starring Natalia Tena, Iwan Rheon & Jamie Draven",
     "special": "",
     "framegrabs": [
-      
+
     ]
   },
 
@@ -320,7 +332,7 @@
     "actors": "Starring David Haig, Henry Goodman & Harry Lloyd",
     "special": "Winner Best Cinematography Award - Super Shorts International Film Festival 2012",
     "framegrabs": [
-      
+
     ]
   }
 
