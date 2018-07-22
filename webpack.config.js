@@ -100,13 +100,15 @@ if (!devMode) {
     let clipRoutes = [];
 
     navigationData.forEach(item => {
-        const clipsData = `./content/clips${item.route}.json`;
+        if (item.player) {
+            const clipsData = `./content${item.route}${item.route}.json`;
 
-        if (item.player && fs.existsSync(clipsData)) {
-            const clips = require(clipsData);
-            const routes = clips.map(clip => `${item.route}/${Services.seoUrl(clip.title)}`);
+            if (fs.existsSync(clipsData)) {
+                const clips = require(clipsData);
+                const routes = clips.map(clip => `${item.route}/${Services.seoUrl(clip.title)}`);
 
-            clipRoutes = clipRoutes.concat(routes);
+                clipRoutes = clipRoutes.concat(routes);
+            }
         }
     });
 

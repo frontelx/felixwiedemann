@@ -46,7 +46,13 @@ module.exports = {
     seoUrl(string) {
         const url = string
             .toLowerCase()
-            .replace(/ /g, '-');
+            .replace(/ - /g, '-')
+            .replace(/ /g, '-')
+            .replace(/\(/g, '')
+            .replace(/\)/g, '')
+            .replace(/\'/g, '')
+            .replace(/\./g, '')
+            .replace(/\./g, '');
 
         // All other special chars will be encoded
         return encodeURI(url);
