@@ -8,19 +8,23 @@
         display: inline-block;
         margin-bottom: 10px;
         font-size: 14px;
-        line-height: 34px;
+        line-height: 18px;
 
         @media (min-width: map-get($breakpoints, tablet)) {
             margin-bottom: 0;
         }
 
-        &:not(:last-child) {
-            // horizontal spacing between items
-            margin-right: 25px;
+        a {
+            display: block;
+            padding: 8px 12px;
+
+            &:hover {
+                color: var( --color-hover-txt-white );
+            }
         }
 
-        a:hover {
-            color: var( --color-hover-txt-white );
+        &:last-child a {
+           padding-right: 0;
         }
 
         &--active {
