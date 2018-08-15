@@ -24,7 +24,7 @@ module.exports = {
     // Returns the navigation routes for the app
     getAppRoutes() {
         const navigationData = require('../../content/navigation.json');
-        const appRoutes = navigationData.map(item => item.route);
+        const appRoutes = navigationData.map(item => `${item.route}/`);
 
         // Add index route
         appRoutes.unshift('/');
