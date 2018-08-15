@@ -10,6 +10,7 @@ module.exports = function (gulp, $) {
         gulp.watch('src/fonts/**/*' , ['copy:fonts']);
         gulp.watch('src/favicon.png' , ['copy:favicon']);
         gulp.watch('src/.htaccess' , ['copy:htaccess']);
+        gulp.watch('src/robots.txt' , ['copy:robots']);
     });
 
 };

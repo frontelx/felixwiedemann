@@ -25,4 +25,9 @@ module.exports = function (gulp, $) {
             .pipe(gulp.dest('./dist'));
     });
 
+    gulp.task('copy:robots', function () {
+        return gulp.src('./src/robots.txt')
+            .pipe(gulp.dest('./dist'));
+    });
+
 };

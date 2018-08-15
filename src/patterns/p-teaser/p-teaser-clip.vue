@@ -1,7 +1,7 @@
 <template>
     <li class="p-teaser-clip"
         :class="addClass">
-        <router-link :to="`${$route.path}${clip.route}`" class="p-teaser-clip__link" @click.native="$root.saveScrollPos">
+        <router-link :to="`${$route.path}${clip.route}/`" class="p-teaser-clip__link" @click.native="$root.saveScrollPos">
             <picture>
                 <source :srcset="clip.image" :media="`(min-width: ${$root.breakpoints.desktop})`">
                 <img class="p-img-cover" :src="clip.imagemobile ? clip.imagemobile : clip.image" alt="">

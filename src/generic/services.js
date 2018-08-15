@@ -1,4 +1,5 @@
 // Helper functions
+const fs = require('fs');
 
 module.exports = {
 
@@ -12,7 +13,15 @@ module.exports = {
         return route.params.clip ? true : false;
     },
 
-    // Returns all routes for the app
+    // Returns all routes
+    getAllRoutes() {
+        const appRoutes = this.getAppRoutes();
+        const clipRoutes = this.getClipRoutes();
+
+        return appRoutes.concat(clipRoutes).sort();
+    },
+
+    // Returns the navigation routes for the app
     getAppRoutes() {
         const navigationData = require('../../content/navigation.json');
         const appRoutes = navigationData.map(item => item.route);
@@ -21,6 +30,27 @@ module.exports = {
         appRoutes.unshift('/');
 
         return appRoutes;
+    },
+
+    // Returns the clip routes
+    getClipRoutes() {
+        const navigationData = require('../../content/navigation.json');
+        let clipRoutes = [];
+
+        navigationData.forEach(item => {
+            if (item.player) {
+                const clipsData = `./content${item.route}${item.route}.json`;
+
+                if (fs.existsSync(clipsData)) {
+                    const clips = require(`../.${clipsData}`);
+                    const routes = clips.map(clip => `${item.route}/${this.seoUrl(clip.title)}/`);
+
+                    clipRoutes = clipRoutes.concat(routes);
+                }
+            }
+        });
+
+        return clipRoutes;
     },
 
     // Returns the configration of the current page
