@@ -1,3 +1,6 @@
+RewriteEngine On
+Redirect 301 /en/cv.php http://www.felixwiedemann.com/cv/
+
 ErrorDocument 404 /index.html
 
 <IfModule mod_filter.c>
