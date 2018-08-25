@@ -3,6 +3,13 @@
   "version": "1.1.0",
   "description": "Website of Felix Wiedemann (Cinematographer)",
   "homepage": "https://github.com/agorilla/felixwiedemann#readme",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "gulp watch webpack & ./node_modules/.bin/http-server dist --push-state -s -c-1",
+    "prod": "gulp clean:dist && gulp copy && NODE_ENV=production webpack && npm run sitemap",
+    "upload": "gulp ssh:check && npm run prod && gulp ssh:deploy",
+    "sitemap": "node ./scripts/sitemap.js"
+  },
   "dependencies": {
     "promise-polyfill": "7.1.0",
     "vue": "^2.5.13",
@@ -44,13 +51,6 @@
     "last 3 version",
     "IE 11"
   ],
-  "scripts": {
-    "start": "npm run dev",
-    "dev": "gulp watch webpack & ./node_modules/.bin/http-server dist --push-state -s -c-1",
-    "prod": "gulp clean:dist && gulp copy && NODE_ENV=production webpack && npm run sitemap",
-    "upload": "gulp ssh:check && npm run prod && gulp ssh:deploy",
-    "sitemap": "node ./scripts/sitemap.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/agorilla/felixwiedemann.git"
