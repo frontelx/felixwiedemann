@@ -10,6 +10,7 @@ const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
     mode: 'development',
+    devtool: 'source-map',
     entry: [
         'whatwg-fetch',
         './src/main.js',
@@ -100,6 +101,7 @@ if (!devMode) {
     const allRoutes = Services.getAllRoutes();
 
     module.exports.mode = 'production';
+    module.exports.devtool = false;
 
     module.exports.plugins = (module.exports.plugins || []).concat([
         new webpack.DefinePlugin({
