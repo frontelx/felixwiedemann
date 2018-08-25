@@ -1,8 +1,20 @@
-RewriteEngine On
-Redirect 301 /en/cv.php http://www.felixwiedemann.com/cv/
+# Htaccess server configuration
 
+# Redirect old urls to new Vue SPA to improve SEO
+RewriteEngine On
+Redirect 301 /en/index.php /
+Redirect 301 /en/featured.php /films/
+Redirect 301 /en/films.php /films/
+Redirect 301 /en/commercials.php /commercials/
+Redirect 301 /en/cv.php /cv/
+Redirect 301 /en/contact.php /contact/
+Redirect 301 /en/player.php /
+
+# Redirect all non existing pages to index page
 ErrorDocument 404 /index.html
 
+# Activate gzip for Domainfactory server
+# https://www.df.eu/blog/performanceoptimierung/#kompression
 <IfModule mod_filter.c>
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css text/javascript
