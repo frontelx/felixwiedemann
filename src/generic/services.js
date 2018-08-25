@@ -38,12 +38,12 @@ module.exports = {
         let clipRoutes = [];
 
         navigationData.forEach(item => {
-            if (item.player) {
-                const clipsData = `./content${item.route}${item.route}.json`;
+            if (item.clips) {
+                const clipsData = `./content${item.route}${item.clips}`;
 
                 if (fs.existsSync(clipsData)) {
                     const clips = require(`../.${clipsData}`);
-                    const routes = clips.map(clip => `${item.route}/${this.seoUrl(clip.title)}/`);
+                    const routes = clips.map(clip => `${item.route}${this.seoUrl(clip.title)}/`);
 
                     clipRoutes = clipRoutes.concat(routes);
                 }

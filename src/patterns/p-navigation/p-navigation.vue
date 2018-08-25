@@ -6,7 +6,7 @@
                 :key="navigationItem.id"
                 class="p-navigation__item"
                 :class="isActiveRoute(navigationItem.route) ? 'p-navigation__item--active' : ''">
-                <router-link :to="`${navigationItem.route}/`">{{ navigationItem.title }}</router-link>
+                <router-link :to="`${navigationItem.route}`">{{ navigationItem.title }}</router-link>
             </li>
         </ul>
 
@@ -19,7 +19,7 @@
                 <option
                     v-for="(navigationItem, index) in $root.navigation"
                     :key="navigationItem.id"
-                    :value="`${navigationItem.route}/`"
+                    :value="`${navigationItem.route}`"
                     :selected="isActiveRoute(navigationItem.route) && !$root.isPlayer ? 'selected' : ''">
                     {{ navigationItem.title }}
                 </option>

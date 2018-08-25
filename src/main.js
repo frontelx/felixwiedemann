@@ -45,9 +45,10 @@ const appRoutes = Services.getAppRoutes();
 
 const routes = appRoutes.map(function (route, index) {
     const isIndex = route === '/';
-    const hasPlayer = isIndex ? false : NavigationData[index - 1].player;
-    const Component = require(`./pages${isIndex ? '/index' : route}.vue`);
-    const title = `${TitleData.name} | ${TitleData.title}${ isIndex ? '' : ` : ${NavigationData[index - 1].title}`}`;
+    const navigationItem = NavigationData[index - 1];
+    const hasPlayer = isIndex ? false : navigationItem.hasOwnProperty('clips');
+    const Component = require(`./pages/${isIndex ? 'index.vue' : navigationItem.view}`);
+    const title = `${TitleData.name} | ${TitleData.title}${ isIndex ? '' : ` : ${navigationItem.title}`}`;
     const description = isIndex ? TitleData.seoDescription : false;
 
     return {

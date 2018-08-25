@@ -12,7 +12,7 @@
         // Component variables
         data() {
             return {
-                pageConfig: this.$root.getPageConfigByRoute('/commercials', this.$root.navigation),
+                pageConfig: this.$root.getPageConfigByRoute('/commercials/', this.$root.navigation),
             }
         },
 
