@@ -49,7 +49,7 @@
             },
 
             isActiveRoute(route) {
-                return route === `/${this.$route.path.split('/', 2)[1]}`;
+                return route === `/${this.$route.path.split('/', 2)[1]}/`;
             }
         },
     }
