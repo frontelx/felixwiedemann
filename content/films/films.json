@@ -457,12 +457,19 @@
 "type": "- Montage",
     "director": "Dir. Prasanna Puwanarajah",
     "video": "217367145",
-    "image": "/content/films/teaser/SLIDE-HalfLight-03-HalfZoom-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-HalfLight-03-HalfZoom-srgb-mobile.jpg",
+    "image": "/content/films/teaser/SLIDE-HalfLight-013-srgb60.jpg",
+    "imagemobile": "/content/films/teaser/SLIDE-HalfLight-013-srgb-mobile.jpg",
     "producer": "/ Prod. Sophie Vickers",
     "actors": "Starring David Haig, Henry Goodman & Harry Lloyd",
     "special": "Winner Best Cinematography Award - Super Shorts International Film Festival 2012",
     "framegrabs": [
+
+      "/content/films/framegrabs/SLIDE-HalfLight-005-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-HalfLight-006-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-HalfLight-007C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-HalfLight-011-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-HalfLight-012-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-HalfLight-013-srgb.jpg"
 
     ]
   },
