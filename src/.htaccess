@@ -1,6 +1,7 @@
 # Htaccess server configuration
 
 # Redirect old urls to new Vue SPA to improve SEO
+<IfModule mod_rewrite.c>
 RewriteEngine On
 Redirect 301 /en/index.php /
 Redirect 301 /en/featured.php /films/
@@ -9,6 +10,7 @@ Redirect 301 /en/commercials.php /commercials/
 Redirect 301 /en/cv.php /cv/
 Redirect 301 /en/contact.php /contact/
 Redirect 301 /en/player.php /
+</IfModule>
 
 # Redirect all non existing pages to index page
 ErrorDocument 404 /index.html
