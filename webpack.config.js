@@ -5,6 +5,7 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const jsonImporter = require('node-sass-json-importer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").default;
 
 const devMode = process.env.NODE_ENV !== 'production';
 
@@ -42,29 +43,27 @@ module.exports = {
                 exclude: /node_modules/,
             },
             {
-                test: /\.s?[ac]ss$/,
+                test: /\.scss$/,
                 use: [{
                     loader: MiniCssExtractPlugin.loader,
                 }, {
                     loader: 'css-loader',
                     options: {
                         minimize: !devMode,
+                        sourceMap: true,
                     }
+                }, {
+                    loader: 'postcss-loader',
+                    options: {
+                        sourceMap: true,
+                    },
                 }, {
                     loader: 'sass-loader',
                     options: {
                         importer: jsonImporter,
+                        sourceMap: true,
                     },
                 }],
-                exclude: /node_modules/,
-            },
-            {
-                test: /\.css$/,
-                use: [
-                    {
-                        loader: 'postcss-loader'
-                    }
-                ],
                 exclude: /node_modules/,
             },
             {
@@ -77,13 +76,13 @@ module.exports = {
     },
     plugins: [
         new WebpackMd5Hash(),
-        new HtmlWebpackPlugin({
-            template: './src/index.html',
-            filename: 'index.html',
-        }),
         new MiniCssExtractPlugin({
             filename: 'css/[name].[hash].css',
             chunkFilename: 'css/[id].[hash].css',
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/index.html',
+            filename: 'index.html',
         }),
     ],
     resolve: {
@@ -109,6 +108,7 @@ if (!devMode) {
                 NODE_ENV: '"production"',
             }
         }),
+        new HTMLInlineCSSWebpackPlugin(),
         new PrerenderSpaPlugin({
             staticDir: path.join(__dirname, 'dist'),
             routes: allRoutes,
