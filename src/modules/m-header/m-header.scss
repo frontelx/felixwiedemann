@@ -12,14 +12,22 @@
 
     // from tablet bkp
     @media (min-width: map-get($breakpoints, tablet)) {
-        display: grid;
-        grid-column-gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+
+        @supports (display: grid) {
+            display: grid;
+            grid-column-gap: 10px;
+        }
     }
 
     // ONLY tablet bkp
     @media (min-width: map-get($breakpoints, tablet)) and (max-width: map-get($breakpoints, desktop) - 1px) {
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+
+        @supports (display: grid) {
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
     }
 
     // from desktop bkp
@@ -33,8 +41,21 @@
         width: 100%;
 
         height: var(--sticky-header-height);
-        grid-template-columns: repeat(3, 1fr);
-        align-items: center;
+        justify-content: space-between;
+
+        @supports (display: grid) {
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+        }
+    }
+
+    &__name,
+    &__title,
+    &__nav {
+        // from tablet bkp
+        @media (min-width: map-get($breakpoints, tablet)) {
+            display: inline-block;
+        }
     }
 
     &__name,
@@ -71,6 +92,13 @@
             margin-bottom: 15px;
         }
 
+        // ONLY tablet bkp
+        @media (min-width: map-get($breakpoints, tablet)) and (max-width: map-get($breakpoints, desktop) - 1px) {
+            // assure title will be placed  below name on tablet bkp
+            order: 3;
+            flex: 1 0 100%;
+        }
+
         // from desktop bkp
         @media (min-width: map-get($breakpoints, desktop)) {
             justify-self: center;
@@ -83,8 +111,12 @@
         // ONLY tablet bkp
         @media (min-width: map-get($breakpoints, tablet)) and (max-width: map-get($breakpoints, desktop) - 1px) {
             // keep element at right side
-            grid-row: 1/span 2;
-            grid-column: 2/-1;
+            margin-left: auto;
+
+            @supports (display: grid) {
+                grid-row: 1/span 2;
+                grid-column: 2/-1;
+            }
         }
 
         // from tablet bkp
