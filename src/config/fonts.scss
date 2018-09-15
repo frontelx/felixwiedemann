@@ -28,11 +28,11 @@
     url('/fonts/MuseoSans_100-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+    font-display: fallback;
 }
 
 :root {
-    --font-primary: 'MuseoSans_100', Arial, sans-serif;
+    --font-primary: 'MuseoSans_100', 'HelveticaNeue-Light', HelveticaNeue, Helvetica, Arial, sans-serif;
 }
 
 
