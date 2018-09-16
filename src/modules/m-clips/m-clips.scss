@@ -1,24 +1,27 @@
 .m-clips {
 
+    // from tablet bkp
+    @media (min-width: map-get($breakpoints, tablet)) {
+        overflow: hidden;
+    }
+
     &__list {
         --gutter: 3px;
 
         // from tablet bkp
         @media (min-width: map-get($breakpoints, tablet)) {
-            display: grid;
-            grid-column-gap: var(--gutter);
-            grid-row-gap: var(--gutter);
-            grid-template-columns: repeat(2, 1fr);
-            //grid-template-rows: repeat(3, 33.3333vh);
-            //grid-auto-rows: 33.3333vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: -3px;
 
-            // from desktop bkp
-            /*@media (min-width: map-get($breakpoints, desktop)) {
-                --desktop-row-height: calc(50vh - calc(var(--sticky-header-height) / 2));
-
-                grid-template-rows:  repeat(2, var(--desktop-row-height));
-                grid-auto-rows: var(--desktop-row-height);
-            }*/
+            @supports (display: grid) {
+                margin-bottom: 0;
+                display: grid;
+                grid-column-gap: var(--gutter);
+                grid-row-gap: var(--gutter);
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
 
         &-item {
@@ -27,6 +30,18 @@
             @media (max-width: map-get($breakpoints, tablet) - 1px) {
                 display: block;
                 margin-bottom: var(--gutter);
+            }
+
+            // from tablet bkp
+            @media (min-width: map-get($breakpoints, tablet)) {
+                width: calc(50% - 1.5px);
+                margin-bottom: 3px;
+
+
+                @supports (display: grid) {
+                    width: auto;
+                    margin-bottom: 0;
+                }
             }
         }
     }
