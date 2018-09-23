@@ -40,6 +40,7 @@
         left: 0;
         width: 100%;
 
+        height: $sticky-header-height;
         height: var(--sticky-header-height);
         justify-content: space-between;
 

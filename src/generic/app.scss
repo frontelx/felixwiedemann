@@ -6,6 +6,7 @@
 
     &--sticky {
         @media (min-width: map-get($breakpoints, desktop)) {
+            padding-top: $sticky-header-height;
             padding-top: var(--sticky-header-height);
         }
     }

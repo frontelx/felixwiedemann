@@ -1,12 +1,10 @@
 {
-  "presets" : [
-    ["env", {
-      "targets": {
-        "browsers": [ // @todo: obsolete when upgrading to Babel 7 (package.json browserlist will be used then)
-            "last 3 version",
-            "IE 11"
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "usage"
+            }
         ]
-      }
-    }]
-  ]
+    ]
 }

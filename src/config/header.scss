@@ -1,3 +1,5 @@
+$sticky-header-height: 70px;
+
 :root {
-    --sticky-header-height: 70px;
+    --sticky-header-height: #{$sticky-header-height};
 }

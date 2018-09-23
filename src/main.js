@@ -101,7 +101,13 @@ router.beforeEach((to, from, next) => {
         meta.content = to.meta.description;
         document.head.appendChild(meta);
     } else if (!to.meta.description && description) {
-        description.remove();
+        if (Element.prototype.hasOwnProperty('remove')) {
+            description.remove();
+        } else {
+            // Polyfill for IE 11
+            // https://developer.mozilla.org/en-US/docs/Web/API/ChildNode/remove#Browser_compatibility
+            description.parentNode.removeChild(description);
+        }
     }
 
     next();

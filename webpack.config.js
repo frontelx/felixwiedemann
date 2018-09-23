@@ -4,6 +4,7 @@ const PrerenderSpaPlugin = require('prerender-spa-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const jsonImporter = require('node-sass-json-importer');
+const globImporter = require('node-sass-glob-importer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").default;
 
@@ -36,9 +37,11 @@ module.exports = {
             },
             {
                 test: /\.js$/,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['es2015'],
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['@babel/preset-env'],
+                    },
                 },
                 exclude: /node_modules/,
             },
@@ -60,16 +63,13 @@ module.exports = {
                 }, {
                     loader: 'sass-loader',
                     options: {
-                        importer: jsonImporter,
+                        importer: [
+                            globImporter(),
+                            jsonImporter,
+                        ],
                         sourceMap: true,
                     },
                 }],
-                exclude: /node_modules/,
-            },
-            {
-                test: /\.scss/,
-                enforce: 'pre',
-                loader: 'import-glob-loader',
                 exclude: /node_modules/,
             },
         ],
@@ -77,8 +77,8 @@ module.exports = {
     plugins: [
         new WebpackMd5Hash(),
         new MiniCssExtractPlugin({
-            filename: 'css/[name].[hash].css',
-            chunkFilename: 'css/[id].[hash].css',
+            filename: 'css/[name].css',
+            chunkFilename: 'css/[id].css',
         }),
         new HtmlWebpackPlugin({
             template: './src/index.html',

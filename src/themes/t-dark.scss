@@ -1,4 +1,6 @@
 .t-dark {
     --color-bg: var(--color-black);
     --color-txt: var(--color-white);
+    background-color: $color-black;
+    color: $color-white;
 }
