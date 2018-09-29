@@ -7,7 +7,8 @@
     "start": "npm run dev",
     "dev": "gulp watch webpack & ./node_modules/.bin/http-server dist --push-state -s -c-1",
     "prod": "gulp clean:dist && gulp copy && NODE_ENV=production webpack && npm run sitemap",
-    "upload": "gulp ssh:check && npm run prod && gulp ssh:deploy"
+    "upload": "gulp ssh:check && npm run prod && gulp ssh:deploy",
+    "sitemap": "node ./scripts/sitemap.js"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
