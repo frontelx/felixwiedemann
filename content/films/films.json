@@ -1,11 +1,11 @@
 [
 {
-    "title": "SHOWREEL MONTAGE",
-    "additional": "/ 2018",
+    "title": "SHOWREEL",
+    "additional": "/ Montage 2018",
 		"director": "3min 55sec",
     "video": "240364020",
-    "image": "/content/films/teaser/SLIDE-TGB-04Edit-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-TGB-04Edit-srgb-mobile.jpg",
+    "image": "/content/films/teaser/SLIDE-TGB-03-FromPoster-srgb60.jpg",
+    "imagemobile": "/content/films/teaser/SLIDE-TGB-03-FromPoster-srgb-mobile.jpg",
     "producer": "",
     "actors": "",
     "special": "",
@@ -233,8 +233,8 @@
 "type": "Selected Scenes",
     "director": "Dir. Julian Jarrold",
     "video": "210129659",
-    "image": "/content/films/teaser/SLIDE-WFTP-01B-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-WFTP-01B-srgb-mobile.jpg",
+    "image": "/content/films/teaser/SLIDE-WFTP-15-srgb60.jpg",
+    "imagemobile": "/content/films/teaser/SLIDE-WFTP-15-srgb-mobile.jpg",
     "producer": "/ Prod. Colin Wratten / Mammoth Screen, BBC",
     "actors": "Starring Toby Jones, Andrea Riseborough, Billy Howle & Kim Catrall",
     "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2017<br><br>BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
@@ -245,7 +245,8 @@
       "/content/films/framegrabs/SLIDE-WFTP-27-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-09-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-30-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-WFTP-11-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-WFTP-33-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-WFTP-35-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-13-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-14-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-28Edit-srgb.jpg",
@@ -253,6 +254,7 @@
       "/content/films/framegrabs/SLIDE-WFTP-17-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-18-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-19-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-WFTP-32-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-20-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-21-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-23-srgb.jpg",
@@ -451,28 +453,7 @@
     ]
   },
 
-{
-    "title": "THE HALF LIGHT",
-    "additional": "/ Shortfilm ",
-"type": "- Montage",
-    "director": "Dir. Prasanna Puwanarajah",
-    "video": "217367145",
-    "image": "/content/films/teaser/SLIDE-HalfLight-013-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-HalfLight-013-srgb-mobile.jpg",
-    "producer": "/ Prod. Sophie Vickers",
-    "actors": "Starring David Haig, Henry Goodman & Harry Lloyd",
-    "special": "Winner Best Cinematography Award - Super Shorts International Film Festival 2012",
-    "framegrabs": [
 
-      "/content/films/framegrabs/SLIDE-HalfLight-005-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-HalfLight-006-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-HalfLight-007C-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-HalfLight-011-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-HalfLight-012-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-HalfLight-013-srgb.jpg"
-
-    ]
-  },
 
   {
       "title": "MOSA",
