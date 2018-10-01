@@ -26,10 +26,11 @@
 
         <div class="p-framegrabs" v-if="clip.framegrabs">
             <div class="p-framegrabs__item" v-for="(framegrab, index) in clip.framegrabs">
-                <picture>
-                    <source :srcset="framegrab" :media="`(min-width: ${$root.breakpoints.tablet})`">
-                    <img class="p-img-block" :src="clip.framegrabsmobile && clip.framegrabsmobile[index] ? clip.framegrabsmobile[index] : framegrab" alt="">
-                </picture>
+                <p-img-lazyload
+                    :retina-image="framegrab"
+                    :image="clip.framegrabsmobile && clip.framegrabsmobile[index] ? clip.framegrabsmobile[index] : framegrab"
+                    :ratio="clip.framegrabsratio ? { width: clip.framegrabsratio.width, height: clip.framegrabsratio.height } : false"
+                ></p-img-lazyload>
             </div>
         </div>
     </div>

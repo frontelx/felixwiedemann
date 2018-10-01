@@ -11,6 +11,9 @@ Vue.component('p-teaser-clip', TeaserClip);
 import Navigation from './patterns/p-navigation/p-navigation.vue';
 Vue.component('p-navigation', Navigation);
 
+import LazyloadImage from './patterns/p-img/p-img-lazyload.vue';
+Vue.component('p-img-lazyload', LazyloadImage);
+
 // Modules
 import Intro from './modules/m-intro/m-intro.vue';
 Vue.component('m-intro', Intro);
