@@ -15,6 +15,7 @@ module.exports = {
     devtool: 'source-map',
     entry: [
         'whatwg-fetch',
+        'lazysizes',
         './src/main.js',
         './src/main.scss',
     ],

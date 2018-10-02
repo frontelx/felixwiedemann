@@ -33,6 +33,7 @@ import Player from './modules/m-player/m-player.vue';
 // Global data
 import TitleData from '../content/title.json';
 import NavigationData from '../content/navigation.json';
+import Settings from '../content/settings.json';
 
 // Global services
 const Services = require('./generic/services');
@@ -40,6 +41,11 @@ const Services = require('./generic/services');
 // Polyfills
 import 'promise-polyfill/src/polyfill';
 import 'whatwg-fetch';
+
+// Configuration of Lazysizes plugin
+// https://github.com/aFarkas/lazysizes#js-api
+window.lazySizesConfig = window.lazySizesConfig || {};
+window.lazySizesConfig.expand = Settings.lazyloadTreshold;
 
 // Vue Router
 import VueRouter from 'vue-router';

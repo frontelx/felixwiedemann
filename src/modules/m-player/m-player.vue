@@ -29,7 +29,7 @@
                 <p-img-lazyload
                     :retina-image="framegrab"
                     :image="clip.framegrabsmobile && clip.framegrabsmobile[index] ? clip.framegrabsmobile[index] : framegrab"
-                    :ratio="clip.framegrabsratio ? { width: clip.framegrabsratio.width, height: clip.framegrabsratio.height } : false"
+                    :ratio="clip.framegrabsratio ? { width: clip.framegrabsratio.width, height: clip.framegrabsratio.height } : {}"
                 ></p-img-lazyload>
             </div>
         </div>
