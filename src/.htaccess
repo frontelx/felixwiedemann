@@ -25,3 +25,8 @@ AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/json
 </IfModule>
 </IfModule>
+
+# Only cache .json files for 10 minutes to force actualization after upload of changes
+<filesMatch ".json$">
+Header set Cache-Control "max-age=600, public"
+</filesMatch>
