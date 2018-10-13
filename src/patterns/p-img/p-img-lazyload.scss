@@ -1,0 +1,17 @@
+.p-img-lazyload {
+    position: relative;
+    overflow: hidden;
+
+    &__img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .lazyload,
+    .lazyloading {
+        opacity: 0; // hides images before they are loaded
+    }
+}

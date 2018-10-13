@@ -11,6 +11,9 @@ Vue.component('p-teaser-clip', TeaserClip);
 import Navigation from './patterns/p-navigation/p-navigation.vue';
 Vue.component('p-navigation', Navigation);
 
+import LazyloadImage from './patterns/p-img/p-img-lazyload.vue';
+Vue.component('p-img-lazyload', LazyloadImage);
+
 // Modules
 import Intro from './modules/m-intro/m-intro.vue';
 Vue.component('m-intro', Intro);
@@ -30,6 +33,7 @@ import Player from './modules/m-player/m-player.vue';
 // Global data
 import TitleData from '../content/title.json';
 import NavigationData from '../content/navigation.json';
+import Settings from '../content/settings.json';
 
 // Global services
 const Services = require('./generic/services');
@@ -37,6 +41,11 @@ const Services = require('./generic/services');
 // Polyfills
 import 'promise-polyfill/src/polyfill';
 import 'whatwg-fetch';
+
+// Configuration of Lazysizes plugin
+// https://github.com/aFarkas/lazysizes#js-api
+window.lazySizesConfig = window.lazySizesConfig || {};
+window.lazySizesConfig.expand = Settings.lazyloadTreshold;
 
 // Vue Router
 import VueRouter from 'vue-router';
