@@ -43,8 +43,11 @@
       "/content/films/framegrabs/SLIDE-Away-010-srgb.jpg",
       "/content/films/framegrabs/SLIDE-Away-015D-srgb.jpg",
       "/content/films/framegrabs/SLIDE-Away-002C-srgb.jpg"
-
-    ]
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1038
+    }
   },
 
   {
@@ -70,8 +73,15 @@
       "/content/films/framegrabs/SLIDE-COTL-052-WS-Edit-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-019-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-022-srgb.jpg"
-    ]
+    ],
+    "framegrabsratio": {
+      "width": 2880,
+      "height": 1206
+    }
   },
+
+
+
   {
     "title": "THE GO-BETWEEN",
     "additional": "/ TV Film",
@@ -97,7 +107,11 @@
       "/content/films/framegrabs/SLIDE-TGB-21D-srgb.jpg",
       "/content/films/framegrabs/SLIDE-TGB-05Edit-srgb.jpg"
 
-    ]
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
   },
 {
     "title": "PHILIP K. DICK'S ELECTRIC DREAMS - THE HOOD MAKER",
@@ -132,7 +146,11 @@
       "/content/films/framegrabs/SLIDE-THM-49-srgb.jpg",
       "/content/films/framegrabs/SLIDE-THM-51-srgb.jpg"
 
-    ]
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
   },
 {
     "title": "MY MURDER",
@@ -158,7 +176,11 @@
       "/content/films/framegrabs/SLIDE-MyMurder05-Up80-srgb.jpg",
       "/content/films/framegrabs/SLIDE-MyMurder26-srgb.jpg"
 
-    ]
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
   },
 {
     "title": "LEGACY",
@@ -186,7 +208,11 @@
       "/content/films/framegrabs/SLIDE-Legacy32-srgb.jpg",
       "/content/films/framegrabs/SLIDE-Legacy30-srgb.jpg",
       "/content/films/framegrabs/SLIDE-Legacy06Edit-srgb.jpg"
-    ]
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
   },
 
 {
@@ -224,7 +250,11 @@
       "/content/films/framegrabs/SLIDE-MBMF-40-srgb.jpg",
       "/content/films/framegrabs/SLIDE-MBMF-41-srgb.jpg"
 
-    ]
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
   },
 
 {
@@ -260,7 +290,11 @@
       "/content/films/framegrabs/SLIDE-WFTP-23-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-24-srgb.jpg",
       "/content/films/framegrabs/SLIDE-WFTP-25-srgb.jpg"
-    ]
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
   },
 
 
@@ -287,7 +321,11 @@
         "/content/films/framegrabs/SLIDE-Stratton-011-srgb.jpg",
         "/content/films/framegrabs/SLIDE-Stratton-002-srgb.jpg"
 
-      ]
+      ],
+      "framegrabsratio": {
+        "width": 2880,
+        "height": 1206
+      }
     },
 
 
@@ -347,7 +385,11 @@
         "/content/films/framegrabs/SLIDE-L2R-39-srgb.jpg",
         "/content/films/framegrabs/SLIDE-L2R-43-srgb.jpg"
 
-      ]
+      ],
+      "framegrabsratio": {
+        "width": 1920,
+        "height": 1080
+      }
     },
 
 
