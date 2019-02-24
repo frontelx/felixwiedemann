@@ -23,6 +23,10 @@
     {
       "image": "/content/intro/images/SLIDE-Away-15DInt-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-Away-15DInt-srgb-intromobile.jpg"
+    },
+    {
+      "image": "/content/intro/images/SLIDE-TGB-05Edit-srgb.jpg",
+      "imagemobile": "/content/intro/images/SLIDE-TGB-05Edit-srgb-intromobile.jpg"
     }
   ],
   "transitionDelay": 3,
