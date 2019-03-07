@@ -27,8 +27,24 @@
     "actors": "",
     "special": "",
     "framegrabs": [
+      "/content/commercials/framegrabs/SLIDE-Giant-005B-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-0101-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-001C-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-006B-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-040-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-045C-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-032-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-0108-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-052B-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-054-srgb.jpg",
+      "/content/commercials/framegrabs/SLIDE-Giant-002D-srgb.jpg"
 
-    ]
+    ],
+
+    "framegrabsratio": {
+      "width": 2880,
+      "height": 1200
+    }
   },
 
 
