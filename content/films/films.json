@@ -83,10 +83,6 @@
     }
   },
 
-
-
-
-
   {
     "title": "THE GO-BETWEEN",
     "additional": "/ TV Film",
@@ -187,121 +183,127 @@
       }
     },
 
+    {
+        "title": "MURDERED BY MY FATHER",
+        "additional": "/ TV Film",
+    "type": "- Selected Scenes",
+        "director": "Dir. Bruce Goodison",
+        "video": "213518155",
+        "image": "/content/films/teaser/SLIDE-MBMF-13-2-srgb60.jpg",
+        "imagemobile": "/content/films/teaser/SLIDE-MBMF-13-2-srgb-mobile.jpg",
+        "producer": "/ Prod. Toby Welch / BBC",
+        "actors": "Starring Adeel Akthar & Kiran Sonia Sawar",
+        "special": "BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
+        "framegrabs": [
+          "/content/films/framegrabs/SLIDE-MBMF-03-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-06-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-04-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-38-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-07-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-27-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-09-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-10-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-12-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-13-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-17-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-18-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-11B-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-32-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-20-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-24-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-33B-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-35-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-37-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-39-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-MBMF-40-srgb.jpg"
+
+        ],
+        "framegrabsratio": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+
+    {
+        "title": "LEGACY",
+        "additional": "/ TV Film",
+    "type": "- Montage",
+        "director": "Dir. Pete Travis",
+        "video": "216393041",
+    "video2": "216397312",
+    "video2title": "LEGACY / Selected Scenes",
+        "image": "/content/films/teaser/SLIDE-Legacy01C-srgb.jpg",
+        "imagemobile": "/content/films/teaser/SLIDE-Legacy01C-srgb-mobile.jpg",
+        "producer": "/ Prod. Rob Bullock / Slim Film & TV, BBC",
+        "actors": "Starring Charlie Cox, Andrew Scott, Romola Garai, Olivia Grant & Simon Russell Beale",
+        "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2014",
+        "framegrabs": [
+          "/content/films/framegrabs/SLIDE-Legacy01C-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy37-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy07Edit-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy38-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy33-srgb.jpg",
+            "/content/films/framegrabs/SLIDE-Legacy29B-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy04-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy34-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy35-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy32-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy30-srgb.jpg",
+          "/content/films/framegrabs/SLIDE-Legacy06Edit-srgb.jpg"
+        ],
+        "framegrabsratio": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
 
 
-{
-    "title": "PHILIP K. DICK'S ELECTRIC DREAMS - THE HOOD MAKER",
-    "additional": "/ TV Drama",
-"type": "- Teaser",
-    "director": "Dir. Julian Jarrold",
-    "video": "243926388",
-    "image": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb-mobile.jpg",
-    "producer": "/ Prod. Michael Dinner, Lynn Horsford / Amazon Studios, Sony Pictures Television, Channel 4, Leftbank Pictures",
-    "actors": "Starring Holiday Grainger & Richard Madden",
-    "special": "",
-    "framegrabs": [
-      "/content/films/framegrabs/SLIDE-THM-30-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-22-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-24-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-12-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-40-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-03B-2-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-16-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-20-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-26-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-44-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-28-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-37-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-38-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-39-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-10-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-50-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-42-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-48-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-49-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-THM-51-srgb.jpg"
 
-    ],
-    "framegrabsratio": {
-      "width": 1920,
-      "height": 1080
-    }
-  },
 
-{
-    "title": "LEGACY",
-    "additional": "/ TV Film",
-"type": "- Montage",
-    "director": "Dir. Pete Travis",
-    "video": "216393041",
-"video2": "216397312",
-"video2title": "LEGACY / Selected Scenes",
-    "image": "/content/films/teaser/SLIDE-Legacy01C-srgb.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-Legacy01C-srgb-mobile.jpg",
-    "producer": "/ Prod. Rob Bullock / Slim Film & TV, BBC",
-    "actors": "Starring Charlie Cox, Andrew Scott, Romola Garai, Olivia Grant & Simon Russell Beale",
-    "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2014",
-    "framegrabs": [
-      "/content/films/framegrabs/SLIDE-Legacy01C-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy37-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy07Edit-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy38-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy33-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-Legacy29B-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy04-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy34-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy35-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy32-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy30-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-Legacy06Edit-srgb.jpg"
-    ],
-    "framegrabsratio": {
-      "width": 1920,
-      "height": 1080
-    }
-  },
 
-{
-    "title": "MURDERED BY MY FATHER",
-    "additional": "/ TV Film",
-"type": "- Selected Scenes",
-    "director": "Dir. Bruce Goodison",
-    "video": "213518155",
-    "image": "/content/films/teaser/SLIDE-MBMF-35-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-MBMF-35-srgb-mobile.jpg",
-    "producer": "/ Prod. Toby Welch / BBC",
-    "actors": "Starring Adeel Akthar & Kiran Sonia Sawar",
-    "special": "BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
-    "framegrabs": [
-      "/content/films/framegrabs/SLIDE-MBMF-03-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-06-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-04-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-38-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-07-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-27-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-09-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-10-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-12-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-13-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-17-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-18-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-11B-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-32-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-20-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-24-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-33B-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-35-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-37-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-39-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-MBMF-40-srgb.jpg"
 
-    ],
-    "framegrabsratio": {
-      "width": 1920,
-      "height": 1080
-    }
-  },
+
+
+  {
+      "title": "PHILIP K. DICK'S ELECTRIC DREAMS - THE HOOD MAKER",
+      "additional": "/ TV Drama",
+  "type": "- Teaser",
+      "director": "Dir. Julian Jarrold",
+      "video": "243926388",
+      "image": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb60.jpg",
+      "imagemobile": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb-mobile.jpg",
+      "producer": "/ Prod. Michael Dinner, Lynn Horsford / Amazon Studios, Sony Pictures Television, Channel 4, Leftbank Pictures",
+      "actors": "Starring Holiday Grainger & Richard Madden",
+      "special": "",
+      "framegrabs": [
+        "/content/films/framegrabs/SLIDE-THM-30-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-22-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-24-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-12-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-40-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-03B-2-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-16-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-20-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-26-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-44-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-28-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-37-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-38-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-39-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-10-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-50-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-42-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-48-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-49-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-THM-51-srgb.jpg"
+
+      ],
+      "framegrabsratio": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+
 
 {
     "title": "THE WITNESS FOR THE PROSECUTION",
@@ -391,8 +393,6 @@
       ]
     },
 
-
-
   {
       "title": "LEAVE TO REMAIN",
       "additional": "/ Feature Film",
@@ -438,27 +438,91 @@
     },
 
 
+  {
+      "title": "MOSA",
+      "additional": "/ Shortfilm",
+  "type": "- Montage",
+      "director": "Dir. Ana Moreno",
+      "video": "217309414",
+      "image": "/content/films/teaser/SLIDE-Mosa-01C-srgb60.jpg",
+      "imagemobile": "/content/films/teaser/SLIDE-Mosa-01C-srgb-mobile.jpg",
+      "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
+      "actors": "Starring Isaura Barbe-Brown",
+      "special": "Winner Best British Short Iris Prize Festival 2010 <br> Winner Audience Award Cineffable Film Festival Paris 2011",
+      "framegrabs": [
+
+      ]
+    },
+
+    {
+        "title": "COLETTE",
+        "additional": "/ Shortfilm",
+    "type": "- Montage",
+        "director": "Dir. Nicola Morris",
+        "video": "218373345",
+        "image": "/content/films/teaser/SLIDE-Colette01-srgb60.jpg",
+        "imagemobile": "/content/films/teaser/SLIDE-Colette01-srgb-mobile.jpg",
+        "producer": "/ Prod. Laura Rees",
+        "actors": "Starring Holliday Grainger & Luke Bailey",
+        "special": "Ungraded 35mm Rushes",
+        "framegrabs": [
+
+        ]
+      },
 
 
+    {
+        "title": "ISMAIL",
+        "additional": "/ Shortfilm",
+    "type": "- Full Film",
+        "director": "Dir. Nora Alsharif",
+        "video": "221896987",
+        "image": "/content/films/teaser/SLIDE-Ismail-01-srgb60.jpg",
+        "imagemobile": "/content/films/teaser/SLIDE-Ismail-01-srgb-mobile.jpg",
+        "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
+        "actors": "",
+        "special": "Winner Audience Award US Shorts Film Festival of Columbus 2014 <br>Winner Best Short Alexandria Film Festival 2014 <br>Winner Arab Camera Film Festival Rotterdam 2013 <br>Winner Best Supporting Actor Evolution Film Festival Spain",
+        "framegrabs": [
+
+        ]
+      },
 
 
-{
-    "title": "MISFITS (SEASON 3)",
-    "additional": "/ TV Drama",
-"type": "- Montage",
-    "director": "Dir. Wayne Jip & Alex Garcia, Will Sinclair, Jonathan Van Tulleken",
-    "video": "217247076",
-    "video2":"217312620",
-"video2title": "MISFITS SEASON 3 / Selected Scenes",
-    "image": "/content/films/teaser/SLIDE-Misfits-35-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-Misfits-35-srgb-mobile.jpg",
-    "producer": "/ Prod. Matt Strevens / Clerkenwell Films, E4",
-    "actors": "Starring Iwan Rheon, Joseph Gilgun, Antonia Thomas, Nathan Stewart-Jarrett & Lauren Socha",
-    "special": "BAFTA Nomination 2012 Best Drama Series",
-    "framegrabs": [
+      {
+          "title": "THE WHITE QUEEN",
+          "additional": "/ TV Drama",
+      "type": "- Montage",
+          "director": "Dir. Colin Teague",
+          "video": "217311447",
+          "image": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb60.jpg",
+          "imagemobile": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb-mobile.jpg",
+          "producer": "/ Prod. Gina Cronk / Company Pictures, BBC",
+          "actors": "Starring Rebecca Ferguson, Aneurin Barnard, Shaun Dooley, Rupert Graves, Amanda Hale & Freya Mavor",
+          "special": "Shared Credit: Felix was DOP on the final two weeks of principal photography.<br> Montage only contains footage from scenes which Felix photographed.",
+          "framegrabs": [
 
-    ]
-  },
+          ]
+        },
+
+        {
+            "title": "MISFITS (SEASON 3)",
+            "additional": "/ TV Drama",
+        "type": "- Montage",
+            "director": "Dir. Wayne Jip & Alex Garcia, Will Sinclair, Jonathan Van Tulleken",
+            "video": "217247076",
+            "video2":"217312620",
+        "video2title": "MISFITS SEASON 3 / Selected Scenes",
+            "image": "/content/films/teaser/SLIDE-Misfits-35-srgb60.jpg",
+            "imagemobile": "/content/films/teaser/SLIDE-Misfits-35-srgb-mobile.jpg",
+            "producer": "/ Prod. Matt Strevens / Clerkenwell Films, E4",
+            "actors": "Starring Iwan Rheon, Joseph Gilgun, Antonia Thomas, Nathan Stewart-Jarrett & Lauren Socha",
+            "special": "BAFTA Nomination 2012 Best Drama Series",
+            "framegrabs": [
+
+            ]
+          },
+
+
 
   {
       "title": "RESIDUE",
@@ -475,56 +539,7 @@
 
       ]
     },
-    {
-        "title": "THE WHITE QUEEN",
-        "additional": "/ TV Drama",
-    "type": "- Montage",
-        "director": "Dir. Colin Teague",
-        "video": "217311447",
-        "image": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb60.jpg",
-        "imagemobile": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb-mobile.jpg",
-        "producer": "/ Prod. Gina Cronk / Company Pictures, BBC",
-        "actors": "Starring Rebecca Ferguson, Aneurin Barnard, Shaun Dooley, Rupert Graves, Amanda Hale & Freya Mavor",
-        "special": "Shared Credit: Felix was DOP on the final two weeks of principal photography.<br> Montage only contains footage from scenes which Felix photographed.",
-        "framegrabs": [
 
-        ]
-      },
-
-
-
-
-{
-    "title": "ISMAIL",
-    "additional": "/ Shortfilm",
-"type": "- Full Film",
-    "director": "Dir. Nora Alsharif",
-    "video": "221896987",
-    "image": "/content/films/teaser/SLIDE-Ismail-01-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-Ismail-01-srgb-mobile.jpg",
-    "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
-    "actors": "",
-    "special": "Winner Audience Award US Shorts Film Festival of Columbus 2014 <br>Winner Best Short Alexandria Film Festival 2014 <br>Winner Arab Camera Film Festival Rotterdam 2013 <br>Winner Best Supporting Actor Evolution Film Festival Spain",
-    "framegrabs": [
-
-    ]
-  },
-
-{
-    "title": "COLETTE",
-    "additional": "/ Shortfilm",
-"type": "- Montage",
-    "director": "Dir. Nicola Morris",
-    "video": "218373345",
-    "image": "/content/films/teaser/SLIDE-Colette01-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-Colette01-srgb-mobile.jpg",
-    "producer": "/ Prod. Laura Rees",
-    "actors": "Starring Holliday Grainger & Luke Bailey",
-    "special": "Ungraded 35mm Rushes",
-    "framegrabs": [
-
-    ]
-  },
 
 
   {
@@ -541,24 +556,10 @@
       "framegrabs": [
 
       ]
-    },
-
-
-  {
-      "title": "MOSA",
-      "additional": "/ Shortfilm",
-  "type": "- Montage",
-      "director": "Dir. Ana Moreno",
-      "video": "217309414",
-      "image": "/content/films/teaser/SLIDE-Mosa-01C-srgb60.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-Mosa-01C-srgb-mobile.jpg",
-      "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
-      "actors": "Starring Isaura Barbe-Brown",
-      "special": "Winner Best British Short Iris Prize Festival 2010 <br> Winner Audience Award Cineffable Film Festival Paris 2011",
-      "framegrabs": [
-
-      ]
     }
+
+
+
 
 
 ]
