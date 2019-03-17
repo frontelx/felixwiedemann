@@ -1,19 +1,5 @@
 [
 
-  {
-    "title": "AVIVA",
-    "additional": "/ commercial",
-    "director": "Dir. John Hayes",
-    "video": "292997981",
-    "image": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb60.jpg",
-    "imagemobile": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb-mobile.jpg",
-    "producer": "/ Sweet Media",
-    "actors": "",
-    "special": "",
-    "framegrabs": [
-
-    ]
-  },
 
 
   {
@@ -45,6 +31,21 @@
       "width": 2880,
       "height": 1200
     }
+  },
+
+  {
+    "title": "AVIVA",
+    "additional": "/ commercial",
+    "director": "Dir. John Hayes",
+    "video": "292997981",
+    "image": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb60.jpg",
+    "imagemobile": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb-mobile.jpg",
+    "producer": "/ Sweet Media",
+    "actors": "",
+    "special": "",
+    "framegrabs": [
+
+    ]
   },
 
 
