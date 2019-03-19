@@ -4,8 +4,8 @@
     "additional": "/ Montage 2018",
 		"director": "Narrative",
     "video": "323535653",
-    "image": "/content/films/teaser/SLIDE-Legacy07Edit-2-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-Legacy07Edit-2-srgb-mobile.jpg",
+    "image": "/content/films/teaser/SLIDE-Legacy06-2-srgb60.jpg",
+    "imagemobile": "/content/films/teaser/SLIDE-Legacy06-2-srgb-mobile.jpg",
     "producer": "",
     "actors": "",
     "special": "",
@@ -66,16 +66,24 @@
     "special": "Toronto International Film Festival 2016 <br> London Film Festival 2016",
     "framegrabs": [
       "/content/films/framegrabs/SLIDE-COTL-002-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-004-2-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-014WS-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-032B-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-004-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-012-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-029-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-006-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-025-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-032B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-035-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-048-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-038-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-012-Edit-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-037-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-052-WS-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-025-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-005-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-034-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-018B-srgb.jpg",
       "/content/films/framegrabs/SLIDE-COTL-019-srgb.jpg",
-      "/content/films/framegrabs/SLIDE-COTL-022-srgb.jpg"
+      "/content/films/framegrabs/SLIDE-COTL-051-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-022-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-020-srgb.jpg"
     ],
     "framegrabsratio": {
       "width": 2880,
@@ -501,6 +509,22 @@
       ]
     },
 
+    {
+        "title": "SPOOF OR DIE",
+        "additional": "/ TV Drama",
+    "type": "- Selected Scene",
+        "director": "Dir. Prasanna Puwanarajah",
+        "video": "217252733",
+        "image": "/content/films/teaser/SLIDE-SpoofOrDie-05-srgb60.jpg",
+        "imagemobile": "/content/films/teaser/SLIDE-SpoofOrDie-05-srgb-mobile.jpg",
+        "producer": "/ Prod. Jo Willet / Touchpaper, Channel 4",
+        "actors": "Starring Michael Smiley, Yasmin Page, Monica Dolan & Ryan McParland",
+        "special": "",
+        "framegrabs": [
+
+        ]
+      },
+
 
 
       {
@@ -535,43 +559,10 @@
             "framegrabs": [
 
             ]
-          },
+          }
 
 
 
-  {
-      "title": "RESIDUE",
-      "additional": "/ TV Mini Series (Netflix) and Feature Film",
-  "type": "- Montage",
-      "director": "Dir. Alex Garcia-Lopez",
-      "video": "217323453",
-      "image": "/content/films/teaser/SLIDE-Residue-008-srgb60.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-Residue-008-srgb-mobile.jpg",
-      "producer": "/ Prod. Charlotte Walls / Netflix, Catalyst Global Media",
-      "actors": "Starring Natalia Tena, Iwan Rheon & Jamie Draven",
-      "special": "",
-      "framegrabs": [
-
-      ]
-    },
-
-
-
-  {
-      "title": "SPOOF OR DIE",
-      "additional": "/ TV Drama",
-  "type": "- Selected Scene",
-      "director": "Dir. Prasanna Puwanarajah",
-      "video": "217252733",
-      "image": "/content/films/teaser/SLIDE-SpoofOrDie-05-srgb60.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-SpoofOrDie-05-srgb-mobile.jpg",
-      "producer": "/ Prod. Jo Willet / Touchpaper, Channel 4",
-      "actors": "Starring Michael Smiley, Yasmin Page, Monica Dolan & Ryan McParland",
-      "special": "",
-      "framegrabs": [
-
-      ]
-    }
 
 
 
