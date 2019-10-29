@@ -27,6 +27,6 @@ AddOutputFilterByType DEFLATE application/javascript application/x-javascript ap
 </IfModule>
 
 # Only cache .json files for 10 minutes to force actualization after upload of changes
-<filesMatch ".json$">
+<filesMatch "\.(json|html)$">
 Header set Cache-Control "max-age=600, public"
 </filesMatch>
