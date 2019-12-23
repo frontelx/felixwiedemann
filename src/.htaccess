@@ -1,4 +1,9 @@
-# Htaccess server configuration
+# Web server configuration
+
+# Redirect all requests to https
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.felixwiedemann.com/$1 [R,L]
 
 # Redirect old urls to new Vue SPA to improve SEO
 <IfModule mod_rewrite.c>
