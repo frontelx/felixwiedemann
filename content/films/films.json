@@ -4,8 +4,8 @@
     "additional": "/ Montage 2018",
 		"director": "Narrative",
     "video": "323535653",
-    "image": "/content/films/teaser/SLIDE-MyMurder27B-4-srgb80.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-MyMurder27B-4-srgb-mobile.jpg",
+    "image": "/content/films/teaser/SLIDE-COTL-15-B-2-Layer-srgb60.jpg",
+    "imagemobile": "/content/films/teaser/SLIDE-COTL-15-B-2-Layer-srgb-mobile.jpg",
     "producer": "",
     "actors": "",
     "special": "",
@@ -51,45 +51,6 @@
     }
   },
 
-
-  {
-    "title": "ROMANS",
-    "additional": "/ Feature Film",
-    "type": "- Montage",
-    "director": "Dir. Ludwig Shammasian & Paul Shammasian",
-    "video": "297045497",
-    "image": "/content/films/teaser/SLIDE-Romans-27-2-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-Romans-27-2-srgb-mobile.jpg",
-    "producer": "/ Prod. Mark Lane, James Harris / Tea Shop & Film Company",
-    "actors": "Starring Orlando Bloom, Janet Montgomery, Anne Reid & Charlie Creed Miles",
-    "special": " Nomination Best British Feature Edinburgh International Film Festival 2017",
- "framegrabs": [
-   "/content/films/framegrabs/SLIDE-Romans-008-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-002-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-004-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-016-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-027-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-022-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-023-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-013-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-024-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-014-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-025-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-021-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-026-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-009-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-030-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-031-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-011-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-Romans-032-srgb.jpg"
-
-    ],
-    "framegrabsratio": {
-      "width": 2880,
-      "height": 1206
-    }
-  },
-
   {
     "title": "THE GO-BETWEEN",
     "additional": "/ TV Film",
@@ -122,6 +83,46 @@
     }
   },
 
+
+    {
+      "title": "ROMANS",
+      "additional": "/ Feature Film",
+      "type": "- Montage",
+      "director": "Dir. Ludwig Shammasian & Paul Shammasian",
+      "video": "297045497",
+      "image": "/content/films/teaser/SLIDE-Romans-27-2-srgb60.jpg",
+      "imagemobile": "/content/films/teaser/SLIDE-Romans-27-2-srgb-mobile.jpg",
+      "producer": "/ Prod. Mark Lane, James Harris / Tea Shop & Film Company",
+      "actors": "Starring Orlando Bloom, Janet Montgomery, Anne Reid & Charlie Creed Miles",
+      "special": " Nomination Best British Feature Edinburgh International Film Festival 2017",
+   "framegrabs": [
+     "/content/films/framegrabs/SLIDE-Romans-008-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-002-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-004-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-016-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-027-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-022-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-023-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-013-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-024-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-014-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-025-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-021-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-026-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-009-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-030-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-031-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-011-srgb.jpg",
+     "/content/films/framegrabs/SLIDE-Romans-032-srgb.jpg"
+
+      ],
+      "framegrabsratio": {
+        "width": 2880,
+        "height": 1206
+      }
+    },
+
+
   {
       "title": "MY MURDER",
       "additional": "/ TV Drama",
@@ -130,8 +131,8 @@
       "video": "218383436",
   "video2": "218374299",
   "video2title": "MY MURDER / Selected Scene",
-      "image": "/content/films/teaser/SLIDE-MyMurder28-srgb.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-MyMurder28-srgb-mobile.jpg",
+      "image": "/content/films/teaser/SLIDE-MyMurder27B-4-srgb80.jpg",
+      "imagemobile": "/content/films/teaser/SLIDE-MyMurder27B-4-srgb-mobile.jpg",
       "producer": "/ Prod. Colin Barr / BBC",
       "actors": "Starring John Boyega & Malachi Kirby",
       "special": "Winner Best Single Drama Broadcast Awards 2013 <br> Nomination Best Single Drama RTS Awards 2013",
@@ -194,8 +195,8 @@
      "type": "- Trailer",
      "director": "Dir. Pete Travis",
       "video": "218371926",
-      "image": "/content/films/teaser/SLIDE-COTL-015-B-2-srgb60.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-COTL-015-B-2-srgb-mobile.jpg",
+      "image": "/content/films/teaser/SLIDE-COTL-14-srgb60.jpg",
+      "imagemobile": "/content/films/teaser/SLIDE-COTL-14-srgb-mobile.jpg",
       "producer": "/ Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
       "actors": "Starring Riz Ahmed & Billie Piper",
       "special": "Toronto International Film Festival 2016 <br> London Film Festival 2016",
