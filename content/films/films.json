@@ -6,30 +6,47 @@
     "type": "- Trailer",
     "director": "Dir. Julian Jarrold",
     "video": "391346996",
-    "image": "/content/films/teaser/SLIDE-SW-24B-edit4-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-SW-24B-edit4-srgb-mobile.jpg",
+    "image": "/content/films/teaser/SLIDE-SW-58-I-srgb60.jpg",
+    "imagemobile": "/content/films/teaser/SLIDE-SW-58-I-srgb-mobile.jpg",
     "producer": "/ Prod. Mike Elliot, Alan Govinden / EMU Films, AMG International",
     "actors": "Starring Mark Stanley, Emily Beecham, Anna Friel & Dougray Scott",
     "special": "",
  "framegrabs": [
-   "/content/films/framegrabs/SLIDE-SW-003-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-004-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-005-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-011-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-022-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-006-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-024-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-013-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-016-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-017C-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-009B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-018-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-019B-srgb.jpg"
+   "/content/films/framegrabs/SLIDE-SW-039-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-048-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-058-I-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-078-B-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-080-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-083-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-085-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-087-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-089-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-092-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-093-D-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-097-C-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0106-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0107-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0112-C-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0122-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0123-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0125-E-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0128-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0131-B-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0155-B-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0156-B-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0183-B-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0195-C-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0196-B-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0197-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0204-B-srgb.jpg",
+  "/content/films/framegrabs/SLIDE-SW-0213-B-srgb.jpg",
+   "/content/films/framegrabs/SLIDE-SW-0206-E-srgb.jpg"
+
 
     ],
     "framegrabsratio": {
-      "width": 2500,
-      "height": 1250
+      "width": 2048,
+      "height": 1024
     }
   },
 
@@ -102,6 +119,36 @@
     }
   },
 
+  {
+      "title": "MY MURDER",
+      "additional": "/ TV Drama",
+  "type": "- Montage",
+      "director": "Dir. Bruce Goodison",
+      "video": "218383436",
+  "video2": "218374299",
+  "video2title": "MY MURDER / Selected Scene",
+      "image": "/content/films/teaser/SLIDE-MyMurder27B-4-srgb80.jpg",
+      "imagemobile": "/content/films/teaser/SLIDE-MyMurder27B-4-srgb-mobile.jpg",
+      "producer": "/ Prod. Colin Barr / BBC",
+      "actors": "Starring John Boyega & Malachi Kirby",
+      "special": "Winner Best Single Drama Broadcast Awards 2013 <br> Nomination Best Single Drama RTS Awards 2013",
+      "framegrabs": [
+        "/content/films/framegrabs/SLIDE-MyMurder28-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-MyMurder32-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-MyMurder40-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-MyMurder36-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-MyMurder38-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-MyMurder37-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-MyMurder-07-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-MyMurder05-Up80-srgb.jpg",
+        "/content/films/framegrabs/SLIDE-MyMurder26-srgb.jpg"
+
+      ],
+      "framegrabsratio": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
 
   {
       "title": "PHILIP K. DICK'S ELECTRIC DREAMS - THE HOOD MAKER",
@@ -141,36 +188,7 @@
       }
     },
 
-    {
-        "title": "MY MURDER",
-        "additional": "/ TV Drama",
-    "type": "- Montage",
-        "director": "Dir. Bruce Goodison",
-        "video": "218383436",
-    "video2": "218374299",
-    "video2title": "MY MURDER / Selected Scene",
-        "image": "/content/films/teaser/SLIDE-MyMurder27B-4-srgb80.jpg",
-        "imagemobile": "/content/films/teaser/SLIDE-MyMurder27B-4-srgb-mobile.jpg",
-        "producer": "/ Prod. Colin Barr / BBC",
-        "actors": "Starring John Boyega & Malachi Kirby",
-        "special": "Winner Best Single Drama Broadcast Awards 2013 <br> Nomination Best Single Drama RTS Awards 2013",
-        "framegrabs": [
-          "/content/films/framegrabs/SLIDE-MyMurder28-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MyMurder32-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MyMurder40-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MyMurder36-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MyMurder38-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MyMurder37-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MyMurder-07-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MyMurder05-Up80-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MyMurder26-srgb.jpg"
 
-        ],
-        "framegrabsratio": {
-          "width": 1920,
-          "height": 1080
-        }
-      },
 
 
           {
