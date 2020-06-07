@@ -8,4 +8,10 @@ module.exports = function (gulp, $) {
         ]);
     });
 
+    gulp.task('clean:upload', function () {
+        return del([
+            'upload/**/*',
+        ]);
+    });
+
 };

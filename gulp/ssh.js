@@ -1,8 +1,10 @@
 const fs = require('fs');
 const GulpSSH = require('gulp-ssh');
 
-const remotePath = './webseiten/felixwiedemann-2018';
+const remotePath = './webseiten/felixwiedemann-test';
+const remotePathTemp = `${remotePath}-temp`;
 const uploadConfigPath = 'upload.config.json';
+const uploadPackage = 'upload.zip';
 
 const serverConfig = fs.existsSync(uploadConfigPath) ? require(`../${uploadConfigPath}`) : false;
 
@@ -24,17 +26,38 @@ module.exports = function (gulp, $) {
             sshConfig: serverConfig,
         });
 
-        // Uploads dist files to temporary server folder
-        gulp.task('ssh:upload', function () {
+        // Remove temporary upload directory
+        gulp.task('ssh:clean', function () {
+            return gulpSSH
+                .shell([
+                    `rm -rf ${remotePathTemp}`,
+                ])
+        });
+
+        // Uploads zipped package to temporary server folder
+        gulp.task('ssh:upload', ['ssh:clean'], function () {
             return gulp
-                .src(['./dist/**/*', './dist/.*'])
-                .pipe(gulpSSH.dest(`${remotePath}-temp`));
+                .src([`./upload/${uploadPackage}`])
+                .pipe(gulpSSH.dest(`${remotePathTemp}`));
+        });
+
+        // Extracts the package files
+        gulp.task('ssh:extract', ['ssh:upload'], function () {
+            return gulpSSH
+                .shell([
+                    `cd ${remotePathTemp}`,
+                    `unzip ${uploadPackage}`,
+                    `rm -f ${uploadPackage}`,
+                ])
         });
 
         // Switches old dist folder from server with new deployment
-        gulp.task('ssh:deploy', ['ssh:upload'], function () {
+        gulp.task('ssh:deploy', ['ssh:extract'], function () {
             return gulpSSH
-                .shell([`rm -rf ${remotePath}`, `mv ${remotePath}-temp ${remotePath}`]);
+                .shell([
+                    `rm -rf ${remotePath}`,
+                    `mv ${remotePathTemp} ${remotePath}`
+                ]);
         });
     }
 

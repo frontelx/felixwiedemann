@@ -7,8 +7,9 @@
     "start": "npm run dev",
     "dev": "gulp watch webpack & ./node_modules/.bin/http-server dist --push-state -s -c-1",
     "prod": "gulp clean:dist && gulp copy && NODE_ENV=production webpack && npm run sitemap",
-    "upload": "gulp ssh:check && npm run prod && gulp ssh:deploy",
-    "sitemap": "node ./scripts/sitemap.js"
+    "upload": "gulp ssh:check && npm run prod && npm run zip && gulp ssh:deploy && gulp clean:upload",
+    "sitemap": "node ./scripts/sitemap.js",
+    "zip": "node ./scripts/zip.js"
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
@@ -22,6 +23,7 @@
     "@babel/core": "^7.0.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
+    "archiver": "^4.0.1",
     "autoprefixer": "^8.0.0",
     "babel-loader": "^8.0.2",
     "css-loader": "^0.28.11",
