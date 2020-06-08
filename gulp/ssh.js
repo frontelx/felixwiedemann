@@ -1,7 +1,7 @@
 const fs = require('fs');
 const GulpSSH = require('gulp-ssh');
 
-const remotePath = './webseiten/felixwiedemann-test';
+const remotePath = './webseiten/felixwiedemann-2018';
 const remotePathTemp = `${remotePath}-temp`;
 const uploadConfigPath = 'upload.config.json';
 const uploadPackage = 'upload.zip';
