@@ -20,7 +20,7 @@
     "route": "/cv/",
     "view": "cv.vue",
     "theme": "t-dark",
-    "bgImg": "/content/bg/SLIDE-TGB-05Edit-srgb.jpg"
+    "bgImg": "/content/bg/SLIDE-TGB-80-E-BG-srgb.jpg"
   },
   {
     "title": "Contact",
