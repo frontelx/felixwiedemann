@@ -57,7 +57,7 @@ const routes = appRoutes.map(function (route, index) {
     const navigationItem = NavigationData[index - 1];
     const hasPlayer = isIndex ? false : navigationItem.hasOwnProperty('clips');
     const Component = require(`./pages/${isIndex ? 'index.vue' : navigationItem.view}`);
-    const title = `${TitleData.name} | ${TitleData.title}${ isIndex ? '' : ` : ${navigationItem.title}`}`;
+    const title = `${TitleData.pageTitle}${ isIndex ? '' : `${TitleData.pageTitleDivider}${navigationItem.title}`}`;
     const description = isIndex ? TitleData.seoDescription : false;
 
     return {
