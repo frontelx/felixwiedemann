@@ -61,7 +61,6 @@
 
     &__name,
     &__title {
-        font-size: 24px;
         line-height: 28px;
         text-transform: uppercase;
     }
@@ -75,17 +74,19 @@
     }
 
     &__name {
+        font-size: 25px;
         letter-spacing: 0.085em;
     }
 
     // additional
     &__add {
-        font-size: 12px;
+        font-size: 14px;
         line-height: inherit;
         margin-left: 4px;
     }
 
     &__title {
+        font-size: 24px;
         letter-spacing: 0.05em;
 
         // only default bkp
