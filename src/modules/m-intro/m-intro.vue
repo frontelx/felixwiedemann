@@ -6,6 +6,7 @@
                 <img
                     :src="currentImageMobile"
                     class="m-intro__img"
+                    :style="`object-position: ${currentPosition}`"
                     alt="">
             </picture>
 
@@ -16,7 +17,8 @@
                     :style="`
                         transition-property: ${nextImageTransitionProperty};
                         transition-duration: ${transitionDuration}s;
-                        opacity: ${nextImageOpacity}`"
+                        opacity: ${nextImageOpacity};
+                        object-position: ${nextPosition}`"
                     class="m-intro__img m-intro__img--next"
                     alt=""
                     @transitionend="triggerImageChange()">
@@ -62,9 +64,11 @@
                 images: Services.shuffleArray(imagesData),
                 imageCounter: 0,
                 currentImage: '',
+                currentPosition: '',
                 nextImage: '',
                 nextImageOpacity: 0,
                 nextImageTransitionProperty: this.transitionProperty,
+                nextPosition: '',
                 preloadImage: '',
                 hasPreloaded: false,
             }
@@ -92,28 +96,24 @@
 
             changeImage() {
                 // Set next image to current image after transition end
-                this.currentImage = this.images[this.imageCounter].image;
-                this.currentImageMobile =
-                    this.images[this.imageCounter].imagemobile ?
-                        this.images[this.imageCounter].imagemobile :
-                        this.images[this.imageCounter].image;
+                const current = this.images[this.imageCounter];
+                this.currentImage = current.image;
+                this.currentImageMobile = current.imagemobile ? current.imagemobile : current.image;
+                this.currentPosition = `${current.positionX} ${current.positionY}`;
 
                 // Update image counter to next image or first image if no more available
                 this.imageCounter = this.imageCounter < this.images.length - 1 ? this.imageCounter + 1 : 0;
 
-                this.nextImage = this.images[this.imageCounter].image;
-                this.nextImageMobile =
-                    this.images[this.imageCounter].imagemobile ?
-                        this.images[this.imageCounter].imagemobile :
-                        this.images[this.imageCounter].image;
+                const next = this.images[this.imageCounter];
+                this.nextImage = next.image;
+                this.nextImageMobile = next.imagemobile ? next.imagemobile : next.image;
+                this.nextPosition = `${next.positionX} ${next.positionY}`;
 
                 // Set next image to preload or remove preloading if no more images available
                 if (!this.hasPreloaded && this.imageCounter + 1 < this.images.length) {
-                   this.preloadImage = this.images[this.imageCounter + 1].image;
-                   this.preloadImageMobile =
-                       this.images[this.imageCounter + 1].imagemobile ?
-                           this.images[this.imageCounter + 1].imagemobile :
-                           this.images[this.imageCounter + 1].image;
+                    const preload = this.images[this.imageCounter + 1];
+                    this.preloadImage = preload.image;
+                    this.preloadImageMobile = preload.imagemobile ? preload.imagemobile : preload.image;
                 } else {
                     this.hasPreloaded = true;
                 }

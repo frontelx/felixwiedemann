@@ -1,104 +1,150 @@
 {
   "images": [
-
     {
       "image": "/content/intro/images/SLIDE-MyMurder28-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-MyMurder28-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-MyMurder28-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Legacy06Edit4-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-Legacy06Edit4-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-Legacy06Edit4-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-TGB-92-B-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-TGB-92-B-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-TGB-92-B-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-COTL-15-B-2-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-COTL-15-B-2-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-COTL-15-B-2-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Giant-101-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-Giant-101-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-Giant-101-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Giant-02-Edit-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-Giant-02-Edit-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-Giant-02-Edit-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Legacy38-Edit-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-Legacy38-Edit-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-Legacy38-Edit-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-WFTP-33-Edit-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-WFTP-33-Edit-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-WFTP-33-Edit-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-TGB-21D-Edit-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-TGB-21D-Edit-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-TGB-21D-Edit-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Colette01-Edit-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-Colette01-Edit-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-Colette01-Edit-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Legacy37-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-Legacy37-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-Legacy37-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Mosa-10-New-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-Mosa-10-New-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-Mosa-10-New-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-WFTP-21-Edit-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-WFTP-21-Edit-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-WFTP-21-Edit-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-SW-48-Crop2-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-SW-48-Crop2-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-SW-48-Crop2-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-SW-58-I-Edit-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-SW-58-I-Edit-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-SW-58-I-Edit-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-SW-128-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-SW-128-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-SW-128-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Legacy42-Edit-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-Legacy42-Edit-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-Legacy42-Edit-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-TGB-30-B-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-TGB-30-B-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-TGB-30-B-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-TGB-99-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-TGB-99-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-TGB-99-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-TGB-130-E-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-TGB-130-E-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-TGB-130-E-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-TGB-46-Intro-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-TGB-46-Intro-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-TGB-46-Intro-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-MBMF-09B-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-MBMF-09B-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-MBMF-09B-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-MyMurder64-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-MyMurder64-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-MyMurder64-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     },
 
     {
       "image": "/content/intro/images/SLIDE-TGB-80-E-BG-srgb.jpg",
-      "imagemobile": "/content/intro/images/SLIDE-TGB-80-E-BG-srgb-intromobile.jpg"
+      "imagemobile": "/content/intro/images/SLIDE-TGB-80-E-BG-srgb-intromobile.jpg",
+      "positionX": "50%",
+      "positionY": "50%"
     }
-
   ],
   "transitionDelay": 3,
   "transitionDuration": 2
