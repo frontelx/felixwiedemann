@@ -151,11 +151,21 @@ new Vue({
         saveScrollPos() {
             global.savedScrollPos = Services.getScrollPos();
             global.scrollBack = false;
-        }
+        },
+
+        darkMode() {
+            const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (isDarkMode) {
+                const favicon = document.querySelector('link[rel="icon"]');
+                favicon.href = '/favicon-dark.png';
+            }
+        },
     },
     created() {
         this.isIndex = Services.detectIndex(this.$route);
         this.isPlayer = Services.detectPlayer(this.$route);
+        this.darkMode();
     },
 
     render: h => h(App),

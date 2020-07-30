@@ -10,4 +10,4 @@ taskList.forEach(function (taskFile) {
 });
 
 // Copy task
-gulp.task('copy', ['copy:content', 'copy:images', 'copy:fonts', 'copy:favicon', 'copy:htaccess', 'copy:robots']);
+gulp.task('copy', ['copy:content', 'copy:images', 'copy:fonts', 'copy:favicon', 'copy:favicondark', 'copy:htaccess', 'copy:robots']);

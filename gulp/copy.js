@@ -20,6 +20,11 @@ module.exports = function (gulp, $) {
             .pipe(gulp.dest('./dist'));
     });
 
+    gulp.task('copy:favicondark', function () {
+        return gulp.src('./src/favicon-dark.png')
+            .pipe(gulp.dest('./dist'));
+    });
+
     gulp.task('copy:htaccess', function () {
         return gulp.src('./src/.htaccess')
             .pipe(gulp.dest('./dist'));
