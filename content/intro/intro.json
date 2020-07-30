@@ -9,19 +9,19 @@
     {
       "image": "/content/intro/images/SLIDE-Legacy06Edit4-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-Legacy06Edit4-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "80%",
       "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-TGB-92-B-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-TGB-92-B-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "100%",
       "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-COTL-15-B-2-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-COTL-15-B-2-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "40%",
       "positionY": "50%"
     },
     {
@@ -33,13 +33,13 @@
     {
       "image": "/content/intro/images/SLIDE-Giant-02-Edit-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-Giant-02-Edit-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "30%",
       "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Legacy38-Edit-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-Legacy38-Edit-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "90%",
       "positionY": "50%"
     },
     {
@@ -57,13 +57,13 @@
     {
       "image": "/content/intro/images/SLIDE-Colette01-Edit-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-Colette01-Edit-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "20%",
       "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-Legacy37-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-Legacy37-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "45%",
       "positionY": "50%"
     },
     {
@@ -75,19 +75,19 @@
     {
       "image": "/content/intro/images/SLIDE-WFTP-21-Edit-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-WFTP-21-Edit-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "40%",
       "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-SW-48-Crop2-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-SW-48-Crop2-srgb-intromobile.jpg",
       "positionX": "50%",
-      "positionY": "50%"
+      "positionY": "0%"
     },
     {
       "image": "/content/intro/images/SLIDE-SW-58-I-Edit-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-SW-58-I-Edit-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "35%",
       "positionY": "50%"
     },
     {
@@ -99,7 +99,7 @@
     {
       "image": "/content/intro/images/SLIDE-Legacy42-Edit-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-Legacy42-Edit-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "10%",
       "positionY": "50%"
     },
     {
@@ -111,7 +111,7 @@
     {
       "image": "/content/intro/images/SLIDE-TGB-99-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-TGB-99-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "65%",
       "positionY": "50%"
     },
     {
@@ -123,26 +123,26 @@
     {
       "image": "/content/intro/images/SLIDE-TGB-46-Intro-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-TGB-46-Intro-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "90%",
       "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-MBMF-09B-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-MBMF-09B-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "30%",
       "positionY": "50%"
     },
     {
       "image": "/content/intro/images/SLIDE-MyMurder64-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-MyMurder64-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "90%",
       "positionY": "50%"
     },
 
     {
       "image": "/content/intro/images/SLIDE-TGB-80-E-BG-srgb.jpg",
       "imagemobile": "/content/intro/images/SLIDE-TGB-80-E-BG-srgb-intromobile.jpg",
-      "positionX": "50%",
+      "positionX": "70%",
       "positionY": "50%"
     }
   ],
