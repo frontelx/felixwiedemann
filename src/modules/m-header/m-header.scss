@@ -46,7 +46,8 @@
 
         @supports (display: grid) {
             grid-template-columns: repeat(3, 1fr);
-            align-items: center;
+            align-items: baseline;
+            margin-top: 2px;
         }
     }
 
@@ -74,7 +75,7 @@
     }
 
     &__name {
-        font-size: 25.5px;
+        font-size: 26px;
         letter-spacing: 0.085em;
     }
 
