@@ -7,6 +7,7 @@ const jsonImporter = require('node-sass-json-importer');
 const globImporter = require('node-sass-glob-importer');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HTMLInlineCSSWebpackPlugin = require("html-inline-css-webpack-plugin").default;
+const LiveReloadPlugin = require('webpack-livereload-plugin');
 
 const devMode = process.env.NODE_ENV !== 'production';
 
@@ -96,7 +97,14 @@ module.exports = {
     },
 };
 
-if (!devMode) {
+if (devMode) {
+    // Add live reload plugin only in development build
+    module.exports.plugins = (module.exports.plugins || []).concat([
+        new LiveReloadPlugin({
+            appendScriptTag: true,
+        }),
+    ]);
+} else {
     const Services = require('./src/generic/services');
     const allRoutes = Services.getAllRoutes();
 
