@@ -6,12 +6,40 @@
         display: block;
     }
 
+    &__img-wp {
+        // from tablet bkp
+        @media  (min-width: map-get($breakpoints, tablet)) {
+            display: flex;
+        }
+    }
+
+    &__img-item {
+        // from tablet bkp
+        @media  (min-width: map-get($breakpoints, tablet)) {
+            // image item displayed in whole width when only 1 item available. Items displayed in 50% width when 2 available
+            flex: 1 1 50%;
+        }
+    }
+
     &__txt {
+        padding-left: 15px;
+        padding-right: 15px;
         position: absolute;
-        left: var(--text-indent);
-        bottom: var(--text-indent);
+        left: 0;
+        bottom: 20px;
+        width: 100%;
         color: var(--color-white);
-        margin-right: var(--text-indent);
+        text-align: center;
+
+        // from tablet bkp
+        @media  (min-width: map-get($breakpoints, tablet)) {
+            bottom: 30px;
+        }
+
+        // from tablet bkp
+        @media  (min-width: map-get($breakpoints, desktop)) {
+            bottom: 40px;
+        }
     }
 
     &__title {

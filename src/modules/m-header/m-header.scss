@@ -47,7 +47,6 @@
         @supports (display: grid) {
             grid-template-columns: repeat(3, 1fr);
             align-items: baseline;
-            margin-top: 2px;
         }
     }
 

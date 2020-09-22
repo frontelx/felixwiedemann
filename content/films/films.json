@@ -1,76 +1,91 @@
 [
-
   {
     "title": "SULPHUR AND WHITE",
     "additional": "/ Feature Film",
     "type": "- Trailer",
     "director": "Dir. Julian Jarrold",
     "video": "391346996",
-    "image": "/content/films/teaser/SLIDE-SW-58-I-Edit2-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-SW-58-I-Edit2-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-SW-58-I-Edit2-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-SW-58-I-Edit2-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/films/framegrabs/SLIDE-SW-039-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-SW-58-I-Edit2-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
     "producer": "/ Prod. Mike Elliot, Alan Govinden / EMU Films, AMG International",
     "actors": "Starring Mark Stanley, Emily Beecham, Anna Friel & Dougray Scott",
     "special": "",
- "framegrabs": [
-   "/content/films/framegrabs/SLIDE-SW-039-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-056-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0162-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-048-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-087-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-078-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-083-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-057-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-085-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-088-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-093-D-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-097-C-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-071-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0107-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0101-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0104-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0112-C-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0213-D-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0125-E-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0127-C-Edit-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0122-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0123-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0131-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0165-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0155-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0156-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0128-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0150-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0200-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-033-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0188-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0179-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0195-C-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0196-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-058-I-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0197-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-067-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0204-B-srgb.jpg",
-   "/content/films/framegrabs/SLIDE-SW-0206-E-Edit-srgb.jpg"
-
-
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-SW-039-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-056-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0162-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-048-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-087-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-078-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-083-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-057-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-085-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-088-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-093-D-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-097-C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-071-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0107-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0101-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0104-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0112-C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0213-D-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0125-E-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0127-C-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0122-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0123-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0131-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0165-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0155-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0156-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0128-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0150-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0200-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-033-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0188-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0179-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0195-C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0196-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-058-I-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0197-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-067-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0204-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-SW-0206-E-Edit-srgb.jpg"
     ],
     "framegrabsratio": {
       "width": 2048,
       "height": 1024
     }
   },
-
-
   {
     "title": "THE GO-BETWEEN",
     "additional": "/ TV Film",
-"type": "- Montage",
+    "type": "- Montage",
     "director": "Dir. Pete Travis",
     "video": "218375319",
     "video2": "432139658",
     "video2title": "THE GO-BETWEEN / Scene - 'I Feel Quite Another Person'",
-    "image": "/content/films/teaser/SLIDE-TGB-46-Edit-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-TGB-46-Edit-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-TGB-46-Edit-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-TGB-46-Edit-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/films/framegrabs/SLIDE-TGB-27-B-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-TGB-46-Edit-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
     "producer": "/ Prod. Claire Bennett / BBC",
     "actors": "Starring Vanessa Redgrave,  Jim Broadbent, Jack Hollington, Joanna Vanderham & Ben Batt",
     "special": "Winner BSC Award for Best Cinematography in a TV Drama 2016 <br> BAFTA Nomination Best Single Drama 2016 <br> Broadcast Award Nomination Best Single Drama  2016'",
@@ -122,365 +137,432 @@
       "/content/films/framegrabs/SLIDE-TGB-130-E-srgb.jpg",
       "/content/films/framegrabs/SLIDE-TGB-132-srgb.jpg",
       "/content/films/framegrabs/SLIDE-TGB-46-srgb.jpg"
-
     ],
     "framegrabsratio": {
       "width": 1920,
       "height": 1080
     }
   },
-
-
+  {
+    "title": "RETALIATION aka ROMANS",
+    "additional": "/ Feature Film",
+    "type": "- Montage",
+    "director": "Dir. Ludwig Shammasian & Paul Shammasian",
+    "video": "297045497",
+    "video2": "429962351",
+    "video2title": "ROMANS / Scene - 'I Was Quiet For Three Days'",
+    "images": [
       {
-        "title": "RETALIATION aka ROMANS",
-        "additional": "/ Feature Film",
-        "type": "- Montage",
-        "director": "Dir. Ludwig Shammasian & Paul Shammasian",
-        "video": "297045497",
-        "video2": "429962351",
-        "video2title": "ROMANS / Scene - 'I Was Quiet For Three Days'",
-        "image": "/content/films/teaser/SLIDE-Romans-33-srgb60.jpg",
-        "imagemobile": "/content/films/teaser/SLIDE-Romans-33-srgb-mobile.jpg",
-        "producer": "/ Prod. Mark Lane, James Harris / Tea Shop & Film Company",
-        "actors": "Starring Orlando Bloom, Janet Montgomery, Anne Reid & Charlie Creed Miles",
-        "special": " Nomination Best British Feature Edinburgh International Film Festival 2017",
-     "framegrabs": [
-       "/content/films/framegrabs/SLIDE-Romans-008-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-002-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-004-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-016-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-027-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-022-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-013-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-ROMANS-039-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-024-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-014-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-025-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-021-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-026-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-009-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-030-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-031-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-011-srgb.jpg",
-       "/content/films/framegrabs/SLIDE-Romans-032-srgb.jpg"
-
-        ],
-        "framegrabsratio": {
-          "width": 2880,
-          "height": 1206
-        }
+        "url": "/content/films/teaser/SLIDE-Romans-33-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Romans-33-srgb-mobile.jpg",
+        "showMobile": true
       },
-
+      {
+        "url": "/content/films/framegrabs/SLIDE-Romans-008-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Romans-33-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
+    "producer": "/ Prod. Mark Lane, James Harris / Tea Shop & Film Company",
+    "actors": "Starring Orlando Bloom, Janet Montgomery, Anne Reid & Charlie Creed Miles",
+    "special": " Nomination Best British Feature Edinburgh International Film Festival 2017",
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-Romans-008-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-002-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-004-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-016-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-027-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-022-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-013-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-ROMANS-039-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-024-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-014-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-025-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-021-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-026-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-009-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-030-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-031-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-011-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Romans-032-srgb.jpg"
+    ],
+    "framegrabsratio": {
+      "width": 2880,
+      "height": 1206
+    }
+  },
   {
-      "title": "MY MURDER",
-      "additional": "/ TV Drama",
-  "type": "- Montage",
-      "director": "Dir. Bruce Goodison",
-      "video": "218383436",
-  "video2": "218374299",
-  "video2title": "MY MURDER / Scene - 'It's a new dawn'",
-      "image": "/content/films/teaser/SLIDE-MyMurder27B-7-srgb60.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-MyMurder27B-7-srgb-mobile.jpg",
-      "producer": "/ Prod. Colin Barr / BBC",
-      "actors": "Starring John Boyega & Malachi Kirby",
-      "special": "Winner Best Single Drama Broadcast Awards 2013 <br> Nomination Best Single Drama RTS Awards 2013",
-      "framegrabs": [
-        "/content/films/framegrabs/SLIDE-MyMurder34-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder-07-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder51-B-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder28-Edit3-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder37-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder38-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder45-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder36-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder52-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder46-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder53-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-MyMurder05-Up80-srgb.jpg"
-
-      ],
-      "framegrabsratio": {
-        "width": 1920,
-        "height": 1080
-      }
-    },
-
-
-  {
-      "title": "PHILIP K. DICK'S ELECTRIC DREAMS - THE HOOD MAKER",
-      "additional": "/ TV Drama",
-  "type": "- Montage",
-      "director": "Dir. Julian Jarrold",
-      "video": "404621534",
-      "image": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb60.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb-mobile.jpg",
-      "producer": "/ Prod. Michael Dinner, Lynn Horsford / Amazon Studios, Sony Pictures Television, Channel 4, Leftbank Pictures",
-      "actors": "Starring Holiday Grainger & Richard Madden",
-      "special": "",
-      "framegrabs": [
-        "/content/films/framegrabs/SLIDE-THM-22-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-24-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-12-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-40-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-03B-2-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-16-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-20-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-79-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-28-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-37-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-38-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-39-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-44-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-10-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-50-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-48-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-49-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-THM-51-srgb.jpg"
-
-      ],
-      "framegrabsratio": {
-        "width": 1920,
-        "height": 1080
-      }
-    },
-
-
-
-
-          {
-            "title": "AWAY",
-            "additional": "/ Feature Film",
-            "type": "- Montage",
-            "director": "Dir. David Blair",
-            "video": "223698152",
-            "image": "/content/films/teaser/SLIDE-Away-28-B-srgb60.jpg",
-            "imagemobile": "/content/films/teaser/SLIDE-Away-28-B-srgb-mobile.jpg",
-            "producer": "/ Prod. Michael Knowles, Richard Turner, Terry Stone / Gateway Films",
-            "actors": "Starring Juno Temple, Timothy Spall & Hayley Squires",
-            "special": "Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016",
-         "framegrabs": [
-            "/content/films/framegrabs/SLIDE-Away-033-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-001-B-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-008-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-056-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-029-C-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-028-B-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-058-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-042-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-009-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-015D-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-014-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-005-C-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-006-B-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-030-C-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-024-B-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-045-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-049-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-046-B-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-022-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-007-C-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-055-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-041-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-057-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-062-B-srgb.jpg",
-              "/content/films/framegrabs/SLIDE-Away-010-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Away-021-srgb.jpg"
-            ],
-            "framegrabsratio": {
-              "width": 1920,
-              "height": 1038
-            }
-          },
-
-          {
-              "title": "LEGACY",
-              "additional": "/ TV Film",
-          "type": "- Montage",
-              "director": "Dir. Pete Travis",
-              "video": "216393041",
-          "video2": "216397312",
-          "video2title": "LEGACY / Scenes - 'To Queen and Country' and 'Family Home'",
-              "image": "/content/films/teaser/SLIDE-Legacy38-srgb60.jpg",
-              "imagemobile": "/content/films/teaser/SLIDE-Legacy38-srgb-mobile.jpg",
-              "producer": "/ Prod. Rob Bullock / Slim Film & TV, BBC",
-              "actors": "Starring Charlie Cox, Andrew Scott, Romola Garai, Olivia Grant & Simon Russell Beale",
-              "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2014",
-              "framegrabs": [
-                "/content/films/framegrabs/SLIDE-Legacy01C-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy37-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy42-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy40-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy38-Edit-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy33-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy41-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy07Edit-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy29B-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy04-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy34-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy35-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy32-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy30-srgb.jpg",
-                "/content/films/framegrabs/SLIDE-Legacy06Edit-srgb.jpg"
-              ],
-              "framegrabsratio": {
-                "width": 1920,
-                "height": 1080
-              }
-            },
-
-    {
-                "title": "ISMAIL",
-                "additional": "/ Shortfilm",
-            "type": "- Full Film",
-                "director": "Dir. Nora Alsharif",
-                "video": "221896987",
-                "image": "/content/films/teaser/SLIDE-Ismail-01-Edit5-srgb60.jpg",
-                "imagemobile": "/content/films/teaser/SLIDE-Ismail-01-Edit5-srgb-mobile.jpg",
-                "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
-                "actors": "",
-                "special": "Winner Audience Award US Shorts Film Festival of Columbus 2014 <br>Winner Best Short Alexandria Film Festival 2014 <br>Winner Arab Camera Film Festival Rotterdam 2013 <br>Winner Best Supporting Actor Evolution Film Festival Spain",
-                "framegrabs": [
-
-                ]
-              },
-
-
-    {
-      "title": "CITY OF TINY LIGHTS",
-      "additional": "/ Feature Film",
-     "type": "- Trailer",
-     "director": "Dir. Pete Travis",
-      "video": "218371926",
-      "image": "/content/films/teaser/SLIDE-COTL-15-B-2-Layer-srgb60.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-COTL-15-B-2-Layer-srgb-mobile.jpg",
-      "producer": "/ Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
-      "actors": "Starring Riz Ahmed & Billie Piper",
-      "special": "Toronto International Film Festival 2016 <br> London Film Festival 2016",
-      "framegrabs": [
-        "/content/films/framegrabs/SLIDE-COTL-002-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-004-2-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-014WS-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-029-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-006-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-032B-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-035-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-048-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-038-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-012-Edit-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-037-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-025-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-005-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-034-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-018B-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-019-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-051-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-022-srgb.jpg",
-        "/content/films/framegrabs/SLIDE-COTL-020-srgb.jpg"
-      ],
-      "framegrabsratio": {
-        "width": 2880,
-        "height": 1206
-      }
-    },
-
-
-    {
-        "title": "MURDERED BY MY FATHER",
-        "additional": "/ TV Drama",
-    "type": "- Selected Scenes",
-        "director": "Dir. Bruce Goodison",
-        "video": "213518155",
-        "image": "/content/films/teaser/SLIDE-MBMF-09-Edit-srgb60.jpg",
-        "imagemobile": "/content/films/teaser/SLIDE-MBMF-09-Edit-srgb-mobile.jpg",
-        "producer": "/ Prod. Toby Welch / BBC",
-        "actors": "Starring Adeel Akthar & Kiran Sonia Sawar",
-        "special": "BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
-        "framegrabs": [
-          "/content/films/framegrabs/SLIDE-MBMF-13-2-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-04-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-38-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-07-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-27-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-09-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-06-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-12-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-17-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-18-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-20-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-32-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-39-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-03-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-24-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-35-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-MBMF-40-srgb.jpg"
-
-        ],
-        "framegrabsratio": {
-          "width": 1920,
-          "height": 1080
-        }
+    "title": "MY MURDER",
+    "additional": "/ TV Drama",
+    "type": "- Montage",
+    "director": "Dir. Bruce Goodison",
+    "video": "218383436",
+    "video2": "218374299",
+    "video2title": "MY MURDER / Scene - 'It's a new dawn'",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-MyMurder27B-7-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-MyMurder27B-7-srgb-mobile.jpg",
+        "showMobile": true
       },
-
-
-
-    {
-        "title": "STRATTON",
-        "additional": "/ Feature Film",
+      {
+        "url": "/content/films/framegrabs/SLIDE-MyMurder34-Edit-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-MyMurder27B-7-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
+    "producer": "/ Prod. Colin Barr / BBC",
+    "actors": "Starring John Boyega & Malachi Kirby",
+    "special": "Winner Best Single Drama Broadcast Awards 2013 <br> Nomination Best Single Drama RTS Awards 2013",
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-MyMurder34-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder-07-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder51-B-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder28-Edit3-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder37-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder38-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder45-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder36-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder52-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder46-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder53-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MyMurder05-Up80-srgb.jpg"
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "title": "PHILIP K. DICK'S ELECTRIC DREAMS - THE HOOD MAKER",
+    "additional": "/ TV Drama",
+    "type": "- Montage",
+    "director": "Dir. Julian Jarrold",
+    "video": "404621534",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/films/framegrabs/SLIDE-THM-22-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-THM-03B-Echo-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
+    "producer": "/ Prod. Michael Dinner, Lynn Horsford / Amazon Studios, Sony Pictures Television, Channel 4, Leftbank Pictures",
+    "actors": "Starring Holiday Grainger & Richard Madden",
+    "special": "",
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-THM-22-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-24-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-12-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-40-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-03B-2-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-16-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-20-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-79-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-28-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-37-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-38-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-39-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-44-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-10-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-50-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-48-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-49-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-THM-51-srgb.jpg"
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "title": "AWAY",
+    "additional": "/ Feature Film",
+    "type": "- Montage",
+    "director": "Dir. David Blair",
+    "video": "223698152",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-Away-28-B-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Away-28-B-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/films/framegrabs/SLIDE-Away-033-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Away-28-B-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
+    "producer": "/ Prod. Michael Knowles, Richard Turner, Terry Stone / Gateway Films",
+    "actors": "Starring Juno Temple, Timothy Spall & Hayley Squires",
+    "special": "Winner Special Mention By President Claude Lelouch Dinard Film Festival 2016 <br> Nomination Best British Feature Edinburgh International Film Festival 2016",
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-Away-033-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-001-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-008-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-056-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-029-C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-028-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-058-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-042-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-009-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-015D-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-014-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-005-C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-006-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-030-C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-024-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-045-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-049-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-046-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-022-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-007-C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-055-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-041-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-057-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-062-B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-010-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Away-021-srgb.jpg"
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1038
+    }
+  },
+  {
+    "title": "LEGACY",
+    "additional": "/ TV Film",
+    "type": "- Montage",
+    "director": "Dir. Pete Travis",
+    "video": "216393041",
+    "video2": "216397312",
+    "video2title": "LEGACY / Scenes - 'To Queen and Country' and 'Family Home'",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-Legacy38-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Legacy38-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/films/framegrabs/SLIDE-Legacy01C-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Legacy38-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
+    "producer": "/ Prod. Rob Bullock / Slim Film & TV, BBC",
+    "actors": "Starring Charlie Cox, Andrew Scott, Romola Garai, Olivia Grant & Simon Russell Beale",
+    "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2014",
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-Legacy01C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy37-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy42-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy40-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy38-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy33-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy41-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy07Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy29B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy04-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy34-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy35-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy32-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy30-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Legacy06Edit-srgb.jpg"
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "title": "ISMAIL",
+    "additional": "/ Shortfilm",
+    "type": "- Full Film",
+    "director": "Dir. Nora Alsharif",
+    "video": "221896987",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-Ismail-01-Edit5-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Ismail-01-Edit5-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
+    "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
+    "actors": "",
+    "special": "Winner Audience Award US Shorts Film Festival of Columbus 2014 <br>Winner Best Short Alexandria Film Festival 2014 <br>Winner Arab Camera Film Festival Rotterdam 2013 <br>Winner Best Supporting Actor Evolution Film Festival Spain",
+    "framegrabs": [
+    ]
+  },
+  {
+    "title": "CITY OF TINY LIGHTS",
+    "additional": "/ Feature Film",
     "type": "- Trailer",
-        "director": "Dir. Simon West",
-        "video": "218385232",
-        "image": "/content/films/teaser/SLIDE-Stratton-35B-srgb60.jpg",
-        "imagemobile": "/content/films/teaser/SLIDE-Stratton-35B-srgb-mobile.jpg",
-        "producer": "/ Prod. Matthew Jenkins, Guy Collins / GFM Films",
-        "actors": "Starring Dominic Cooper, Gemma Chan, Connie Nielsen, Tom Felton, Tyler Hoechlin, Austin Stowell, Thomas Kretschmann & Derek Jacobi",
-        "special": "",
-        "framegrabs": [
-
-          "/content/films/framegrabs/SLIDE-Stratton-001-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-004-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-006-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-017-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-069B-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-011-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-021-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-010-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-023-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-033-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-062C-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-044-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-072-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-035-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-079-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-095-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-087D-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0100-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0101-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0102-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0108-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0118-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0116-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0121C-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0128C-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0132C-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0133B-srgb.jpg",
-          "/content/films/framegrabs/SLIDE-Stratton-0134-srgb.jpg"
-
-        ],
-        "framegrabsratio": {
-          "width": 2880,
-          "height": 1206
-        }
+    "director": "Dir. Pete Travis",
+    "video": "218371926",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-COTL-15-B-2-Layer-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-COTL-15-B-2-Layer-srgb-mobile.jpg",
+        "showMobile": true
       },
-
-
-{
+      {
+        "url": "/content/films/framegrabs/SLIDE-COTL-002-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-COTL-15-B-2-Layer-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
+    "producer": "/ Prod. Rebecca O Brien, Ado Yoshizaki Cassuto / BBC Films, Sixteen Films",
+    "actors": "Starring Riz Ahmed & Billie Piper",
+    "special": "Toronto International Film Festival 2016 <br> London Film Festival 2016",
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-COTL-002-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-004-2-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-014WS-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-029-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-006-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-032B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-035-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-048-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-038-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-012-Edit-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-037-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-025-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-005-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-034-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-018B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-019-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-051-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-022-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-COTL-020-srgb.jpg"
+    ],
+    "framegrabsratio": {
+      "width": 2880,
+      "height": 1206
+    }
+  },
+  {
+    "title": "MURDERED BY MY FATHER",
+    "additional": "/ TV Drama",
+    "type": "- Selected Scenes",
+    "director": "Dir. Bruce Goodison",
+    "video": "213518155",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-MBMF-09-Edit-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-MBMF-09-Edit-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/films/framegrabs/SLIDE-MBMF-13-2-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-MBMF-09-Edit-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
+    "producer": "/ Prod. Toby Welch / BBC",
+    "actors": "Starring Adeel Akthar & Kiran Sonia Sawar",
+    "special": "BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-MBMF-13-2-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-04-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-38-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-07-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-27-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-09-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-06-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-12-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-17-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-18-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-20-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-32-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-39-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-03-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-24-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-35-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-MBMF-40-srgb.jpg"
+    ],
+    "framegrabsratio": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "title": "STRATTON",
+    "additional": "/ Feature Film",
+    "type": "- Trailer",
+    "director": "Dir. Simon West",
+    "video": "218385232",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-Stratton-35B-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Stratton-35B-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/films/framegrabs/SLIDE-Stratton-001-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Stratton-35B-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
+    "producer": "/ Prod. Matthew Jenkins, Guy Collins / GFM Films",
+    "actors": "Starring Dominic Cooper, Gemma Chan, Connie Nielsen, Tom Felton, Tyler Hoechlin, Austin Stowell, Thomas Kretschmann & Derek Jacobi",
+    "special": "",
+    "framegrabs": [
+      "/content/films/framegrabs/SLIDE-Stratton-001-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-004-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-006-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-017-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-069B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-011-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-021-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-010-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-023-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-033-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-062C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-044-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-072-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-035-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-079-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-095-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-087D-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0100-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0101-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0102-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0108-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0118-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0116-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0121C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0128C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0132C-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0133B-srgb.jpg",
+      "/content/films/framegrabs/SLIDE-Stratton-0134-srgb.jpg"
+    ],
+    "framegrabsratio": {
+      "width": 2880,
+      "height": 1206
+    }
+  },
+  {
     "title": "THE WITNESS FOR THE PROSECUTION",
     "additional": "/ TV Drama",
-"type": "- Selected Scenes",
+    "type": "- Selected Scenes",
     "director": "Dir. Julian Jarrold",
     "video": "210129659",
-    "image": "/content/films/teaser/SLIDE-WFTP-36-srgb60.jpg",
-    "imagemobile": "/content/films/teaser/SLIDE-WFTP-36-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-WFTP-36-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-WFTP-36-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/films/framegrabs/SLIDE-WFTP-01B-srgb.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-WFTP-36-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
     "producer": "/ Prod. Colin Wratten / Mammoth Screen, BBC",
     "actors": "Starring Toby Jones, Andrea Riseborough, Billy Howle & Kim Catrall",
     "special": "BSC Award Nomination for Best Cinematography in a TV Drama 2017<br>BAFTA Nomination Best Single Drama 2017 <br>Winner Best Single Drama RTS Awards 2017",
@@ -513,102 +595,101 @@
       "height": 1080
     }
   },
-
-
-
-
   {
-      "title": "HAMPSTEAD",
-      "additional": "/ Feature Film",
-  "type": "- Trailer",
-      "director": "Dir. Joel Hopkins",
-      "video": "218378136",
-      "image": "/content/films/teaser/SLIDE-Hampstead-01-srgb60.jpg",
-      "imagemobile": "/content/films/teaser/SLIDE-Hampstead-01-srgb-mobile.jpg",
-      "producer": "/ Prod. Robert Bernstein, Douglas Rae / Ecosse Films",
-      "actors": "Starring Diane Keaton & Brendan Gleeson",
-      "special": "",
-      "framegrabs": [
-
-      ]
-    },
-
-    {
-        "title": "SPOOF OR DIE",
-        "additional": "/ TV Drama",
-    "type": "- Selected Scene",
-        "director": "Dir. Prasanna Puwanarajah",
-        "video": "217252733",
-        "image": "/content/films/teaser/SLIDE-SpoofOrDie-005-Edit-03-srgb60.jpg",
-        "imagemobile": "/content/films/teaser/SLIDE-SpoofOrDie-005-Edit-02-srgb-mobile.jpg",
-        "producer": "/ Prod. Jo Willet / Touchpaper, Channel 4",
-        "actors": "Starring Michael Smiley, Yasmin Page, Monica Dolan & Ryan McParland",
-        "special": "",
-        "framegrabs": [
-
-        ]
-      },
-
-
-
-
-        {
-            "title": "MOSA",
-            "additional": "/ Shortfilm",
-        "type": "- Montage",
-            "director": "Dir. Ana Moreno",
-            "video": "217309414",
-            "image": "/content/films/teaser/SLIDE-Mosa-10-New-srgb60.jpg",
-            "imagemobile": "/content/films/teaser/SLIDE-Mosa-10-New-srgb-mobile.jpg",
-            "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
-            "actors": "Starring Isaura Barbe-Brown",
-            "special": "Winner Best British Short Iris Prize Festival 2010 <br> Winner Audience Award Cineffable Film Festival Paris 2011",
-            "framegrabs": [
-
-            ]
-          },
-
-
+    "title": "HAMPSTEAD",
+    "additional": "/ Feature Film",
+    "type": "- Trailer",
+    "director": "Dir. Joel Hopkins",
+    "video": "218378136",
+    "images": [
       {
-          "title": "THE WHITE QUEEN",
-          "additional": "/ TV Drama",
-      "type": "- Montage",
-          "director": "Dir. Colin Teague",
-          "video": "217311447",
-          "image": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb60.jpg",
-          "imagemobile": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb-mobile.jpg",
-          "producer": "/ Prod. Gina Cronk / Company Pictures, BBC",
-          "actors": "Starring Rebecca Ferguson, Aneurin Barnard, Shaun Dooley, Rupert Graves, Amanda Hale & Freya Mavor",
-          "special": "Shared Credit: Felix was the DOP on the final two weeks of principal photography.<br> Montage only contains scenes which Felix photographed.",
-          "framegrabs": [
-
-          ]
-        },
-
-        {
-            "title": "MISFITS (SEASON 3)",
-            "additional": "/ TV Drama",
-        "type": "- Montage",
-            "director": "Dir. Wayne Jip & Alex Garcia, Will Sinclair, Jonathan Van Tulleken",
-            "video": "217247076",
-            "video2":"217312620",
-        "video2title": "MISFITS SEASON 3 / Selected Scenes",
-            "image": "/content/films/teaser/SLIDE-Misfits-35-srgb60.jpg",
-            "imagemobile": "/content/films/teaser/SLIDE-Misfits-35-srgb-mobile.jpg",
-            "producer": "/ Prod. Matt Strevens / Clerkenwell Films, E4",
-            "actors": "Starring Iwan Rheon, Joseph Gilgun, Antonia Thomas, Nathan Stewart-Jarrett & Lauren Socha",
-            "special": "BAFTA Nomination 2012 Best Drama Series",
-            "framegrabs": [
-
-            ]
-          }
-
-
-
-
-
-
-
-
-
+        "url": "/content/films/teaser/SLIDE-Hampstead-01-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Hampstead-01-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
+    "producer": "/ Prod. Robert Bernstein, Douglas Rae / Ecosse Films",
+    "actors": "Starring Diane Keaton & Brendan Gleeson",
+    "special": "",
+    "framegrabs": [
+    ]
+  },
+  {
+    "title": "SPOOF OR DIE",
+    "additional": "/ TV Drama",
+    "type": "- Selected Scene",
+    "director": "Dir. Prasanna Puwanarajah",
+    "video": "217252733",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-SpoofOrDie-005-Edit-03-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-SpoofOrDie-005-Edit-02-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
+    "producer": "/ Prod. Jo Willet / Touchpaper, Channel 4",
+    "actors": "Starring Michael Smiley, Yasmin Page, Monica Dolan & Ryan McParland",
+    "special": "",
+    "framegrabs": [
+    ]
+  },
+  {
+    "title": "MOSA",
+    "additional": "/ Shortfilm",
+    "type": "- Montage",
+    "director": "Dir. Ana Moreno",
+    "video": "217309414",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-Mosa-10-New-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Mosa-10-New-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
+    "producer": "/ Prod. Ana Moreno & AbdelSalam Akkad / Bumpy Road Films",
+    "actors": "Starring Isaura Barbe-Brown",
+    "special": "Winner Best British Short Iris Prize Festival 2010 <br> Winner Audience Award Cineffable Film Festival Paris 2011",
+    "framegrabs": [
+    ]
+  },
+  {
+    "title": "THE WHITE QUEEN",
+    "additional": "/ TV Drama",
+    "type": "- Montage",
+    "director": "Dir. Colin Teague",
+    "video": "217311447",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-TheWhiteQueen-06-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
+    "producer": "/ Prod. Gina Cronk / Company Pictures, BBC",
+    "actors": "Starring Rebecca Ferguson, Aneurin Barnard, Shaun Dooley, Rupert Graves, Amanda Hale & Freya Mavor",
+    "special": "Shared Credit: Felix was the DOP on the final two weeks of principal photography.<br> Montage only contains scenes which Felix photographed.",
+    "framegrabs": [
+    ]
+  },
+  {
+    "title": "MISFITS (SEASON 3)",
+    "additional": "/ TV Drama",
+    "type": "- Montage",
+    "director": "Dir. Wayne Jip & Alex Garcia, Will Sinclair, Jonathan Van Tulleken",
+    "video": "217247076",
+    "video2": "217312620",
+    "video2title": "MISFITS SEASON 3 / Selected Scenes",
+    "images": [
+      {
+        "url": "/content/films/teaser/SLIDE-Misfits-35-srgb60.jpg",
+        "urlMobile": "/content/films/teaser/SLIDE-Misfits-35-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
+    "producer": "/ Prod. Matt Strevens / Clerkenwell Films, E4",
+    "actors": "Starring Iwan Rheon, Joseph Gilgun, Antonia Thomas, Nathan Stewart-Jarrett & Lauren Socha",
+    "special": "BAFTA Nomination 2012 Best Drama Series",
+    "framegrabs": [
+    ]
+  }
 ]

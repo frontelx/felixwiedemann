@@ -1,0 +1,7 @@
+.u-hidden-mobile {
+    // display: none;
+    // ONLY mobile bkp
+    @media (max-width: map-get($breakpoints, tablet) - 1px) {
+        display: none;
+    }
+}

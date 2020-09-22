@@ -7,8 +7,18 @@
     "additional": "/ music video",
 		"director": "Dir. Emil Nava",
     "video": "314134529",
-    "image": "/content/commercials/teaser/SLIDE-Giant-02-srgb60.jpg",
-    "imagemobile": "/content/commercials/teaser/SLIDE-Giant-02-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/commercials/teaser/SLIDE-Giant-02-srgb60.jpg",
+        "urlMobile": "/content/commercials/teaser/SLIDE-Giant-02-srgb-mobile.jpg",
+        "showMobile": true
+      },
+      {
+        "url": "/content/commercials/framegrabs/SLIDE-Giant-005B-srgb.jpg",
+        "urlMobile": "/content/commercials/teaser/SLIDE-Giant-02-srgb-mobile.jpg",
+        "showMobile": false
+      }
+    ],
     "producer": "/ Ammonite Inc",
     "actors": "",
     "special": "",
@@ -38,8 +48,13 @@
     "additional": "/ commercial",
     "director": "Dir. John Hayes",
     "video": "292997981",
-    "image": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb60.jpg",
-    "imagemobile": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb60.jpg",
+        "urlMobile": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
     "producer": "/ Sweet Media",
     "actors": "",
     "special": "",
@@ -54,8 +69,13 @@
     "additional": "/ commercial",
     "director": "Dir. Henry Scholfield",
     "video": "218447671",
-    "image": "/content/commercials/teaser/SLIDE-Sure-01B-Flip-srgb60.jpg",
-    "imagemobile": "/content/commercials/teaser/SLIDE-Sure-01B-Flip-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/commercials/teaser/SLIDE-Sure-01B-Flip-srgb60.jpg",
+        "urlMobile": "/content/commercials/teaser/SLIDE-Sure-01B-Flip-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
     "producer": "/ Partizan",
     "actors": "",
     "special": "",
@@ -70,8 +90,13 @@
     "additional": "/ commercial",
     "director": "Dir. Nick Scott",
     "video": "218488556",
-    "image": "/content/commercials/teaser/SLIDE-CBSDrama02-srgb60.jpg",
-    "imagemobile": "/content/commercials/teaser/SLIDE-CBSDrama02-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/commercials/teaser/SLIDE-CBSDrama02-srgb60.jpg",
+        "urlMobile": "/content/commercials/teaser/SLIDE-CBSDrama02-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
     "producer": "/ Studio Hansa",
     "actors": "",
     "special": "",
@@ -86,8 +111,13 @@
     "additional": "/ commercial",
     "director": "Dir. Manuel Werner",
     "video": "273405442",
-    "image": "/content/commercials/teaser/SLIDE-Schuco01-srgb60.jpg",
-    "imagemobile": "/content/commercials/teaser/SLIDE-Schuco01-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/commercials/teaser/SLIDE-Schuco01-srgb60.jpg",
+        "urlMobile": "/content/commercials/teaser/SLIDE-Schuco01-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
     "producer": "/ 27km",
     "actors": "",
     "special": "",
@@ -101,8 +131,13 @@
     "additional": "/ commercial",
     "director": "Dir. Andrew Saunders",
     "video": "218508132",
-    "image": "/content/commercials/teaser/SLIDE-Barnados-03-Edit4-srgb60.jpg",
-    "imagemobile": "/content/commercials/teaser/SLIDE-Barnados-03-Edit4-srgb-mobile.jpg",
+    "images": [
+      {
+        "url": "/content/commercials/teaser/SLIDE-Barnados-03-Edit4-srgb60.jpg",
+        "urlMobile": "/content/commercials/teaser/SLIDE-Barnados-03-Edit4-srgb-mobile.jpg",
+        "showMobile": true
+      }
+    ],
     "producer": "/ NFTS",
     "actors": "",
     "special": "Kodak Commercial Awards 2009, Winner of Three Awards, including 2nd Best in Brief",
