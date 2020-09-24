@@ -6,7 +6,6 @@
     "title": "CALVIN HARRIS x RAG'N'BONE MAN - GIANT",
     "additional": "/ music video",
 		"director": "Dir. Emil Nava",
-    "video": "314134529",
     "images": [
       {
         "url": "/content/commercials/teaser/SLIDE-Giant-02-srgb60.jpg",
@@ -17,6 +16,11 @@
         "url": "/content/commercials/framegrabs/SLIDE-Giant-005B-srgb.jpg",
         "urlMobile": "/content/commercials/teaser/SLIDE-Giant-02-srgb-mobile.jpg",
         "showMobile": false
+      }
+    ],
+    "videos": [
+      {
+        "id": "314134529"
       }
     ],
     "producer": "/ Ammonite Inc",
@@ -47,12 +51,16 @@
     "title": "AVIVA",
     "additional": "/ commercial",
     "director": "Dir. John Hayes",
-    "video": "292997981",
     "images": [
       {
         "url": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb60.jpg",
         "urlMobile": "/content/commercials/teaser/SLIDE-Aviva-02B-srgb-mobile.jpg",
         "showMobile": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "292997981"
       }
     ],
     "producer": "/ Sweet Media",
@@ -68,12 +76,16 @@
     "title": "SURE",
     "additional": "/ commercial",
     "director": "Dir. Henry Scholfield",
-    "video": "218447671",
     "images": [
       {
         "url": "/content/commercials/teaser/SLIDE-Sure-01B-Flip-srgb60.jpg",
         "urlMobile": "/content/commercials/teaser/SLIDE-Sure-01B-Flip-srgb-mobile.jpg",
         "showMobile": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "218447671"
       }
     ],
     "producer": "/ Partizan",
@@ -89,12 +101,16 @@
     "title": "CBS",
     "additional": "/ commercial",
     "director": "Dir. Nick Scott",
-    "video": "218488556",
     "images": [
       {
         "url": "/content/commercials/teaser/SLIDE-CBSDrama02-srgb60.jpg",
         "urlMobile": "/content/commercials/teaser/SLIDE-CBSDrama02-srgb-mobile.jpg",
         "showMobile": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "218488556"
       }
     ],
     "producer": "/ Studio Hansa",
@@ -110,12 +126,16 @@
     "title": "SCHUCO",
     "additional": "/ commercial",
     "director": "Dir. Manuel Werner",
-    "video": "273405442",
     "images": [
       {
         "url": "/content/commercials/teaser/SLIDE-Schuco01-srgb60.jpg",
         "urlMobile": "/content/commercials/teaser/SLIDE-Schuco01-srgb-mobile.jpg",
         "showMobile": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "273405442"
       }
     ],
     "producer": "/ 27km",
@@ -130,12 +150,16 @@
     "title": "BARNARDOS",
     "additional": "/ commercial",
     "director": "Dir. Andrew Saunders",
-    "video": "218508132",
     "images": [
       {
         "url": "/content/commercials/teaser/SLIDE-Barnados-03-Edit4-srgb60.jpg",
         "urlMobile": "/content/commercials/teaser/SLIDE-Barnados-03-Edit4-srgb-mobile.jpg",
         "showMobile": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "218508132"
       }
     ],
     "producer": "/ NFTS",
