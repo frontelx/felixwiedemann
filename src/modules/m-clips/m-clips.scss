@@ -10,7 +10,7 @@
 
         // from tablet bkp
         @media  (min-width: map-get($breakpoints, tablet)) {
-            --verticalSpacing: 40px;
+            --verticalSpacing: 25px;
         }
 
         &-item {
