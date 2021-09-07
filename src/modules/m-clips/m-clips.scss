@@ -6,11 +6,11 @@
 
     &__list {
         // vertical spacing between list items
-        --verticalSpacing: 20px;
+        --verticalSpacing: 30px;
 
         // from tablet bkp
         @media  (min-width: map-get($breakpoints, tablet)) {
-            --verticalSpacing: 25px;
+            --verticalSpacing: 50px;
         }
 
         &-item {
