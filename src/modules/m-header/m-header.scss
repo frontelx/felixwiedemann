@@ -62,7 +62,6 @@
     &__name,
     &__title {
         line-height: 28px;
-        text-transform: uppercase;
     }
 
     &__name,
@@ -87,6 +86,7 @@
 
     &__title {
         font-size: 24px;
+        text-transform: uppercase;
         letter-spacing: 0.05em;
 
         // only default bkp
