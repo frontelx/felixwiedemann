@@ -1,9 +1,17 @@
 [
   {
-    "title": "Film & TV",
+    "title": "Films",
     "route": "/films/",
     "view": "films.vue",
     "clips": "films.json",
+    "theme": "t-light",
+    "bgImg": ""
+  },
+  {
+    "title": "Series",
+    "route": "/series/",
+    "view": "series.vue",
+    "clips": "series.json",
     "theme": "t-light",
     "bgImg": ""
   },
