@@ -75,6 +75,10 @@
     &__name {
         font-size: 26px;
         letter-spacing: 0.085em;
+
+        a {
+            color: var(--color-text);
+        }
     }
 
     // additional
