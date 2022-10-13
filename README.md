@@ -2,7 +2,7 @@
 
 Cinematographer working internationally on feature films, high end TV drama and commercials. 
 
-http://www.felixwiedemann.com/
+https://felixwiedemann.com
 
 Single page application with static HTML generation to speed up load time and search engine optimization
 
