@@ -10,8 +10,12 @@
         &--half {
             // from desktop bkp
             @media (min-width: map-get($breakpoints, tablet)) {
-                width: 45%;
+                width: 70%;
                 margin-right: 0;
+            }
+
+            @media (min-width: map-get($breakpoints, desktop)) {
+                width: 50%;
             }
 
             &-right {
@@ -29,6 +33,10 @@
             .m-txt__item {
                 display: table-cell;
                 padding-right: 30px;
+
+                &:last-child {
+                    padding-right: 0;
+                }
             }
         }
 
