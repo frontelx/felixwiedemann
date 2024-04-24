@@ -4,7 +4,7 @@ const Services = require('../src/generic/services');
 const routes = Services.getAllRoutes();
 
 const sitemap = sm.createSitemap({
-    hostname: 'http://www.felixwiedemann.com',
+    hostname: 'https://www.felixwiedemann.com',
 });
 
 routes.forEach(route => {
